@@ -1,0 +1,4057 @@
+{
+ "title": "Impariamo l'italiano",
+ "lessons": [
+  {
+   "id": "u5",
+   "name": "Presentarsi",
+   "emoji": "🙋",
+   "words": [
+    {
+     "w": "il nome",
+     "e": ""
+    },
+    {
+     "w": "il cognome",
+     "e": ""
+    },
+    {
+     "w": "l'età",
+     "e": ""
+    },
+    {
+     "w": "il Paese",
+     "e": "🌍"
+    },
+    {
+     "w": "la lingua",
+     "e": "🗣️"
+    },
+    {
+     "w": "il telefono",
+     "e": "📱"
+    },
+    {
+     "w": "l'amico",
+     "e": "🧑‍🤝‍🧑"
+    },
+    {
+     "w": "la persona",
+     "e": "🧍"
+    }
+   ],
+   "s": [
+    {
+     "e": "🙋‍♀️",
+     "t": "Mi chiamo Amina."
+    },
+    {
+     "e": "🌍",
+     "t": "Vengo dal Marocco."
+    }
+   ],
+   "ph": [
+    {
+     "e": "🙋‍♀️",
+     "t": "Mi chiamo Amina."
+    },
+    {
+     "e": "🌍",
+     "t": "Vengo dal Marocco."
+    },
+    {
+     "e": "💼",
+     "t": "Che lavoro fai?"
+    },
+    {
+     "e": "🗣️",
+     "t": "Parlo un po' di italiano."
+    }
+   ],
+   "g": [
+    {
+     "h": "Essere",
+     "k": "t",
+     "head": [
+      "",
+      "ESSERE"
+     ],
+     "rows": [
+      [
+       "io",
+       "sono"
+      ],
+      [
+       "tu",
+       "sei"
+      ],
+      [
+       "lei/lui",
+       "è"
+      ],
+      [
+       "noi",
+       "siamo"
+      ],
+      [
+       "voi",
+       "siete"
+      ],
+      [
+       "loro",
+       "sono"
+      ]
+     ]
+    },
+    {
+     "h": "Chiamarsi",
+     "k": "t",
+     "head": [
+      "",
+      "CHIAMARSI"
+     ],
+     "rows": [
+      [
+       "io",
+       "mi chiamo"
+      ],
+      [
+       "tu",
+       "ti chiami"
+      ],
+      [
+       "lei/lui",
+       "si chiama"
+      ],
+      [
+       "noi",
+       "ci chiamiamo"
+      ],
+      [
+       "voi",
+       "vi chiamate"
+      ],
+      [
+       "loro",
+       "si chiamano"
+      ]
+     ],
+     "pr": 1
+    },
+    {
+     "h": "Venire",
+     "k": "t",
+     "head": [
+      "",
+      "VENIRE"
+     ],
+     "rows": [
+      [
+       "io",
+       "vengo"
+      ],
+      [
+       "tu",
+       "vieni"
+      ],
+      [
+       "lei/lui",
+       "viene"
+      ],
+      [
+       "noi",
+       "veniamo"
+      ],
+      [
+       "voi",
+       "venite"
+      ],
+      [
+       "loro",
+       "vengono"
+      ]
+     ]
+    },
+    {
+     "h": "Esempi",
+     "k": "e",
+     "ex": [
+      "Io vengo dal Pakistan.",
+      "Da dove vieni?"
+     ]
+    }
+   ],
+   "gx": [
+    {
+     "q": "Io ___ Ali.",
+     "ok": "sono",
+     "no": [
+      "sei",
+      "è"
+     ]
+    },
+    {
+     "q": "Tu ___ di Roma?",
+     "ok": "sei",
+     "no": [
+      "sono",
+      "è"
+     ]
+    },
+    {
+     "q": "Io mi ___ Amina.",
+     "ok": "chiamo",
+     "no": [
+      "chiami",
+      "chiama"
+     ]
+    },
+    {
+     "q": "Tu ti ___ Ali?",
+     "ok": "chiami",
+     "no": [
+      "chiamo",
+      "chiama"
+     ]
+    },
+    {
+     "q": "Io ___ dal Pakistan.",
+     "ok": "vengo",
+     "no": [
+      "vieni",
+      "viene"
+     ]
+    },
+    {
+     "q": "Da dove ___ tu?",
+     "ok": "vieni",
+     "no": [
+      "vengo",
+      "viene"
+     ]
+    }
+   ],
+   "cz": [
+    {
+     "q": "Mi ___ Amina.",
+     "ok": "chiamo",
+     "no": [
+      "finisco",
+      "faccio"
+     ]
+    },
+    {
+     "q": "___ dal Marocco.",
+     "ok": "vengo",
+     "no": [
+      "finisco",
+      "leggo"
+     ]
+    },
+    {
+     "q": "___ un po' di italiano.",
+     "ok": "parlo",
+     "no": [
+      "dormo",
+      "preparo"
+     ]
+    }
+   ],
+   "qa": [
+    {
+     "q": "Come ti chiami?",
+     "ok": "Mi chiamo Amina.",
+     "no": [
+      "Vengo dal Marocco.",
+      "Ho trent'anni."
+     ]
+    },
+    {
+     "q": "Da dove vieni?",
+     "ok": "Vengo dal Marocco.",
+     "no": [
+      "Mi chiamo Amina.",
+      "Lavoro in un ristorante."
+     ]
+    },
+    {
+     "q": "Che lavoro fai?",
+     "ok": "Lavoro in un ristorante.",
+     "no": [
+      "Mi chiamo Ali.",
+      "Vengo da Roma."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "u7",
+   "name": "La scuola",
+   "emoji": "🏫",
+   "words": [
+    {
+     "w": "il libro",
+     "e": "📖"
+    },
+    {
+     "w": "il quaderno",
+     "e": "📓"
+    },
+    {
+     "w": "la penna",
+     "e": "🖊️"
+    },
+    {
+     "w": "la matita",
+     "e": "✏️"
+    },
+    {
+     "w": "lo zaino",
+     "e": "🎒"
+    },
+    {
+     "w": "la maestra",
+     "e": "👩🏽‍🏫"
+    },
+    {
+     "w": "il computer",
+     "e": "💻"
+    },
+    {
+     "w": "le forbici",
+     "e": "✂️"
+    },
+    {
+     "w": "l'orologio",
+     "e": "🕐"
+    }
+   ],
+   "s": [
+    {
+     "t": "io leggo il libro.",
+     "e": "📖"
+    },
+    {
+     "t": "io scrivo con la penna.",
+     "e": "🖊️"
+    },
+    {
+     "t": "io disegno una casa.",
+     "e": "✍🏽"
+    },
+    {
+     "t": "io taglio con le forbici.",
+     "e": "✂️"
+    },
+    {
+     "t": "la maestra spiega.",
+     "e": "👩🏽‍🏫"
+    }
+   ],
+   "ph": [
+    {
+     "e": "🤔",
+     "t": "Non ho capito."
+    },
+    {
+     "e": "🔁",
+     "t": "Puoi ripetere, per favore?"
+    },
+    {
+     "e": "✍️",
+     "t": "Come si scrive?"
+    },
+    {
+     "e": "👂",
+     "t": "Ascolta e ripeti."
+    }
+   ],
+   "g": [
+    {
+     "h": "Maschile e femminile",
+     "k": "t",
+     "head": [
+      "",
+      "SINGOLARE",
+      "PLURALE"
+     ],
+     "rows": [
+      [
+       "MASCHILE",
+       "libro",
+       "libri"
+      ],
+      [
+       "MASCHILE",
+       "zaino",
+       "zaini"
+      ],
+      [
+       "FEMMINILE",
+       "penna",
+       "penne"
+      ],
+      [
+       "FEMMINILE",
+       "matita",
+       "matite"
+      ]
+     ],
+     "rc": [
+      "m",
+      "m",
+      "f",
+      "f"
+     ]
+    },
+    {
+     "h": "Espressioni",
+     "k": "e",
+     "ex": [
+      "Non ho capito.",
+      "Puoi ripetere, per favore?",
+      "Posso entrare?",
+      "Scusa per il ritardo.",
+      "Come si scrive?"
+     ]
+    }
+   ],
+   "gx": [
+    {
+     "q": "Un libro, due ___.",
+     "ok": "libri",
+     "no": [
+      "libre",
+      "libro"
+     ]
+    },
+    {
+     "q": "Una penna, due ___.",
+     "ok": "penne",
+     "no": [
+      "penni",
+      "penna"
+     ]
+    },
+    {
+     "q": "LIBRO è maschile o femminile?",
+     "ok": "maschile",
+     "no": [
+      "femminile"
+     ]
+    },
+    {
+     "q": "PENNA è maschile o femminile?",
+     "ok": "femminile",
+     "no": [
+      "maschile"
+     ]
+    },
+    {
+     "q": "Plurale di ZAINO: ___",
+     "ok": "zaini",
+     "no": [
+      "zaine",
+      "zaino"
+     ]
+    },
+    {
+     "q": "Plurale di MATITA: ___",
+     "ok": "matite",
+     "no": [
+      "matiti",
+      "matita"
+     ]
+    },
+    {
+     "q": "Sono in ritardo. Dico: ___",
+     "ok": "Scusa per il ritardo.",
+     "no": [
+      "Non ho capito.",
+      "Buon appetito."
+     ]
+    }
+   ],
+   "cz": [
+    {
+     "q": "io leggo il ___.",
+     "ok": "libro",
+     "no": [
+      "fratello",
+      "cinema"
+     ]
+    },
+    {
+     "q": "io scrivo con la ___.",
+     "ok": "penna",
+     "no": [
+      "mascherina",
+      "firma"
+     ]
+    },
+    {
+     "q": "io disegno una ___.",
+     "ok": "casa",
+     "no": [
+      "chiesa",
+      "camicia"
+     ]
+    },
+    {
+     "q": "io taglio con le ___.",
+     "ok": "forbici",
+     "no": [
+      "moschea",
+      "scarpe"
+     ]
+    },
+    {
+     "q": "la ___ spiega.",
+     "ok": "maestra",
+     "no": [
+      "siringa",
+      "pioggia"
+     ]
+    }
+   ],
+   "qa": [
+    {
+     "q": "Puoi ripetere, per favore?",
+     "ok": "Sì, certo.",
+     "no": [
+      "Ho male alla testa.",
+      "Il treno è lento."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "u1",
+   "name": "Il cibo",
+   "emoji": "🛒",
+   "words": [
+    {
+     "w": "la mela",
+     "e": "🍎"
+    },
+    {
+     "w": "la banana",
+     "e": "🍌"
+    },
+    {
+     "w": "l'arancia",
+     "e": "🍊"
+    },
+    {
+     "w": "la pera",
+     "e": "🍐"
+    },
+    {
+     "w": "l'uva",
+     "e": "🍇"
+    },
+    {
+     "w": "la fragola",
+     "e": "🍓"
+    },
+    {
+     "w": "il limone",
+     "e": "🍋"
+    },
+    {
+     "w": "il kiwi",
+     "e": "🥝"
+    },
+    {
+     "w": "il pane",
+     "e": "🍞"
+    },
+    {
+     "w": "il latte",
+     "e": "🥛"
+    },
+    {
+     "w": "l'acqua",
+     "e": "💧"
+    },
+    {
+     "w": "il formaggio",
+     "e": "🧀"
+    },
+    {
+     "w": "l'uovo",
+     "e": "🥚"
+    },
+    {
+     "w": "la pizza",
+     "e": "🍕"
+    },
+    {
+     "w": "il caffè",
+     "e": "☕"
+    },
+    {
+     "w": "la carne",
+     "e": "🥩"
+    },
+    {
+     "w": "la pasta",
+     "e": "🍝"
+    },
+    {
+     "w": "il pollo",
+     "e": "🍗"
+    }
+   ],
+   "s": [
+    {
+     "t": "tu mangi la mela.",
+     "e": "🍎"
+    },
+    {
+     "t": "Mi piace la banana.",
+     "e": "🍌"
+    },
+    {
+     "t": "noi beviamo l'acqua.",
+     "e": "💧"
+    },
+    {
+     "t": "Mi piace il pane con il formaggio.",
+     "e": "🍞"
+    }
+   ],
+   "ph": [
+    {
+     "e": "🍎",
+     "t": "Vorrei un chilo di mele."
+    },
+    {
+     "e": "🍞",
+     "t": "Quanto costa il pane?"
+    },
+    {
+     "e": "🥛",
+     "t": "Dov'è il latte?"
+    },
+    {
+     "e": "👍",
+     "t": "Basta così, grazie."
+    },
+    {
+     "e": "💶",
+     "t": "Quanto costa?"
+    },
+    {
+     "e": "💳",
+     "t": "Posso pagare con la carta?"
+    },
+    {
+     "e": "🤔",
+     "t": "Non capisco."
+    },
+    {
+     "e": "🔁",
+     "t": "Può ripetere, per favore?"
+    },
+    {
+     "e": "👋",
+     "t": "Grazie, arrivederci."
+    }
+   ],
+   "g": [
+    {
+     "h": "Articoli determinativi",
+     "k": "t",
+     "head": [
+      "",
+      "QUANDO",
+      "ESEMPIO"
+     ],
+     "rows": [
+      [
+       "il",
+       "maschile + consonante",
+       "il pane"
+      ],
+      [
+       "lo",
+       "maschile + s+consonante, z",
+       "lo zucchero"
+      ],
+      [
+       "l'",
+       "vocale",
+       "l'olio, l'acqua"
+      ],
+      [
+       "la",
+       "femminile + consonante",
+       "la mela"
+      ],
+      [
+       "i",
+       "maschile plurale",
+       "i pani"
+      ],
+      [
+       "gli",
+       "maschile plurale + vocale, s+consonante, z",
+       "gli zuccheri"
+      ],
+      [
+       "le",
+       "femminile plurale",
+       "le mele"
+      ]
+     ],
+     "rc": [
+      "m",
+      "m",
+      "",
+      "f",
+      "m",
+      "m",
+      "f"
+     ]
+    },
+    {
+     "h": "Quantità",
+     "k": "e",
+     "ex": [
+      "un chilo di",
+      "un litro di",
+      "un pacco di"
+     ]
+    }
+   ],
+   "gx": [
+    {
+     "q": "___ pane",
+     "ok": "Il",
+     "no": [
+      "La",
+      "Lo"
+     ]
+    },
+    {
+     "q": "___ mela",
+     "ok": "La",
+     "no": [
+      "Il",
+      "Le"
+     ]
+    },
+    {
+     "q": "___ acqua",
+     "ok": "L'",
+     "no": [
+      "La",
+      "Il"
+     ]
+    },
+    {
+     "q": "___ zucchero",
+     "ok": "Lo",
+     "no": [
+      "Il",
+      "La"
+     ]
+    },
+    {
+     "q": "___ mele",
+     "ok": "Le",
+     "no": [
+      "I",
+      "La"
+     ]
+    },
+    {
+     "q": "___ pomodori",
+     "ok": "I",
+     "no": [
+      "Gli",
+      "Le"
+     ]
+    }
+   ],
+   "dlg": [
+    {
+     "who": "B",
+     "t": "Buongiorno! Posso aiutarla?"
+    },
+    {
+     "who": "A",
+     "t": "Buongiorno. Dov'è il latte?"
+    },
+    {
+     "who": "B",
+     "t": "Là, vicino al pane."
+    },
+    {
+     "who": "A",
+     "t": "Grazie. Quanto costa?"
+    },
+    {
+     "who": "B",
+     "t": "Costa 1 euro e 45 centesimi."
+    },
+    {
+     "who": "A",
+     "t": "Posso pagare con la carta?"
+    },
+    {
+     "who": "B",
+     "t": "Sì, certo."
+    },
+    {
+     "who": "A",
+     "t": "Grazie, arrivederci."
+    }
+   ],
+   "qz": [
+    {
+     "q": "Buongiorno! Posso aiutarla?",
+     "ok": "Sì, grazie! Dov'è il latte?",
+     "no": [
+      "Arrivederci.",
+      "Ho male alla testa."
+     ]
+    },
+    {
+     "q": "Quanto costa?",
+     "ok": "Costa due euro.",
+     "no": [
+      "Ho la febbre.",
+      "Arrivederci."
+     ]
+    },
+    {
+     "q": "Vuole un sacchetto?",
+     "ok": "No, grazie.",
+     "no": [
+      "Pago con i contanti.",
+      "Ho un appuntamento."
+     ]
+    }
+   ],
+   "a": "🙋‍♂️",
+   "b": "👩‍💼",
+   "cz": [
+    {
+     "q": "tu mangi la ___.",
+     "ok": "mela",
+     "no": [
+      "penna",
+      "bocca"
+     ]
+    },
+    {
+     "q": "Mi piace la ___.",
+     "ok": "banana",
+     "no": [
+      "nonna",
+      "mamma"
+     ]
+    },
+    {
+     "q": "noi beviamo l'___.",
+     "ok": "acqua",
+     "no": [
+      "orologio",
+      "autunno"
+     ]
+    },
+    {
+     "q": "Mi piace il pane con il ___.",
+     "ok": "formaggio",
+     "no": [
+      "braccio",
+      "cane"
+     ]
+    }
+   ],
+   "qa": [
+    {
+     "q": "Quanto costa il pane?",
+     "ok": "Costa due euro.",
+     "no": [
+      "Ho la febbre.",
+      "Vado in banca."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "u2",
+   "name": "Il corpo e la salute",
+   "emoji": "🏥",
+   "words": [
+    {
+     "w": "la mano",
+     "e": "✋"
+    },
+    {
+     "w": "il piede",
+     "e": "🦶"
+    },
+    {
+     "w": "l'occhio",
+     "e": "👁️"
+    },
+    {
+     "w": "l'orecchio",
+     "e": "👂"
+    },
+    {
+     "w": "il naso",
+     "e": "👃"
+    },
+    {
+     "w": "la bocca",
+     "e": "👄"
+    },
+    {
+     "w": "il dente",
+     "e": "🦷"
+    },
+    {
+     "w": "il braccio",
+     "e": "💪"
+    },
+    {
+     "w": "la gamba",
+     "e": "🦵"
+    },
+    {
+     "w": "la lingua",
+     "e": "👅"
+    },
+    {
+     "w": "il medico",
+     "e": "🧑‍⚕️"
+    },
+    {
+     "w": "l'ambulanza",
+     "e": "🚑"
+    },
+    {
+     "w": "la medicina",
+     "e": "💊"
+    },
+    {
+     "w": "la siringa",
+     "e": "💉"
+    },
+    {
+     "w": "il termometro",
+     "e": "🌡️"
+    },
+    {
+     "w": "la mascherina",
+     "e": "😷"
+    },
+    {
+     "w": "il cerotto",
+     "e": "🩹"
+    },
+    {
+     "w": "il sangue",
+     "e": "🩸"
+    },
+    {
+     "w": "le stampelle",
+     "e": "🩼🩼"
+    }
+   ],
+   "s": [
+    {
+     "t": "Ho male alla mano.",
+     "e": "✋"
+    },
+    {
+     "t": "Ho male al dente.",
+     "e": "🦷"
+    },
+    {
+     "t": "Chiamo l'ambulanza.",
+     "e": "🚑"
+    },
+    {
+     "t": "Ho la febbre.",
+     "e": "🌡️"
+    }
+   ],
+   "ph": [
+    {
+     "e": "",
+     "t": "Mi fa male la schiena."
+    },
+    {
+     "e": "🤕",
+     "t": "Ho mal di testa."
+    },
+    {
+     "e": "🌡️",
+     "t": "Ho la febbre."
+    },
+    {
+     "e": "🧑‍⚕️",
+     "t": "Ho bisogno di un medico."
+    },
+    {
+     "e": "🤢",
+     "t": "Ho mal di pancia."
+    },
+    {
+     "e": "🦷",
+     "t": "Ho mal di denti."
+    },
+    {
+     "e": "📅",
+     "t": "Ho un appuntamento."
+    },
+    {
+     "e": "💊",
+     "t": "Ho bisogno di una medicina."
+    },
+    {
+     "e": "🤔",
+     "t": "Non capisco."
+    },
+    {
+     "e": "🔁",
+     "t": "Può ripetere, per favore?"
+    }
+   ],
+   "g": [
+    {
+     "h": "Avere e fare",
+     "k": "t",
+     "head": [
+      "",
+      "AVERE",
+      "FARE"
+     ],
+     "rows": [
+      [
+       "io",
+       "ho",
+       "faccio"
+      ],
+      [
+       "tu",
+       "hai",
+       "fai"
+      ],
+      [
+       "lei/lui",
+       "ha",
+       "fa"
+      ],
+      [
+       "noi",
+       "abbiamo",
+       "facciamo"
+      ],
+      [
+       "voi",
+       "avete",
+       "fate"
+      ],
+      [
+       "loro",
+       "hanno",
+       "fanno"
+      ]
+     ]
+    },
+    {
+     "h": "Fare male",
+     "k": "e",
+     "ex": [
+      "Mi fa male la testa.",
+      "Mi fanno male i piedi."
+     ]
+    }
+   ],
+   "gx": [
+    {
+     "q": "Io ___ la febbre.",
+     "ok": "ho",
+     "no": [
+      "hai",
+      "ha"
+     ]
+    },
+    {
+     "q": "Tu ___ mal di testa.",
+     "ok": "hai",
+     "no": [
+      "ho",
+      "ha"
+     ]
+    },
+    {
+     "q": "Lei ___ la febbre.",
+     "ok": "ha",
+     "no": [
+      "ho",
+      "hai"
+     ]
+    },
+    {
+     "q": "Che cosa ___ tu?",
+     "ok": "fai",
+     "no": [
+      "faccio",
+      "fa"
+     ]
+    },
+    {
+     "q": "Mi ___ male la testa.",
+     "ok": "fa",
+     "no": [
+      "fanno",
+      "fai"
+     ]
+    },
+    {
+     "q": "Mi ___ male i piedi.",
+     "ok": "fanno",
+     "no": [
+      "fa",
+      "faccio"
+     ]
+    },
+    {
+     "q": "Loro ___ male alla gamba.",
+     "ok": "hanno",
+     "no": [
+      "fanno",
+      "ha"
+     ]
+    },
+    {
+     "q": "Lui ___ male alla testa.",
+     "ok": "ha",
+     "no": [
+      "fa",
+      "hai"
+     ]
+    },
+    {
+     "q": "Noi ___ la febbre.",
+     "ok": "abbiamo",
+     "no": [
+      "facciamo",
+      "hanno"
+     ]
+    },
+    {
+     "q": "Voi ___ colazione.",
+     "ok": "fate",
+     "no": [
+      "avete",
+      "fanno"
+     ]
+    },
+    {
+     "q": "Io ___ la doccia.",
+     "ok": "faccio",
+     "no": [
+      "ho",
+      "fai"
+     ]
+    }
+   ],
+   "dlg": [
+    {
+     "who": "B",
+     "t": "Buongiorno. Come sta?"
+    },
+    {
+     "who": "A",
+     "t": "Non sto bene. Ho la febbre."
+    },
+    {
+     "who": "B",
+     "t": "Da quanto tempo?"
+    },
+    {
+     "who": "A",
+     "t": "Da due giorni."
+    },
+    {
+     "who": "B",
+     "t": "Ha anche mal di testa?"
+    },
+    {
+     "who": "A",
+     "t": "Sì, ho mal di testa e mal di gola."
+    },
+    {
+     "who": "B",
+     "t": "Prenda questa medicina due volte al giorno, una alla mattina e una alla sera insieme ai pasti."
+    },
+    {
+     "who": "A",
+     "t": "Grazie, dottoressa."
+    }
+   ],
+   "qz": [
+    {
+     "q": "Buongiorno. Come sta?",
+     "ok": "Non sto bene. Ho la febbre.",
+     "no": [
+      "Mi chiamo Ali.",
+      "Sono tre euro."
+     ]
+    },
+    {
+     "q": "Da quanto tempo ha la febbre?",
+     "ok": "Da due giorni.",
+     "no": [
+      "Non sto bene.",
+      "Sì, ecco il documento."
+     ]
+    },
+    {
+     "q": "Dove ha male?",
+     "ok": "Ho male alla testa.",
+     "no": [
+      "Ho un documento.",
+      "Ho bisogno di aiuto."
+     ]
+    }
+   ],
+   "a": "🙋‍♂️",
+   "b": "👩‍⚕️",
+   "cz": [
+    {
+     "q": "Ho bisogno di un ___.",
+     "ok": "medico",
+     "no": [
+      "cane",
+      "calendario"
+     ]
+    },
+    {
+     "q": "Ho un ___.",
+     "ok": "appuntamento",
+     "no": [
+      "papà",
+      "limone"
+     ]
+    },
+    {
+     "q": "Ho bisogno di una ___.",
+     "ok": "medicina",
+     "no": [
+      "nuvola",
+      "banca"
+     ]
+    },
+    {
+     "q": "Ho male alla ___.",
+     "ok": "mano",
+     "no": [
+      "rotonda",
+      "mela"
+     ]
+    },
+    {
+     "q": "Ho male al ___.",
+     "ok": "dente",
+     "no": [
+      "cuoco",
+      "supermercato"
+     ]
+    },
+    {
+     "q": "Chiamo l'___.",
+     "ok": "ambulanza",
+     "no": [
+      "autunno",
+      "uovo"
+     ]
+    }
+   ],
+   "qa": [
+    {
+     "q": "Come stai?",
+     "ok": "Non sto bene. Ho la febbre.",
+     "no": [
+      "Costa due euro.",
+      "Il libro è nuovo."
+     ]
+    },
+    {
+     "q": "Dove hai male?",
+     "ok": "Ho male alla testa.",
+     "no": [
+      "Vado in autobus.",
+      "Mi chiamo Ali."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "u3",
+   "name": "La città e i trasporti",
+   "emoji": "🏙️",
+   "words": [
+    {
+     "w": "la città",
+     "e": "🏙️"
+    },
+    {
+     "w": "la banca",
+     "e": "🏦"
+    },
+    {
+     "w": "la chiesa",
+     "e": "⛪"
+    },
+    {
+     "w": "la moschea",
+     "e": "🕌"
+    },
+    {
+     "w": "il parco",
+     "e": "🌳"
+    },
+    {
+     "w": "la stazione",
+     "e": "🚉"
+    },
+    {
+     "w": "l'ospedale",
+     "e": "🏥"
+    },
+    {
+     "w": "la posta",
+     "e": "📮"
+    },
+    {
+     "w": "la scuola",
+     "e": "🏫"
+    },
+    {
+     "w": "il comune",
+     "e": "🏛️"
+    },
+    {
+     "w": "il supermercato",
+     "e": "🏪"
+    },
+    {
+     "w": "l'autobus",
+     "e": "🚌"
+    },
+    {
+     "w": "il treno",
+     "e": "🚆"
+    },
+    {
+     "w": "la macchina",
+     "e": "🚗"
+    },
+    {
+     "w": "la bicicletta",
+     "e": "🚲"
+    },
+    {
+     "w": "la moto",
+     "e": "🏍️"
+    },
+    {
+     "w": "l'aereo",
+     "e": "✈️"
+    },
+    {
+     "w": "la nave",
+     "e": "🚢"
+    },
+    {
+     "w": "il taxi",
+     "e": "🚕"
+    },
+    {
+     "w": "la metro",
+     "e": "🚇"
+    },
+    {
+     "w": "il camion",
+     "e": "🚚"
+    },
+    {
+     "w": "Il monopattino",
+     "e": "🛴"
+    }
+   ],
+   "s": [
+    {
+     "t": "vado in banca.",
+     "e": "🏦"
+    },
+    {
+     "t": "Vado al parco.",
+     "e": "🌳"
+    },
+    {
+     "t": "Loro prendono l'autobus.",
+     "e": "🚌"
+    },
+    {
+     "t": "Voi andate in bicicletta.",
+     "e": "🚲"
+    }
+   ],
+   "ph": [
+    {
+     "e": "🚉",
+     "t": "Dov'è la stazione?"
+    },
+    {
+     "e": "🚌",
+     "t": "Quale autobus devo prendere?"
+    },
+    {
+     "e": "🎫",
+     "t": "Un biglietto, per favore."
+    },
+    {
+     "e": "🚏",
+     "t": "Dov'è la fermata?"
+    }
+   ],
+   "g": [
+    {
+     "h": "C'è / ci sono",
+     "k": "e",
+     "ex": [
+      "C'è una stazione.",
+      "Ci sono due fermate."
+     ]
+    },
+    {
+     "h": "Come si usa",
+     "k": "n",
+     "t": "C'È + una cosa (singolare). CI SONO + più cose (plurale)."
+    },
+    {
+     "h": "Andare e prendere",
+     "k": "t",
+     "head": [
+      "",
+      "ANDARE",
+      "PRENDERE"
+     ],
+     "rows": [
+      [
+       "io",
+       "vado",
+       "prendo"
+      ],
+      [
+       "tu",
+       "vai",
+       "prendi"
+      ],
+      [
+       "lei/lui",
+       "va",
+       "prende"
+      ],
+      [
+       "noi",
+       "andiamo",
+       "prendiamo"
+      ],
+      [
+       "voi",
+       "andate",
+       "prendete"
+      ],
+      [
+       "loro",
+       "vanno",
+       "prendono"
+      ]
+     ]
+    }
+   ],
+   "gx": [
+    {
+     "q": "___ una stazione.",
+     "ok": "C'è",
+     "no": [
+      "Ci sono"
+     ]
+    },
+    {
+     "q": "___ due fermate.",
+     "ok": "Ci sono",
+     "no": [
+      "C'è"
+     ]
+    },
+    {
+     "q": "Io ___ in autobus.",
+     "ok": "vado",
+     "no": [
+      "vai",
+      "va"
+     ]
+    },
+    {
+     "q": "Tu ___ il treno.",
+     "ok": "prendi",
+     "no": [
+      "prendo",
+      "prende"
+     ]
+    },
+    {
+     "q": "Noi ___ al parco.",
+     "ok": "andiamo",
+     "no": [
+      "andate",
+      "vanno"
+     ]
+    },
+    {
+     "q": "Loro ___ il tram.",
+     "ok": "prendono",
+     "no": [
+      "prende",
+      "prendete"
+     ]
+    },
+    {
+     "q": "Io ___ l'autobus.",
+     "ok": "prendo",
+     "no": [
+      "vado",
+      "prendi"
+     ]
+    },
+    {
+     "q": "Tu ___ in stazione.",
+     "ok": "vai",
+     "no": [
+      "prendi",
+      "va"
+     ]
+    },
+    {
+     "q": "Noi ___ il treno.",
+     "ok": "prendiamo",
+     "no": [
+      "andiamo",
+      "prendono"
+     ]
+    },
+    {
+     "q": "Loro ___ al mercato.",
+     "ok": "vanno",
+     "no": [
+      "prendono",
+      "va"
+     ]
+    },
+    {
+     "q": "Lei ___ la metropolitana.",
+     "ok": "prende",
+     "no": [
+      "va",
+      "prendo"
+     ]
+    },
+    {
+     "q": "Voi ___ a scuola.",
+     "ok": "andate",
+     "no": [
+      "prendete",
+      "vanno"
+     ]
+    }
+   ],
+   "cz": [
+    {
+     "q": "vado in ___.",
+     "ok": "banca",
+     "no": [
+      "finestra",
+      "pizza"
+     ]
+    },
+    {
+     "q": "Vado al ___.",
+     "ok": "parco",
+     "no": [
+      "naso",
+      "vestito"
+     ]
+    },
+    {
+     "q": "Loro prendono l'___.",
+     "ok": "autobus",
+     "no": [
+      "acqua",
+      "amico"
+     ]
+    },
+    {
+     "q": "Voi andate in ___.",
+     "ok": "bicicletta",
+     "no": [
+      "mela",
+      "porta"
+     ]
+    }
+   ],
+   "qa": [
+    {
+     "q": "Dov'è la stazione?",
+     "ok": "È vicino al parco.",
+     "no": [
+      "Costa due euro.",
+      "Ho la febbre."
+     ]
+    },
+    {
+     "q": "Quale autobus devo prendere?",
+     "ok": "Prendi il numero cinque.",
+     "no": [
+      "Mi chiamo Ali.",
+      "Ho fame."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "u4",
+   "name": "La casa",
+   "emoji": "🏠",
+   "words": [
+    {
+     "w": "la casa",
+     "e": "🏠"
+    },
+    {
+     "w": "il letto",
+     "e": "🛏️"
+    },
+    {
+     "w": "la porta",
+     "e": "🚪"
+    },
+    {
+     "w": "la finestra",
+     "e": "🪟"
+    },
+    {
+     "w": "la sedia",
+     "e": "🪑"
+    },
+    {
+     "w": "la doccia",
+     "e": "🚿"
+    },
+    {
+     "w": "la chiave",
+     "e": "🔑"
+    },
+    {
+     "w": "la carta igienica",
+     "e": "🧻"
+    },
+    {
+     "w": "il water",
+     "e": "🚽"
+    },
+    {
+     "w": "il divano",
+     "e": "🛋️"
+    },
+    {
+     "w": "lo specchio",
+     "e": "🪞"
+    },
+    {
+     "w": "la televisione",
+     "e": "📺"
+    }
+   ],
+   "s": [
+    {
+     "t": "Io apro la porta.",
+     "e": "🚪"
+    },
+    {
+     "t": "lei dorme nel letto.",
+     "e": "🛏️"
+    }
+   ],
+   "ph": [
+    {
+     "e": "🏠",
+     "t": "Abito in un appartamento."
+    },
+    {
+     "e": "🛏️",
+     "t": "Nella mia casa ci sono due camere."
+    },
+    {
+     "e": "",
+     "t": "La cucina è vicino al soggiorno."
+    },
+    {
+     "e": "🚿",
+     "t": "C'è il bagno?"
+    }
+   ],
+   "g": [
+    {
+     "h": "C'è / ci sono",
+     "k": "e",
+     "ex": [
+      "C'è una stazione.",
+      "Ci sono due fermate."
+     ]
+    },
+    {
+     "h": "Come si usa",
+     "k": "n",
+     "t": "C'È + una cosa (singolare). CI SONO + più cose (plurale)."
+    },
+    {
+     "h": "Posizione",
+     "k": "t",
+     "head": [
+      "POSIZIONE",
+      "ESEMPIO"
+     ],
+     "rows": [
+      [
+       "in",
+       "Il letto è in camera."
+      ],
+      [
+       "vicino a",
+       "La cucina è vicino al soggiorno."
+      ],
+      [
+       "lontano da",
+       "Il bagno è lontano dalla cucina."
+      ],
+      [
+       "a destra / a sinistra",
+       "Il divano è a destra della porta."
+      ],
+      [
+       "davanti a / dietro a",
+       "La sedia è davanti al tavolo."
+      ],
+      [
+       "sopra / sotto",
+       "La lampada è sopra il tavolo."
+      ]
+     ]
+    }
+   ],
+   "gx": [
+    {
+     "q": "___ un letto in camera.",
+     "ok": "C'è",
+     "no": [
+      "Ci sono"
+     ]
+    },
+    {
+     "q": "In cucina ___ due sedie.",
+     "ok": "ci sono",
+     "no": [
+      "c'è"
+     ]
+    },
+    {
+     "q": "La lampada è ___ il tavolo. (↑)",
+     "ok": "sopra",
+     "no": [
+      "sotto",
+      "dietro"
+     ]
+    },
+    {
+     "q": "Il gatto è ___ la sedia. (↓)",
+     "ok": "sotto",
+     "no": [
+      "sopra",
+      "davanti"
+     ]
+    },
+    {
+     "q": "Il bagno non è vicino: è ___ dalla cucina.",
+     "ok": "lontano",
+     "no": [
+      "vicino",
+      "sopra"
+     ]
+    }
+   ],
+   "cz": [
+    {
+     "q": "___ in un appartamento.",
+     "ok": "abito",
+     "no": [
+      "lavoro",
+      "aspetto"
+     ]
+    },
+    {
+     "q": "Nella mia ___ ci sono due camere.",
+     "ok": "casa",
+     "no": [
+      "musica",
+      "sveglia"
+     ]
+    },
+    {
+     "q": "Io apro la ___.",
+     "ok": "porta",
+     "no": [
+      "sera",
+      "camicia"
+     ]
+    },
+    {
+     "q": "lei dorme nel ___.",
+     "ok": "letto",
+     "no": [
+      "marciapiede",
+      "nonno"
+     ]
+    }
+   ],
+   "qa": [
+    {
+     "q": "Dove abiti?",
+     "ok": "Abito in un appartamento.",
+     "no": [
+      "Mi chiamo Ali.",
+      "Costa due euro."
+     ]
+    },
+    {
+     "q": "C'è il bagno?",
+     "ok": "Sì, c'è.",
+     "no": [
+      "Alle nove.",
+      "Ho mal di testa."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "u6",
+   "name": "Il lavoro",
+   "emoji": "💼",
+   "words": [
+    {
+     "w": "il lavoro",
+     "e": "💼"
+    },
+    {
+     "w": "il cuoco",
+     "e": "🧑‍🍳"
+    },
+    {
+     "w": "l'operaio",
+     "e": "👷"
+    },
+    {
+     "w": "il cameriere",
+     "e": "🤵"
+    },
+    {
+     "w": "la fabbrica",
+     "e": "🏭"
+    },
+    {
+     "w": "l'ufficio",
+     "e": "🏢"
+    },
+    {
+     "w": "l'orario",
+     "e": "🕐"
+    },
+    {
+     "w": "lo stipendio",
+     "e": "💶"
+    },
+    {
+     "w": "il collega",
+     "e": ""
+    }
+   ],
+   "s": [
+    {
+     "e": "🍽️",
+     "t": "Lavoro in un ristorante."
+    },
+    {
+     "e": "🕐",
+     "t": "A che ora inizi a lavorare?"
+    }
+   ],
+   "ph": [
+    {
+     "e": "🍽️",
+     "t": "Lavoro in un ristorante."
+    },
+    {
+     "e": "🕐",
+     "t": "A che ora inizi a lavorare?"
+    },
+    {
+     "e": "💼",
+     "t": "Devo andare al lavoro."
+    },
+    {
+     "e": "",
+     "t": "Finisco alle cinque."
+    }
+   ],
+   "g": [
+    {
+     "h": "Verbi regolari",
+     "k": "v",
+     "heads": [
+      "-ARE",
+      "-ERE",
+      "-IRE"
+     ],
+     "verbs": [
+      "LAVORARE",
+      "VENDERE",
+      "APRIRE"
+     ],
+     "stems": [
+      "lavor",
+      "vend",
+      "apr"
+     ],
+     "ends": [
+      [
+       "o",
+       "i",
+       "a",
+       "iamo",
+       "ate",
+       "ano"
+      ],
+      [
+       "o",
+       "i",
+       "e",
+       "iamo",
+       "ete",
+       "ono"
+      ],
+      [
+       "o",
+       "i",
+       "e",
+       "iamo",
+       "ite",
+       "ono"
+      ]
+     ]
+    }
+   ],
+   "gx": [
+    {
+     "q": "Io ___ in un ristorante. (lavorare)",
+     "ok": "lavoro",
+     "no": [
+      "lavori",
+      "lavora"
+     ]
+    },
+    {
+     "q": "Il cuoco ___ la pasta. (cucinare)",
+     "ok": "cucina",
+     "no": [
+      "cucino",
+      "cucini"
+     ]
+    },
+    {
+     "q": "Tu ___ il camion. (guidare)",
+     "ok": "guidi",
+     "no": [
+      "guido",
+      "guida"
+     ]
+    },
+    {
+     "q": "Noi ___ alle otto. (iniziare)",
+     "ok": "iniziamo",
+     "no": [
+      "iniziate",
+      "iniziano"
+     ]
+    },
+    {
+     "q": "Loro ___ il pane. (comprare)",
+     "ok": "comprano",
+     "no": [
+      "compra",
+      "compriamo"
+     ]
+    },
+    {
+     "q": "Lei ___ in fabbrica. (lavorare)",
+     "ok": "lavora",
+     "no": [
+      "lavoro",
+      "lavori"
+     ]
+    }
+   ],
+   "cz": [
+    {
+     "q": "___ in un ristorante.",
+     "ok": "lavoro",
+     "no": [
+      "scrivo",
+      "abito"
+     ]
+    },
+    {
+     "q": "Devo andare al ___.",
+     "ok": "lavoro",
+     "no": [
+      "vado",
+      "mangio"
+     ]
+    },
+    {
+     "q": "___ alle cinque.",
+     "ok": "finisco",
+     "no": [
+      "bevo",
+      "chiamo"
+     ]
+    }
+   ],
+   "qa": [
+    {
+     "q": "Che lavoro fai?",
+     "ok": "Faccio il cuoco.",
+     "no": [
+      "Vado in autobus.",
+      "Ho male alla testa."
+     ]
+    },
+    {
+     "q": "A che ora inizi a lavorare?",
+     "ok": "Alle otto.",
+     "no": [
+      "Costa due euro.",
+      "Ho la febbre."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "u8",
+   "name": "L'abbigliamento",
+   "emoji": "👕",
+   "words": [
+    {
+     "w": "la maglietta",
+     "e": "👕"
+    },
+    {
+     "w": "i pantaloni",
+     "e": "👖"
+    },
+    {
+     "w": "la giacca",
+     "e": "🧥"
+    },
+    {
+     "w": "il vestito",
+     "e": "👗"
+    },
+    {
+     "w": "le scarpe",
+     "e": "👟"
+    },
+    {
+     "w": "il cappello",
+     "e": "🧢"
+    },
+    {
+     "w": "Le calze",
+     "e": "🧦"
+    },
+    {
+     "w": "i guanti",
+     "e": "🧤"
+    },
+    {
+     "w": "la sciarpa",
+     "e": "🧣"
+    },
+    {
+     "w": "gli occhiali",
+     "e": "👓"
+    },
+    {
+     "w": "La camicia",
+     "e": "👔"
+    }
+   ],
+   "s": [
+    {
+     "t": "Mi metto la giacca.",
+     "e": "🧥"
+    },
+    {
+     "t": "lui ha le scarpe nuove.",
+     "e": "👟"
+    }
+   ],
+   "ph": [
+    {
+     "e": "🧥",
+     "t": "Quanto costa questa giacca?"
+    },
+    {
+     "e": "👖",
+     "t": "Posso provare questi pantaloni?"
+    },
+    {
+     "e": "",
+     "t": "Ha una taglia più grande?"
+    },
+    {
+     "e": "👟",
+     "t": "Vorrei queste scarpe."
+    }
+   ],
+   "g": [
+    {
+     "h": "Accordo con aggettivo",
+     "k": "t",
+     "head": [
+      "",
+      "SINGOLARE",
+      "PLURALE"
+     ],
+     "rows": [
+      [
+       "MASCHILE",
+       "il vestito nuovo",
+       "i vestiti nuovi"
+      ],
+      [
+       "MASCHILE",
+       "il cappotto verde",
+       "i cappotti verdi"
+      ],
+      [
+       "FEMMINILE",
+       "la giacca nuova",
+       "le giacche nuove"
+      ],
+      [
+       "FEMMINILE",
+       "la camicia verde",
+       "le camicie verdi"
+      ]
+     ],
+     "rc": [
+      "m",
+      "m",
+      "f",
+      "f"
+     ]
+    },
+    {
+     "h": "Questo",
+     "k": "t",
+     "head": [
+      "",
+      "SINGOLARE",
+      "PLURALE"
+     ],
+     "rows": [
+      [
+       "MASCHILE",
+       "questo",
+       "questi"
+      ],
+      [
+       "FEMMINILE",
+       "questa",
+       "queste"
+      ]
+     ],
+     "rc": [
+      "m",
+      "f"
+     ]
+    }
+   ],
+   "gx": [
+    {
+     "q": "___ giacca è nuova.",
+     "ok": "Questa",
+     "no": [
+      "Questo",
+      "Queste"
+     ]
+    },
+    {
+     "q": "___ pantaloni sono grandi.",
+     "ok": "Questi",
+     "no": [
+      "Questo",
+      "Queste"
+     ]
+    },
+    {
+     "q": "___ scarpe sono belle.",
+     "ok": "Queste",
+     "no": [
+      "Questi",
+      "Questa"
+     ]
+    },
+    {
+     "q": "La maglietta è ___.",
+     "ok": "nuova",
+     "no": [
+      "nuovo",
+      "nuovi"
+     ]
+    },
+    {
+     "q": "I calzini sono ___.",
+     "ok": "nuovi",
+     "no": [
+      "nuovo",
+      "nuove"
+     ]
+    },
+    {
+     "q": "___ vestito è bello.",
+     "ok": "Questo",
+     "no": [
+      "Questa",
+      "Queste"
+     ]
+    }
+   ],
+   "cz": [
+    {
+     "q": "Vorrei queste ___.",
+     "ok": "scarpe",
+     "no": [
+      "cena",
+      "siringa"
+     ]
+    },
+    {
+     "q": "Mi metto la ___.",
+     "ok": "giacca",
+     "no": [
+      "ricevuta",
+      "mamma"
+     ]
+    },
+    {
+     "q": "lui ha le ___ nuove.",
+     "ok": "scarpe",
+     "no": [
+      "carne",
+      "banca"
+     ]
+    }
+   ],
+   "qa": [
+    {
+     "q": "Quanto costa questa giacca?",
+     "ok": "Costa trenta euro.",
+     "no": [
+      "Mi chiamo Ali.",
+      "È a destra."
+     ]
+    },
+    {
+     "q": "Posso provare questi pantaloni?",
+     "ok": "Sì, certo.",
+     "no": [
+      "Ho la febbre.",
+      "Alle nove."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "u9",
+   "name": "La vita quotidiana",
+   "emoji": "⏰",
+   "words": [
+    {
+     "w": "la sveglia",
+     "e": "⏰"
+    },
+    {
+     "w": "la mattina",
+     "e": "🌅"
+    },
+    {
+     "w": "la colazione",
+     "e": "🥐"
+    },
+    {
+     "w": "il pranzo",
+     "e": "🍽️"
+    },
+    {
+     "w": "la sera",
+     "e": "🌙"
+    },
+    {
+     "w": "la cena",
+     "e": "🍝"
+    },
+    {
+     "w": "dormire",
+     "e": "😴"
+    },
+    {
+     "w": "il riposo",
+     "e": ""
+    }
+   ],
+   "s": [
+    {
+     "e": "⏰",
+     "t": "Mi alzo alle sette."
+    },
+    {
+     "e": "🍝",
+     "t": "La sera preparo la cena."
+    }
+   ],
+   "ph": [
+    {
+     "e": "⏰",
+     "t": "Mi alzo alle sette."
+    },
+    {
+     "e": "🍝",
+     "t": "La sera preparo la cena."
+    },
+    {
+     "e": "☕",
+     "t": "Faccio colazione al bar."
+    },
+    {
+     "e": "😴",
+     "t": "Vado a dormire alle dieci."
+    }
+   ],
+   "g": [
+    {
+     "h": "Verbi riflessivi",
+     "k": "t",
+     "head": [
+      "",
+      "SVEGLIARSI",
+      "METTERSI",
+      "VESTIRSI"
+     ],
+     "rows": [
+      [
+       "io",
+       "mi sveglio",
+       "mi metto",
+       "mi vesto"
+      ],
+      [
+       "tu",
+       "ti svegli",
+       "ti metti",
+       "ti vesti"
+      ],
+      [
+       "lei/lui",
+       "si sveglia",
+       "si mette",
+       "si veste"
+      ],
+      [
+       "noi",
+       "ci svegliamo",
+       "ci mettiamo",
+       "ci vestiamo"
+      ],
+      [
+       "voi",
+       "vi svegliate",
+       "vi mettete",
+       "vi vestite"
+      ],
+      [
+       "loro",
+       "si svegliano",
+       "si mettono",
+       "si vestono"
+      ]
+     ],
+     "pr": 1
+    }
+   ],
+   "gx": [
+    {
+     "q": "Io ___ alle sette.",
+     "ok": "mi sveglio",
+     "no": [
+      "ti svegli",
+      "si sveglia"
+     ]
+    },
+    {
+     "q": "Tu ___ la giacca. (mettersi)",
+     "ok": "ti metti",
+     "no": [
+      "mi metto",
+      "si mette"
+     ]
+    },
+    {
+     "q": "Lui ___ in fretta. (vestirsi)",
+     "ok": "si veste",
+     "no": [
+      "mi vesto",
+      "ti vesti"
+     ]
+    },
+    {
+     "q": "Noi ___ alle sette.",
+     "ok": "ci svegliamo",
+     "no": [
+      "vi svegliate",
+      "si svegliano"
+     ]
+    },
+    {
+     "q": "Loro ___ presto.",
+     "ok": "si svegliano",
+     "no": [
+      "si sveglia",
+      "ci svegliamo"
+     ]
+    },
+    {
+     "q": "🕖 Che ore sono?",
+     "ok": "Sono le sette.",
+     "no": [
+      "Sono le otto.",
+      "Sono le sei."
+     ]
+    },
+    {
+     "q": "🕘 Che ore sono?",
+     "ok": "Sono le nove.",
+     "no": [
+      "Sono le dieci.",
+      "Sono le otto."
+     ]
+    },
+    {
+     "q": "🕒 Che ore sono?",
+     "ok": "Sono le tre.",
+     "no": [
+      "Sono le due.",
+      "Sono le quattro."
+     ]
+    }
+   ],
+   "cz": [
+    {
+     "q": "La sera preparo la ___.",
+     "ok": "cena",
+     "no": [
+      "scuola",
+      "pera"
+     ]
+    },
+    {
+     "q": "Faccio ___ al bar.",
+     "ok": "colazione",
+     "no": [
+      "banana",
+      "fabbrica"
+     ]
+    },
+    {
+     "q": "___ a dormire alle dieci.",
+     "ok": "vado",
+     "no": [
+      "scrivo",
+      "mangio"
+     ]
+    }
+   ],
+   "qa": [
+    {
+     "q": "A che ora ti svegli?",
+     "ok": "Mi sveglio alle sette.",
+     "no": [
+      "Vado in banca.",
+      "Costa due euro."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "u10",
+   "name": "I documenti",
+   "emoji": "🪪",
+   "words": [
+    {
+     "w": "il documento",
+     "e": "🪪"
+    },
+    {
+     "w": "il modulo",
+     "e": "📝"
+    },
+    {
+     "w": "l'appuntamento",
+     "e": "📅"
+    },
+    {
+     "w": "la firma",
+     "e": "✍️"
+    },
+    {
+     "w": "il permesso di soggiorno",
+     "e": ""
+    },
+    {
+     "w": "il codice fiscale",
+     "e": ""
+    },
+    {
+     "w": "lo sportello",
+     "e": ""
+    },
+    {
+     "w": "la ricevuta",
+     "e": "🧾"
+    }
+   ],
+   "s": [
+    {
+     "e": "📅",
+     "t": "Devo prendere un appuntamento."
+    },
+    {
+     "e": "🪪",
+     "t": "Quali documenti servono?"
+    }
+   ],
+   "ph": [
+    {
+     "e": "📅",
+     "t": "Devo prendere un appuntamento."
+    },
+    {
+     "e": "🪪",
+     "t": "Quali documenti servono?"
+    },
+    {
+     "e": "✍️",
+     "t": "Dove devo firmare?"
+    },
+    {
+     "e": "",
+     "t": "Ho il permesso di soggiorno."
+    },
+    {
+     "e": "📅",
+     "t": "Ho un appuntamento."
+    },
+    {
+     "e": "🪪",
+     "t": "Ecco il mio documento."
+    },
+    {
+     "e": "📝",
+     "t": "Devo compilare questo modulo?"
+    },
+    {
+     "e": "✍️",
+     "t": "Può scrivere qui, per favore?"
+    },
+    {
+     "e": "📍",
+     "t": "Dove devo andare?"
+    },
+    {
+     "e": "🙋",
+     "t": "Mi chiamo Malika."
+    },
+    {
+     "e": "🤔",
+     "t": "Non capisco."
+    },
+    {
+     "e": "🔁",
+     "t": "Può ripetere, per favore?"
+    }
+   ],
+   "g": [
+    {
+     "h": "Dovere",
+     "k": "t",
+     "head": [
+      "",
+      "DOVERE"
+     ],
+     "rows": [
+      [
+       "io",
+       "devo"
+      ],
+      [
+       "tu",
+       "devi"
+      ],
+      [
+       "lei/lui",
+       "deve"
+      ],
+      [
+       "noi",
+       "dobbiamo"
+      ],
+      [
+       "voi",
+       "dovete"
+      ],
+      [
+       "loro",
+       "devono"
+      ]
+     ]
+    },
+    {
+     "h": "Attenzione",
+     "k": "n",
+     "t": "Con persone che non conosci, in ufficio, dal medico si usa LEI (formale), non TU."
+    },
+    {
+     "h": "TU e LEI",
+     "k": "t",
+     "head": [
+      "TU (amici)",
+      "LEI (ufficio, medico)"
+     ],
+     "rows": [
+      [
+       "Come ti chiami?",
+       "Come si chiama?"
+      ],
+      [
+       "Hai un documento?",
+       "Ha un documento?"
+      ],
+      [
+       "Puoi aiutarmi?",
+       "Può aiutarmi?"
+      ]
+     ]
+    }
+   ],
+   "gx": [
+    {
+     "q": "Io ___ firmare.",
+     "ok": "devo",
+     "no": [
+      "devi",
+      "deve"
+     ]
+    },
+    {
+     "q": "Tu ___ venire domani.",
+     "ok": "devi",
+     "no": [
+      "devo",
+      "deve"
+     ]
+    },
+    {
+     "q": "Noi ___ compilare il modulo.",
+     "ok": "dobbiamo",
+     "no": [
+      "dovete",
+      "devono"
+     ]
+    },
+    {
+     "q": "All'ufficio dico: ___ un documento?",
+     "ok": "Ha",
+     "no": [
+      "Hai",
+      "Ho"
+     ]
+    },
+    {
+     "q": "Al medico: Come ___?",
+     "ok": "sta",
+     "no": [
+      "stai",
+      "sto"
+     ]
+    },
+    {
+     "q": "Allo sportello: ___ aiutarmi?",
+     "ok": "Può",
+     "no": [
+      "Puoi",
+      "Posso"
+     ]
+    }
+   ],
+   "dlg": [
+    {
+     "who": "B",
+     "t": "Buongiorno. Mi dica."
+    },
+    {
+     "who": "A",
+     "t": "Buongiorno. Ho un appuntamento."
+    },
+    {
+     "who": "B",
+     "t": "Come si chiama?"
+    },
+    {
+     "who": "A",
+     "t": "Mi chiamo Malika."
+    },
+    {
+     "who": "B",
+     "t": "Ha un documento?"
+    },
+    {
+     "who": "A",
+     "t": "Sì, ecco il documento."
+    },
+    {
+     "who": "B",
+     "t": "Compili questo modulo, per favore."
+    },
+    {
+     "who": "A",
+     "t": "Mi scusi, non capisco. Può aiutarmi?"
+    },
+    {
+     "who": "B",
+     "t": "Sì, certo. Scriva qui il nome."
+    }
+   ],
+   "qz": [
+    {
+     "q": "Come si chiama?",
+     "ok": "Mi chiamo Malika.",
+     "no": [
+      "Ho trent'anni.",
+      "Sono tre euro."
+     ]
+    },
+    {
+     "q": "Ha un documento?",
+     "ok": "Sì, ecco il documento.",
+     "no": [
+      "Sono tre euro.",
+      "Ho male alla testa."
+     ]
+    },
+    {
+     "q": "Ha bisogno di aiuto?",
+     "ok": "Sì, per favore, non capisco.",
+     "no": [
+      "Sì, ecco il documento.",
+      "Buonasera, dottore."
+     ]
+    },
+    {
+     "q": "Ha un appuntamento?",
+     "ok": "Sì, ho un appuntamento.",
+     "no": [
+      "Costa due euro.",
+      "Ho la febbre."
+     ]
+    }
+   ],
+   "a": "🙋‍♀️",
+   "b": "👨‍💼",
+   "cz": [
+    {
+     "q": "Devo prendere un ___.",
+     "ok": "appuntamento",
+     "no": [
+      "supermercato",
+      "piede"
+     ]
+    },
+    {
+     "q": "Ho un ___.",
+     "ok": "appuntamento",
+     "no": [
+      "ponte",
+      "riposo"
+     ]
+    },
+    {
+     "q": "Ecco il mio ___.",
+     "ok": "documento",
+     "no": [
+      "cappello",
+      "gatto"
+     ]
+    },
+    {
+     "q": "Mi ___ Malika.",
+     "ok": "chiamo",
+     "no": [
+      "lavoro",
+      "abito"
+     ]
+    }
+   ],
+   "qa": []
+  },
+  {
+   "id": "u11",
+   "name": "Il tempo libero",
+   "emoji": "☕",
+   "words": [
+    {
+     "w": "il caffè",
+     "e": "☕"
+    },
+    {
+     "w": "il tè",
+     "e": "🍵"
+    },
+    {
+     "w": "il succo",
+     "e": "🧃"
+    },
+    {
+     "w": "il menu",
+     "e": "📋"
+    },
+    {
+     "w": "il conto",
+     "e": ""
+    },
+    {
+     "w": "il calcio",
+     "e": "⚽"
+    },
+    {
+     "w": "la musica",
+     "e": "🎵"
+    },
+    {
+     "w": "il cinema",
+     "e": "🎬"
+    }
+   ],
+   "s": [
+    {
+     "e": "☕",
+     "t": "Per me un caffè, grazie."
+    },
+    {
+     "e": "🧾",
+     "t": "Il conto, per favore."
+    }
+   ],
+   "ph": [
+    {
+     "e": "☕",
+     "t": "Per me un caffè, grazie."
+    },
+    {
+     "e": "🧾",
+     "t": "Il conto, per favore."
+    },
+    {
+     "e": "⚽",
+     "t": "Che cosa fai nel tempo libero?"
+    },
+    {
+     "e": "🎵",
+     "t": "Mi piace la musica."
+    }
+   ],
+   "g": [
+    {
+     "h": "Volere e potere",
+     "k": "t",
+     "head": [
+      "",
+      "VOLERE",
+      "POTERE"
+     ],
+     "rows": [
+      [
+       "io",
+       "voglio",
+       "posso"
+      ],
+      [
+       "tu",
+       "vuoi",
+       "puoi"
+      ],
+      [
+       "lei/lui",
+       "vuole",
+       "può"
+      ],
+      [
+       "noi",
+       "vogliamo",
+       "possiamo"
+      ],
+      [
+       "voi",
+       "volete",
+       "potete"
+      ],
+      [
+       "loro",
+       "vogliono",
+       "possono"
+      ]
+     ]
+    },
+    {
+     "h": "Attenzione",
+     "k": "n",
+     "t": "Spesso si dice VORREI al posto di VOGLIO: è più gentile. Vorrei un caffè, per favore."
+    },
+    {
+     "h": "Piacere",
+     "k": "e",
+     "ex": [
+      "Mi piace il caffè.",
+      "Ti piace la musica?"
+     ]
+    }
+   ],
+   "gx": [
+    {
+     "q": "Io ___ un caffè.",
+     "ok": "voglio",
+     "no": [
+      "vuoi",
+      "vuole"
+     ]
+    },
+    {
+     "q": "___ avere un tè? (io)",
+     "ok": "Posso",
+     "no": [
+      "Puoi",
+      "Può"
+     ]
+    },
+    {
+     "q": "Tu ___ un cappuccino?",
+     "ok": "vuoi",
+     "no": [
+      "voglio",
+      "vuole"
+     ]
+    },
+    {
+     "q": "___ un caffè, per favore. (gentile)",
+     "ok": "Vorrei",
+     "no": [
+      "Voglio",
+      "Vuole"
+     ]
+    },
+    {
+     "q": "___ il caffè? (a te)",
+     "ok": "Ti piace",
+     "no": [
+      "Mi piace",
+      "Gli piace"
+     ]
+    },
+    {
+     "q": "Mi ___ il calcio.",
+     "ok": "piace",
+     "no": [
+      "piacciono",
+      "piaci"
+     ]
+    }
+   ],
+   "cz": [
+    {
+     "q": "Per me un ___, grazie.",
+     "ok": "caffè",
+     "no": [
+      "collega",
+      "paese"
+     ]
+    },
+    {
+     "q": "Il ___, per favore.",
+     "ok": "conto",
+     "no": [
+      "ponte",
+      "braccio"
+     ]
+    },
+    {
+     "q": "Mi piace la ___.",
+     "ok": "musica",
+     "no": [
+      "ricevuta",
+      "fabbrica"
+     ]
+    }
+   ],
+   "qa": [
+    {
+     "q": "Che cosa prendi?",
+     "ok": "Un caffè, per favore.",
+     "no": [
+      "Ho trent'anni.",
+      "È a sinistra."
+     ]
+    },
+    {
+     "q": "Che cosa fai nel tempo libero?",
+     "ok": "Gioco a calcio.",
+     "no": [
+      "Ho la febbre.",
+      "Alle nove."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "u13",
+   "name": "Gli appuntamenti",
+   "emoji": "📅",
+   "words": [
+    {
+     "w": "il calendario",
+     "e": "🗓️"
+    },
+    {
+     "w": "l'ora",
+     "e": "🕐"
+    },
+    {
+     "w": "la data",
+     "e": ""
+    },
+    {
+     "w": "lunedì",
+     "e": ""
+    },
+    {
+     "w": "martedì",
+     "e": ""
+    },
+    {
+     "w": "mercoledì",
+     "e": ""
+    },
+    {
+     "w": "giovedì",
+     "e": ""
+    },
+    {
+     "w": "venerdì",
+     "e": ""
+    },
+    {
+     "w": "sabato",
+     "e": ""
+    },
+    {
+     "w": "domenica",
+     "e": ""
+    },
+    {
+     "w": "gennaio",
+     "e": ""
+    },
+    {
+     "w": "febbraio",
+     "e": ""
+    },
+    {
+     "w": "marzo",
+     "e": ""
+    },
+    {
+     "w": "aprile",
+     "e": ""
+    },
+    {
+     "w": "maggio",
+     "e": ""
+    },
+    {
+     "w": "giugno",
+     "e": ""
+    },
+    {
+     "w": "luglio",
+     "e": ""
+    },
+    {
+     "w": "agosto",
+     "e": ""
+    },
+    {
+     "w": "settembre",
+     "e": ""
+    },
+    {
+     "w": "ottobre",
+     "e": ""
+    },
+    {
+     "w": "novembre",
+     "e": ""
+    },
+    {
+     "w": "dicembre",
+     "e": ""
+    },
+    {
+     "w": "mezzogiorno",
+     "e": ""
+    },
+    {
+     "w": "mezzanotte",
+     "e": ""
+    }
+   ],
+   "s": [
+    {
+     "e": "🕐",
+     "t": "A che ora ci vediamo?"
+    },
+    {
+     "e": "📅",
+     "t": "L'appuntamento è martedì alle nove."
+    }
+   ],
+   "ph": [
+    {
+     "e": "🕐",
+     "t": "A che ora ci vediamo?"
+    },
+    {
+     "e": "📅",
+     "t": "L'appuntamento è martedì alle nove."
+    },
+    {
+     "e": "🗓️",
+     "t": "Oggi è lunedì."
+    },
+    {
+     "e": "",
+     "t": "Domani non posso."
+    }
+   ],
+   "g": [
+    {
+     "h": "Espressioni",
+     "k": "e",
+     "ex": [
+      "Che giorno è oggi?",
+      "Oggi è lunedì.",
+      "Quando hai l'appuntamento?",
+      "L'appuntamento è martedì alle nove.",
+      "A che ora?"
+     ]
+    },
+    {
+     "h": "L'ora",
+     "k": "e",
+     "ex": [
+      "all'una",
+      "alle due",
+      "alle nove",
+      "a mezzogiorno",
+      "a mezzanotte",
+      "A che ora hai l'appuntamento?"
+     ]
+    }
+   ],
+   "gx": [
+    {
+     "q": "Che giorno è oggi? Oggi è ___.",
+     "ok": "lunedì",
+     "no": [
+      "gennaio",
+      "alle nove"
+     ]
+    },
+    {
+     "q": "L'appuntamento è ___ una.",
+     "ok": "all'",
+     "no": [
+      "alle",
+      "a"
+     ]
+    },
+    {
+     "q": "L'appuntamento è ___ nove.",
+     "ok": "alle",
+     "no": [
+      "all'",
+      "a"
+     ]
+    },
+    {
+     "q": "___ mezzogiorno mangio.",
+     "ok": "A",
+     "no": [
+      "Alle",
+      "All'"
+     ]
+    },
+    {
+     "q": "Quando hai l'appuntamento? ___",
+     "ok": "Martedì",
+     "no": [
+      "Piove.",
+      "Sono due euro."
+     ]
+    },
+    {
+     "q": "A che ora hai l'appuntamento? ___",
+     "ok": "Alle nove.",
+     "no": [
+      "Martedì.",
+      "Il lunedì."
+     ]
+    }
+   ],
+   "cz": [
+    {
+     "q": "L'___ è martedì alle nove.",
+     "ok": "appuntamento",
+     "no": [
+      "arancia",
+      "estate"
+     ]
+    }
+   ],
+   "qa": [
+    {
+     "q": "Che giorno è oggi?",
+     "ok": "Oggi è lunedì.",
+     "no": [
+      "Alle nove.",
+      "Costa due euro."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "u14",
+   "name": "La famiglia",
+   "emoji": "👨‍👩‍👧",
+   "words": [
+    {
+     "w": "la mamma",
+     "e": "👩"
+    },
+    {
+     "w": "il papà",
+     "e": "👨"
+    },
+    {
+     "w": "il fratello",
+     "e": "👦"
+    },
+    {
+     "w": "la sorella",
+     "e": "👧"
+    },
+    {
+     "w": "il bambino",
+     "e": "🧒"
+    },
+    {
+     "w": "il nonno",
+     "e": "👴"
+    },
+    {
+     "w": "la nonna",
+     "e": "👵"
+    },
+    {
+     "w": "la famiglia",
+     "e": "👨‍👩‍👧"
+    },
+    {
+     "w": "il cane",
+     "e": "🐶"
+    },
+    {
+     "w": "il gatto",
+     "e": "🐱"
+    }
+   ],
+   "s": [
+    {
+     "e": "👦",
+     "t": "Ho due fratelli."
+    },
+    {
+     "e": "👧",
+     "t": "Mia sorella abita a Roma."
+    }
+   ],
+   "ph": [
+    {
+     "e": "👦",
+     "t": "Ho due fratelli."
+    },
+    {
+     "e": "👧",
+     "t": "Mia sorella abita a Roma."
+    },
+    {
+     "e": "👩",
+     "t": "Questa è mia madre."
+    },
+    {
+     "e": "🧒",
+     "t": "Ho un figlio."
+    }
+   ],
+   "g": [
+    {
+     "h": "Possessivi",
+     "k": "t",
+     "head": [
+      "",
+      "M. SING.",
+      "F. SING.",
+      "M. PLUR.",
+      "F. PLUR."
+     ],
+     "rows": [
+      [
+       "io",
+       "mio",
+       "mia",
+       "miei",
+       "mie"
+      ],
+      [
+       "tu",
+       "tuo",
+       "tua",
+       "tuoi",
+       "tue"
+      ],
+      [
+       "lei/lui",
+       "suo",
+       "sua",
+       "suoi",
+       "sue"
+      ],
+      [
+       "noi",
+       "nostro",
+       "nostra",
+       "nostri",
+       "nostre"
+      ],
+      [
+       "voi",
+       "vostro",
+       "vostra",
+       "vostri",
+       "vostre"
+      ],
+      [
+       "loro",
+       "loro",
+       "loro",
+       "loro",
+       "loro"
+      ]
+     ],
+     "cc": [
+      "",
+      "m",
+      "f",
+      "m",
+      "f"
+     ]
+    },
+    {
+     "h": "Attenzione",
+     "k": "n",
+     "t": "Con i familiari al singolare NON si usa l'articolo: mio fratello, mia sorella. Al plurale sì: i miei fratelli."
+    },
+    {
+     "h": "Essere e avere",
+     "k": "t",
+     "head": [
+      "",
+      "ESSERE",
+      "AVERE"
+     ],
+     "rows": [
+      [
+       "io",
+       "sono",
+       "ho"
+      ],
+      [
+       "tu",
+       "sei",
+       "hai"
+      ],
+      [
+       "lei/lui",
+       "è",
+       "ha"
+      ],
+      [
+       "noi",
+       "siamo",
+       "abbiamo"
+      ],
+      [
+       "voi",
+       "siete",
+       "avete"
+      ],
+      [
+       "loro",
+       "sono",
+       "hanno"
+      ]
+     ]
+    }
+   ],
+   "gx": [
+    {
+     "q": "___ fratello è alto. (io)",
+     "ok": "Mio",
+     "no": [
+      "Il mio",
+      "La mia"
+     ]
+    },
+    {
+     "q": "___ sorella abita a Roma. (io)",
+     "ok": "Mia",
+     "no": [
+      "La mia",
+      "Mio"
+     ]
+    },
+    {
+     "q": "I ___ figli sono piccoli. (io)",
+     "ok": "miei",
+     "no": [
+      "mio",
+      "mie"
+     ]
+    },
+    {
+     "q": "Questa è ___ madre. (tu)",
+     "ok": "tua",
+     "no": [
+      "tuo",
+      "tue"
+     ]
+    },
+    {
+     "q": "Io ___ due fratelli.",
+     "ok": "ho",
+     "no": [
+      "sono",
+      "ha"
+     ]
+    },
+    {
+     "q": "Lei ___ di Roma.",
+     "ok": "è",
+     "no": [
+      "ha",
+      "sono"
+     ]
+    },
+    {
+     "q": "Noi ___ stanchi.",
+     "ok": "siamo",
+     "no": [
+      "abbiamo",
+      "sono"
+     ]
+    },
+    {
+     "q": "Tu ___ un figlio?",
+     "ok": "hai",
+     "no": [
+      "sei",
+      "ha"
+     ]
+    }
+   ],
+   "cz": [
+    {
+     "q": "Mia ___ abita a Roma.",
+     "ok": "sorella",
+     "no": [
+      "pioggia",
+      "carne"
+     ]
+    }
+   ],
+   "qa": [
+    {
+     "q": "Hai fratelli?",
+     "ok": "Sì, ho due fratelli.",
+     "no": [
+      "Vado in autobus.",
+      "Alle nove."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "u15",
+   "name": "La natura",
+   "emoji": "🌦️",
+   "words": [
+    {
+     "w": "il sole",
+     "e": "☀️"
+    },
+    {
+     "w": "la pioggia",
+     "e": "🌧️"
+    },
+    {
+     "w": "il vento",
+     "e": "💨"
+    },
+    {
+     "w": "la neve",
+     "e": "❄️"
+    },
+    {
+     "w": "il caldo",
+     "e": "🥵"
+    },
+    {
+     "w": "il freddo",
+     "e": "🥶"
+    },
+    {
+     "w": "la nuvola",
+     "e": "☁️"
+    },
+    {
+     "w": "la primavera",
+     "e": "🌷"
+    },
+    {
+     "w": "l'estate",
+     "e": "🏖️"
+    },
+    {
+     "w": "l'autunno",
+     "e": "🍂"
+    },
+    {
+     "w": "l'inverno",
+     "e": "☃️"
+    },
+    {
+     "w": "il mare",
+     "e": "🌊"
+    },
+    {
+     "w": "la montagna",
+     "e": "⛰️"
+    },
+    {
+     "w": "il lago",
+     "e": ""
+    },
+    {
+     "w": "il fiume",
+     "e": ""
+    }
+   ],
+   "s": [
+    {
+     "e": "🥶",
+     "t": "Oggi fa freddo."
+    },
+    {
+     "e": "🌊",
+     "t": "In estate vado al mare."
+    }
+   ],
+   "ph": [
+    {
+     "e": "🥶",
+     "t": "Oggi fa freddo."
+    },
+    {
+     "e": "🌊",
+     "t": "In estate vado al mare."
+    },
+    {
+     "e": "🌧️",
+     "t": "Piove."
+    },
+    {
+     "e": "☀️",
+     "t": "C'è il sole."
+    }
+   ],
+   "g": [
+    {
+     "h": "Essere e avere",
+     "k": "t",
+     "head": [
+      "",
+      "ESSERE",
+      "AVERE"
+     ],
+     "rows": [
+      [
+       "io",
+       "sono",
+       "ho"
+      ],
+      [
+       "tu",
+       "sei",
+       "hai"
+      ],
+      [
+       "lei/lui",
+       "è",
+       "ha"
+      ],
+      [
+       "noi",
+       "siamo",
+       "abbiamo"
+      ],
+      [
+       "voi",
+       "siete",
+       "avete"
+      ],
+      [
+       "loro",
+       "sono",
+       "hanno"
+      ]
+     ]
+    },
+    {
+     "h": "C'è / ci sono",
+     "k": "e",
+     "ex": [
+      "C'è una stazione.",
+      "Ci sono due fermate."
+     ]
+    },
+    {
+     "h": "Come si usa",
+     "k": "n",
+     "t": "C'È + singolare. CI SONO + plurale."
+    },
+    {
+     "h": "Espressioni",
+     "k": "e",
+     "ex": [
+      "C'è il sole - È sereno",
+      "C'è la pioggia - Piove",
+      "Ci sono le nuvole - È nuvoloso",
+      "C'è la neve - Nevica",
+      "In primavera, in estate, in autunno, in inverno",
+      "Vado al mare, in montagna, al lago"
+     ]
+    }
+   ],
+   "gx": [
+    {
+     "q": "🌧️",
+     "ok": "C'è la pioggia.",
+     "no": [
+      "C'è la piove.",
+      "Piova."
+     ]
+    },
+    {
+     "q": "☀️",
+     "ok": "C'è il sole.",
+     "no": [
+      "C'è il solare.",
+      "Sole c'è."
+     ]
+    },
+    {
+     "q": "☁️",
+     "ok": "Ci sono le nuvole.",
+     "no": [
+      "C'è le nuvole.",
+      "Nuvola ci sono."
+     ]
+    },
+    {
+     "q": "❄️",
+     "ok": "C'è la neve.",
+     "no": [
+      "Ci sono neve.",
+      "Nevi c'è."
+     ]
+    },
+    {
+     "q": "🥶",
+     "ok": "Fa freddo.",
+     "no": [
+      "Fai freddo.",
+      "Faccio freddo."
+     ]
+    },
+    {
+     "q": "Oggi ___ freddo.",
+     "ok": "fa",
+     "no": [
+      "è",
+      "ha"
+     ]
+    },
+    {
+     "q": "Io ___ freddo.",
+     "ok": "ho",
+     "no": [
+      "sono",
+      "faccio"
+     ]
+    },
+    {
+     "q": "In ___ vado al mare. (caldo)",
+     "ok": "estate",
+     "no": [
+      "inverno",
+      "autunno"
+     ]
+    }
+   ],
+   "cz": [
+    {
+     "q": "Oggi fa ___.",
+     "ok": "freddo",
+     "no": [
+      "braccio",
+      "cane"
+     ]
+    },
+    {
+     "q": "In estate vado al ___.",
+     "ok": "mare",
+     "no": [
+      "telefono",
+      "tè"
+     ]
+    },
+    {
+     "q": "C'è il ___.",
+     "ok": "sole",
+     "no": [
+      "fratello",
+      "specchio"
+     ]
+    }
+   ],
+   "qa": [
+    {
+     "q": "Che tempo fa?",
+     "ok": "Fa freddo.",
+     "no": [
+      "Mi chiamo Ali.",
+      "Alle nove."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "u12",
+   "name": "la strada",
+   "emoji": "🛣️",
+   "words": [
+    {
+     "w": "la strada",
+     "e": "🛣️"
+    },
+    {
+     "w": "il semaforo",
+     "e": "🚦"
+    },
+    {
+     "w": "le strisce pedonali",
+     "e": ""
+    },
+    {
+     "w": "il cartello",
+     "e": "🪧"
+    },
+    {
+     "w": "il ponte",
+     "e": "🌉"
+    },
+    {
+     "w": "la rotonda",
+     "e": ""
+    },
+    {
+     "w": "il pedone",
+     "e": "🚶"
+    },
+    {
+     "w": "la fermata",
+     "e": "🚏"
+    },
+    {
+     "w": "il marciapiede",
+     "e": ""
+    }
+   ],
+   "s": [
+    {
+     "t": "Il semaforo è rosso.",
+     "e": "🚦"
+    },
+    {
+     "t": "Aspetto alla fermata dell'autobus.",
+     "e": "🚏"
+    }
+   ],
+   "ph": [
+    {
+     "e": "⬆️",
+     "t": "Vai sempre diritto."
+    },
+    {
+     "e": "⬅️",
+     "t": "Gira a sinistra al semaforo."
+    },
+    {
+     "e": "➡️",
+     "t": "Gira a destra."
+    }
+   ],
+   "g": [
+    {
+     "h": "Imperativo",
+     "k": "t",
+     "head": [
+      "",
+      "-ARE girare",
+      "-ERE prendere",
+      "-IRE seguire"
+     ],
+     "rows": [
+      [
+       "tu",
+       "gira",
+       "prendi",
+       "segui"
+      ],
+      [
+       "voi",
+       "girate",
+       "prendete",
+       "seguite"
+      ]
+     ]
+    },
+    {
+     "h": "Quando si usa",
+     "k": "n",
+     "t": "L'imperativo si usa per dare istruzioni, consigli e indicazioni: Gira a destra! Prendi l'autobus! Si usa anche per chiedere o dire qualcosa agli amici: Vieni qui! Ascolta!"
+    },
+    {
+     "h": "Imperativi irregolari",
+     "k": "t",
+     "head": [
+      "",
+      "TU",
+      "VOI"
+     ],
+     "rows": [
+      [
+       "andare",
+       "vai",
+       "andate"
+      ],
+      [
+       "fare",
+       "fai",
+       "fate"
+      ],
+      [
+       "dire",
+       "di'",
+       "dite"
+      ]
+     ]
+    },
+    {
+     "h": "Luogo",
+     "k": "e",
+     "ex": [
+      "a destra",
+      "a sinistra",
+      "diritto",
+      "di fronte a",
+      "davanti a",
+      "dietro a"
+     ]
+    }
+   ],
+   "gx": [
+    {
+     "q": "(girare) ___ a destra! (tu)",
+     "ok": "Gira",
+     "no": [
+      "Giri",
+      "Girate"
+     ]
+    },
+    {
+     "q": "(continuare) ___ diritto! (tu)",
+     "ok": "Continua",
+     "no": [
+      "Continui",
+      "Continuate"
+     ]
+    },
+    {
+     "q": "(prendere) ___ la prima strada. (tu)",
+     "ok": "Prendi",
+     "no": [
+      "Prende",
+      "Prendo"
+     ]
+    },
+    {
+     "q": "(seguire) ___ questa strada. (tu)",
+     "ok": "Segui",
+     "no": [
+      "Seguo",
+      "Segue"
+     ]
+    },
+    {
+     "q": "(andare) ___ al semaforo! (tu)",
+     "ok": "Vai",
+     "no": [
+      "Va",
+      "Vado"
+     ]
+    },
+    {
+     "q": "La banca è ___ alla scuola.",
+     "ok": "di fronte",
+     "no": [
+      "lontano",
+      "dietro"
+     ]
+    },
+    {
+     "q": "(girare) ___ a sinistra! (voi)",
+     "ok": "Girate",
+     "no": [
+      "Gira",
+      "Girano"
+     ]
+    }
+   ],
+   "cz": [
+    {
+     "q": "Gira a sinistra al ___.",
+     "ok": "semaforo",
+     "no": [
+      "succo",
+      "vestito"
+     ]
+    },
+    {
+     "q": "Il ___ è rosso.",
+     "ok": "semaforo",
+     "no": [
+      "freddo",
+      "conto"
+     ]
+    },
+    {
+     "q": "Aspetto alla fermata dell'___.",
+     "ok": "autobus",
+     "no": [
+      "orario",
+      "ora"
+     ]
+    }
+   ],
+   "qa": [
+    {
+     "q": "Dov'è la banca?",
+     "ok": "Vai sempre diritto.",
+     "no": [
+      "Ho la febbre.",
+      "Mi chiamo Ali."
+     ]
+    }
+   ]
+  }
+ ]
+}
