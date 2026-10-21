@@ -46,6 +46,7 @@ button{font:inherit;color:inherit;cursor:pointer;border:0;border-radius:16px;tex
 .mg{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-bottom:12px}.mc{min-height:96px;padding:2px;border-radius:14px;border:2px solid var(--bd);background:var(--pri);color:#fff;font-size:34px;font-weight:700;display:flex;align-items:center;justify-content:center;text-align:center;line-height:1.1;overflow-wrap:anywhere}.mc.up{background:var(--card);color:var(--tx)}.mc.ok{background:var(--ok);color:#fff;border-color:var(--ok)}
 .card:disabled,.btn:disabled{opacity:.4}
 .cm{color:#1c7ed6;font-weight:700}.cf{color:#e03131;font-weight:700}.cg{color:#2f9e44;font-weight:700}.ce{color:#e03131;font-weight:700}.ci{color:#1c7ed6;font-weight:700}
+.pi{height:1em;width:1em;object-fit:contain;vertical-align:middle;border-radius:.12em}
 .gt{border-collapse:collapse;width:100%;font-size:16px;margin-top:8px}.gt th,.gt td{border:1px solid var(--bd);padding:6px 8px;text-align:left}.gt th{background:var(--pri);color:#fff;font-size:12px}.gt td:first-child{font-weight:700;color:var(--mut)}.gt td[data-t]{cursor:pointer}
 .ed textarea{font:inherit;font-size:16px;color:var(--tx);background:var(--card);border:2px solid var(--bd);border-radius:12px;padding:10px;width:100%;min-height:150px;margin-bottom:10px}
 </style></head>
@@ -85,7 +86,7 @@ function render(){
   <div class="tabs">${SUB.map(([k,n])=>`<button class="${T===k?'on':''}" style="padding:8px 0;font-size:10px" onclick="lt('${l.id}','${B}','${k}')">${n}</button>`).join('')}</div>`;
   if(B==='g')h+=T==='gx'?gxW(l):gramW(l);
   else if(B==='w')h+=T==='learn'?gridW(l):quiz(l);
-  else if(B==='f')h+=T==='learn'?phrW(l):T==='write'?sent(l,F(l)):T==='read'?gxW(l,[...(l.cz||[]),...(l.qa||[])],'fr'):quiz(l,F(l).map(x=>({w:x.t,e:x.e})));
+  else if(B==='f')h+=T==='learn'?phrW(l):T==='write'?sent(l,F(l)):T==='read'?gxW(l,[...(l.cz||[]),...(l.qa||[])],'fr'):quiz(l,F(l).map(x=>({w:x.t,e:x.e,i:x.i})));
   else h+=T==='learn'?dlgW(l):T==='write'?sent(l,(l.dlg||[]).filter(x=>x.who==='A').map(x=>({t:x.t,e:l.a||'🙋'})),1):dq(l);
   app.innerHTML=h;
 }
@@ -102,13 +103,13 @@ function words(){
   <div class="grid">${VL().map(l=>`<button class="card" onclick="go('lesson','${l.id}')" ${l.hid?'style="opacity:.5"':''}><span class="e">${esc(l.emoji)}</span><span class="w">${l.hid?'🔒 ':''}${esc(l.name)}</span><span class="stars" style="color:#f59f00">${stars(p[l.id+'whear']&&p[l.id+'wread']&&p[l.id+'wwrite']?Math.min(p[l.id+'whear'],p[l.id+'wread'],p[l.id+'wwrite']):0)}</span></button>`).join('')}</div>`;
 }
 function quiz(l,src){
-  const ew=uq((src||l.words).filter(w=>(w.e||'').trim()));if(ew.length<3)return '<p class="note" style="text-align:center">Presto!</p>';
+  const ew=uq((src||l.words).filter(w=>(w.e||w.i||'').trim()));if(ew.length<3)return '<p class="note" style="text-align:center">Presto!</p>';
   if(!Q||Q.k!==V.b+V.t+l.id)Q={k:V.b+V.t+l.id,qs:shuf(ew).slice(0,10),i:0,ok:0,tried:false};
   if(Q.i>=Q.qs.length){const pc=Q.ok/Q.qs.length,s=pc>=.9?3:pc>=.6?2:1;save(l.id+V.b+V.t,s);
     return `<div class="q"><div class="big">${s>1?'🎉':'💪'}</div><h1>${Q.ok} / ${Q.qs.length}</h1><div class="stars" style="color:#f59f00;font-size:40px">${stars(s)}</div><p><button class="btn" onclick="Q=null;render()">🔁 Ancora</button></p></div>`}
   const w=Q.qs[Q.i];
   if(V.t==='write'){setTimeout(()=>speak(w.w),300);return `<div class="q"><div class="bar"><i style="width:${Q.i/Q.qs.length*100}%"></i></div>
-  <div class="big" style="font-size:90px">${esc(w.e)}</div>
+  <div class="big" style="font-size:90px">${pic(w)}</div>
   <button class="btn g" onclick="speak(Q.qs[Q.i].w)">🔊</button>
   <div class="hint" id="hint">${esc(w.w.replace(/[^ ']/g,'_'))}</div>
   <input class="wi" id="wi" autocomplete="off" autocapitalize="characters" autocorrect="off" spellcheck="false" onkeydown="if(event.key==='Enter')chk()">
@@ -118,8 +119,8 @@ function quiz(l,src){
   const hear=V.t==='hear';
   if(hear)setTimeout(()=>speak(w.w),300);
   return `<div class="q"><div class="bar"><i style="width:${Q.i/Q.qs.length*100}%"></i></div>
-  ${hear?`<button class="spk" onclick="speak(Q.qs[Q.i].w)">🔊</button>`:`<div class="big">${esc(w.e)}</div>`}
-  <div class="grid" style="${V.b==='f'?'grid-template-columns:1fr':''}">${Q.opts.map((o,i)=>`<button class="card opt" id="o${i}" onclick="pick(${i})">${hear?`<span class="e">${esc(o.e)}</span>`:`<span class="w">${esc(o.w)}</span>`}</button>`).join('')}</div>${skipBtn()}</div>`;
+  ${hear?`<button class="spk" onclick="speak(Q.qs[Q.i].w)">🔊</button>`:`<div class="big">${pic(w)}</div>`}
+  <div class="grid" style="${V.b==='f'?'grid-template-columns:1fr':''}">${Q.opts.map((o,i)=>`<button class="card opt" id="o${i}" onclick="pick(${i})">${hear?`<span class="e">${pic(o)}</span>`:`<span class="w">${esc(o.w)}</span>`}</button>`).join('')}</div>${skipBtn()}</div>`;
 }
 function pick(i){
   const w=Q.qs[Q.i],b=document.getElementById('o'+i);
@@ -138,7 +139,7 @@ function sent(l,S,onlyW){
   if(!S.length)return '<p class="note" style="text-align:center">Presto ci saranno le frasi!</p>';
   if(!Q||Q.k!=='s'+V.b+l.id)Q={k:'s'+V.b+l.id,qs:shuf(onlyW?S.map(x=>({x,ph:1})):S.flatMap(x=>[{x,ph:0},{x,ph:1}])).slice(0,10),i:0,ok:0,tried:false,pk:[],bank:null};
   if(Q.i>=Q.qs.length)return endW(l.id+V.b+'sent');
-  const {x,ph}=Q.qs[Q.i],bar=`<div class="bar"><i style="width:${Q.i/Q.qs.length*100}%"></i></div>`,top=`${bar}<div class="big" style="font-size:80px">${esc(x.e)}</div><button class="btn g" onclick="speak(Q.qs[Q.i].x.t)">🔊</button>`;
+  const {x,ph}=Q.qs[Q.i],bar=`<div class="bar"><i style="width:${Q.i/Q.qs.length*100}%"></i></div>`,top=`${bar}<div class="big" style="font-size:80px">${pic(x)}</div><button class="btn g" onclick="speak(Q.qs[Q.i].x.t)">🔊</button>`;
   if(ph===0){
     if(!Q.bank)Q.bank=shuf(x.t.split(' ').map(w=>({w})));
     return `<div class="q">${top}
@@ -193,7 +194,7 @@ function hang(){
   app.innerHTML=`<div class="top"><button class="btn g" onclick="go('games')">⬅️</button><h1>🔠 Impiccato</h1><span class="stars" style="color:#f59f00">⭐ ${H.w}</span></div>
   <div class="q">  <div class="hw">${shown}</div>
   <div class="lives">${'❤️'.repeat(MAXE-H.m)}${'🖤'.repeat(H.m)}</div>
-  ${H.done?`<h1 style="margin:8px 0">${won?'🎉 Bravo!':'💪 Riprova!'}</h1>${won&&x.e?`<div class="big" style="font-size:80px;margin:4px 0">${esc(x.e)}</div>`:''}<p style="font-size:26px;font-weight:700;margin:4px 0">${esc(x.w)}</p><button class="btn" style="width:100%;margin:8px 0 14px" onclick="hnext()">➡️ Prossima parola</button>`:''}
+  ${H.done?`<h1 style="margin:8px 0">${won?'🎉 Bravo!':'💪 Riprova!'}</h1>${won&&(x.e||x.i)?`<div class="big" style="font-size:80px;margin:4px 0">${pic(x)}</div>`:''}<p style="font-size:26px;font-weight:700;margin:4px 0">${esc(x.w)}</p><button class="btn" style="width:100%;margin:8px 0 14px" onclick="hnext()">➡️ Prossima parola</button>`:''}
   <div class="kb">${keys}</div>${H.done?'':`<button class="btn g" style="width:100%;margin-top:14px" onclick="hnext()">⏭️ Salta</button>`}</div>`;
 }
 function hg(c){if(H.done||H.g.includes(c))return;const x=H.q[H.i%H.q.length],WB=[...bare(x.w)].map(base);
@@ -207,7 +208,7 @@ function mpick(){app.innerHTML=`<div class="top"><button class="btn g" onclick="
   <p class="note">Scegli le parole:</p>
   <div class="grid"><button class="card" onclick="mstart('all')"><span class="e">🌍</span><span class="w">Tutte</span></button>${D.lessons.map(l=>`<button class="card" onclick="mstart('${l.id}')"><span class="e">${esc(l.emoji)}</span><span class="w">${esc(l.name)}</span></button>`).join('')}</div>`}
 function mstart(id){V={p:'memory',id};M={id,w:0};mdeal()}
-function mdeal(){const pool=(M.id==='all'?VL().flatMap(l=>l.words):(D.lessons.find(l=>l.id===M.id)||{words:[]}).words).filter(w=>(w.e||'').trim());
+function mdeal(){const pool=(M.id==='all'?VL().flatMap(l=>l.words):(D.lessons.find(l=>l.id===M.id)||{words:[]}).words).filter(w=>(w.e||w.i||'').trim());
   if(pool.length<2)return;
   const pick=shuf(pool).slice(0,6);
   M.cards=shuf(pick.flatMap((x,i)=>[{k:i,t:'e',x},{k:i,t:'w',x}]));
@@ -217,7 +218,7 @@ function memory(){
   const win=M.ok.length===M.cards.length;
   app.innerHTML=`<div class="top"><button class="btn g" onclick="go('games')">⬅️</button><h1>🃏 Memory</h1><span class="stars" style="color:#f59f00">⭐ ${M.w}</span></div>
   <div class="q"><div class="mg">${M.cards.map((c,i)=>{const ok=M.ok.includes(i),up=M.open.includes(i);
-    return `<button class="mc ${ok?'ok':up?'up':''}" onclick="mt(${i})">${!(ok||up)?'❓':c.t==='e'?`<span style="font-size:46px">${esc(c.x.e)}</span>`:`<span style="font-size:${c.x.w.length>11?11:c.x.w.length>8?13:16}px">${esc(c.x.w)}</span>`}</button>`}).join('')}</div>
+    return `<button class="mc ${ok?'ok':up?'up':''}" onclick="mt(${i})">${!(ok||up)?'❓':c.t==='e'?`<span style="font-size:46px">${pic(c.x)}</span>`:`<span style="font-size:${c.x.w.length>11?11:c.x.w.length>8?13:16}px">${esc(c.x.w)}</span>`}</button>`}).join('')}</div>
   ${win?`<h1 style="margin:8px 0">🎉 Bravo!</h1><p class="note">${M.moves} tentativi</p><button class="btn" style="width:100%" onclick="mdeal()">🔁 Altra partita</button>`:`<p class="note">Tentativi: ${M.moves}</p>`}
   <button class="btn g" style="width:100%;margin-top:14px" onclick="mdeal()">⏭️ Salta</button></div>`}
 function mt(i){if(!M||M.busy||M.ok.includes(i)||M.open.includes(i))return;
@@ -241,7 +242,7 @@ function scene(){const s=SC();if(!s)return go('scenes');
   let h=`<div class="top"><button class="btn g" onclick="go('scenes')">⬅️</button><h1>${esc(s.emoji)} ${esc(s.name)}</h1></div>
   <div class="tabs">${[['listen','👂<br>Ascolta'],['talk','🗣️<br>Tocca a te'],['phr','💬<br>Frasi utili']].map(([k,n])=>`<button class="${V.t===k?'on':''}" onclick="go('scene','${s.id}','${k}')">${n}</button>`).join('')}</div>`;
   if(V.t==='listen')h+=`<button class="btn" style="width:100%;margin-bottom:14px" onclick="seq(SC().dlg)">▶️ Ascolta tutto</button>`+(s.dlg||[]).map((l,i)=>`<div style="display:flex;gap:8px;margin-bottom:10px;align-items:center;${l.who==='A'?'flex-direction:row-reverse':''}"><span style="font-size:34px">${l.who==='A'?esc(s.a||'🙋'):esc(s.b||'🧑')}</span><button class="card" style="width:auto;min-height:0;max-width:78%;padding:12px 14px;text-align:left;align-items:flex-start;${l.who==='A'?'background:var(--pri);color:#fff;border-color:var(--pri)':''}" onclick="seq([SC().dlg[${i}]])"><span class="w" style="font-weight:600">${esc(l.t)}</span></button></div>`).join('');
-  else if(V.t==='phr')h+=`<div class="grid" style="grid-template-columns:1fr">${(s.phr||[]).map((x,i)=>`<button class="card" style="flex-direction:row;gap:14px;min-height:80px;justify-content:flex-start;padding:12px 16px;text-align:left" onclick="speak(SC().phr[${i}].t)"><span class="e" style="font-size:44px">${esc(x.e)}</span><span class="w" style="flex:1">${esc(x.t)}</span><span>🔊</span></button>`).join('')}</div>`;
+  else if(V.t==='phr')h+=`<div class="grid" style="grid-template-columns:1fr">${(s.phr||[]).map((x,i)=>`<button class="card" style="flex-direction:row;gap:14px;min-height:80px;justify-content:flex-start;padding:12px 16px;text-align:left" onclick="speak(SC().phr[${i}].t)"><span class="e" style="font-size:44px">${pic(x)}</span><span class="w" style="flex:1">${esc(x.t)}</span><span>🔊</span></button>`).join('')}</div>`;
   else h+=stalk(s);
   app.innerHTML=h}
 function stalk(s){const qz=s.qz||[];if(!qz.length)return '<p class="note" style="text-align:center">Presto!</p>';
@@ -281,16 +282,16 @@ function addS(){D.scenes=D.scenes||[];const s={id:'s'+Date.now(),name:'Nuova sit
 function delS(){if(!confirm('Eliminare questa situazione?'))return;D.scenes=D.scenes.filter(x=>x.id!==V.id);go('edit')}
 let FI=null;
 function gridW(l){const n=l.words.length;
-  return `<div class="grid">${l.words.map((w,i)=>`<button class="card" ${(n%2&&i===n-1)?'style="grid-column:1/-1"':''} onclick="speak(L().words[${i}].w)"><span class="e">${esc(w.e)}</span><span class="w">${esc(w.w)}</span><span class="s">🔊</span></button>`).join('')}</div>`}
+  return `<div class="grid">${l.words.map((w,i)=>`<button class="card" ${(n%2&&i===n-1)?'style="grid-column:1/-1"':''} onclick="speak(L().words[${i}].w)"><span class="e">${pic(w)}</span><span class="w">${esc(w.w)}</span><span class="s">🔊</span></button>`).join('')}</div>`}
 function bigW(l){const n=l.words.length,w=l.words[FI];
-  return `<div class="q"><button class="card" style="min-height:280px" onclick="speak(L().words[FI].w)">${w.e?`<span class="e" style="font-size:110px">${esc(w.e)}</span>`:''}<span class="w" style="font-size:32px">${esc(w.w)}</span><span class="s">🔊</span></button>
+  return `<div class="q"><button class="card" style="min-height:280px" onclick="speak(L().words[FI].w)">${w.e?`<span class="e" style="font-size:110px">${pic(w)}</span>`:''}<span class="w" style="font-size:32px">${esc(w.w)}</span><span class="s">🔊</span></button>
   <div style="display:flex;gap:10px;margin-top:14px"><button class="btn g" style="flex:1" onclick="fnav(-1)" ${FI===0?'disabled':''}>⬅️ Indietro</button><button class="btn" style="flex:1" onclick="fnav(1)" ${FI===n-1?'disabled':''}>Avanti ➡️</button></div>
   <p class="note">${FI+1} / ${n}</p>
   <button class="btn g" style="width:100%" onclick="FI=null;render()">▦ Tutte le parole</button></div>`}
 function foc(i){FI=i;speak(L().words[i].w);render()}
 function fnav(d){const n=L().words.length;FI=Math.max(0,Math.min(n-1,FI+d));speak(L().words[FI].w);render()}
 function phrW(l){const a=F(l);if(!a.length)return '<p class="note" style="text-align:center">Presto!</p>';
-  return `<div class="grid" style="grid-template-columns:1fr">${a.map(x=>`<button class="card" style="flex-direction:row;gap:14px;min-height:80px;justify-content:flex-start;padding:12px 16px;text-align:left" data-t="${esc(x.t)}" onclick="speak(this.dataset.t)"><span class="e" style="font-size:44px">${esc(x.e)}</span><span class="w" style="flex:1">${esc(x.t)}</span><span>🔊</span></button>`).join('')}</div>`}
+  return `<div class="grid" style="grid-template-columns:1fr">${a.map(x=>`<button class="card" style="flex-direction:row;gap:14px;min-height:80px;justify-content:flex-start;padding:12px 16px;text-align:left" data-t="${esc(x.t)}" onclick="speak(this.dataset.t)"><span class="e" style="font-size:44px">${pic(x)}</span><span class="w" style="flex:1">${esc(x.t)}</span><span>🔊</span></button>`).join('')}</div>`}
 const PRON=['io','tu','lei/lui','noi','voi','loro'];
 const cl=c=>c==='m'?' class="cm"':c==='f'?' class="cf"':'';
 const pc=(c,g)=>g.pr&&c.includes(' ')?`<b style="color:var(--pri)">${esc(c.split(' ')[0])}</b> ${esc(c.split(' ').slice(1).join(' '))}`:esc(c);
@@ -303,7 +304,8 @@ function gramW(l){const a=l.g||[];if(!a.length)return '<p class="note" style="te
 function pPh(v){L().ph=v.split('\n').filter(l=>l.includes('|')).map(l=>{const [e,...r]=l.split('|');return{e:e.trim(),t:r.join('|').trim()}})}
 function pG(v){L().g=v.split('\n').map(l=>l.split('|').map(x=>x.trim())).filter(a=>a[0]&&a.length>1).map(a=>({h:a[0],ex:a.slice(1).filter(Boolean)}))}
 const F=l=>{const seen=new Set();return [...(l.ph||[]),...(l.s||[])].filter(x=>x.t&&!seen.has(x.t)&&seen.add(x.t))};
-const uq=a=>{const seen=new Set();return a.filter(x=>!seen.has(x.e)&&seen.add(x.e))};
+const pic=x=>x.i?`<img class="pi" alt="" src="img/${encodeURI(x.i)}">`:esc(x.e);
+const uq=a=>{const seen=new Set();return a.filter(x=>!seen.has(x.i||x.e)&&seen.add(x.i||x.e))};
 function lt(id,b,t){V={p:'lesson',id,b,t};Q=null;H=null;M=null;FI=null;SEQ++;try{speechSynthesis.cancel()}catch(e){}render()}
 function dlgW(l){const dl=l.dlg||[];if(!dl.length)return '<p class="note" style="text-align:center">Presto!</p>';
   return `<button class="btn" style="width:100%;margin-bottom:14px" onclick="seq(L().dlg)">▶️ Ascolta tutto</button>`+dl.map((x,i)=>`<div style="display:flex;gap:8px;margin-bottom:10px;align-items:center;${x.who==='A'?'flex-direction:row-reverse':''}"><span style="font-size:34px">${x.who==='A'?esc(l.a||'🙋'):esc(l.b||'🧑')}</span><button class="card" style="width:auto;min-height:0;max-width:78%;padding:12px 14px;text-align:left;align-items:flex-start;${x.who==='A'?'background:var(--pri);color:#fff;border-color:var(--pri)':''}" onclick="seq([L().dlg[${i}]])"><span class="w" style="font-weight:600">${esc(x.t)}</span></button></div>`).join('')}
@@ -327,17 +329,17 @@ function edit(){
   <div class="row"><input class="em" value="${esc(l.emoji)}" onchange="L().emoji=this.value;dirty=1"><input value="${esc(l.name)}" placeholder="Nome lezione" onchange="L().name=this.value;dirty=1"><button onclick="delL()">🗑️</button></div>
   <label style="display:flex;gap:12px;align-items:center;margin:10px 0;font-size:18px"><input type="checkbox" ${l.hid?'':'checked'} style="width:28px;height:28px;flex:none" onchange="L().hid=!this.checked"> 👁️ Visibile agli studenti</label>
   <p class="note">Parole (emoji + italiano, con articolo):</p>
-  ${l.words.map((w,i)=>`<div class="row"><input class="em" value="${esc(w.e)}" onchange="L().words[${i}].e=this.value;dirty=1"><input value="${esc(w.w)}" onchange="L().words[${i}].w=this.value;dirty=1"><button onclick="L().words.splice(${i},1);dirty=1;edit()">✖</button></div>`).join('')}
+  ${l.words.map((w,i)=>`<div class="row"><input class="em" value="${esc(w.e)}" onchange="L().words[${i}].e=this.value;dirty=1"><input value="${esc(w.w)}" onchange="L().words[${i}].w=this.value;dirty=1"><input class="em" style="width:100px;font-size:14px" placeholder="foto.jpg" value="${esc(w.i||'')}" onchange="L().words[${i}].i=this.value.trim();dirty=1"><button onclick="L().words.splice(${i},1);dirty=1;edit()">✖</button></div>`).join('')}
   <button class="btn g" style="width:100%;margin:6px 0 16px" onclick="L().words.push({w:'',e:'🙂'});dirty=1;edit()">➕ Aggiungi parola</button>
   <p class="note">Frasi brevi (emoji + frase):</p>
-  ${(l.s=l.s||[]).map((x,i)=>`<div class="row"><input class="em" value="${esc(x.e)}" onchange="L().s[${i}].e=this.value;dirty=1"><input value="${esc(x.t)}" onchange="L().s[${i}].t=this.value;dirty=1"><button onclick="L().s.splice(${i},1);dirty=1;edit()">✖</button></div>`).join('')}
+  ${(l.s=l.s||[]).map((x,i)=>`<div class="row"><input class="em" value="${esc(x.e)}" onchange="L().s[${i}].e=this.value;dirty=1"><input value="${esc(x.t)}" onchange="L().s[${i}].t=this.value;dirty=1"><input class="em" style="width:100px;font-size:14px" placeholder="foto.jpg" value="${esc(x.i||'')}" onchange="L().s[${i}].i=this.value.trim();dirty=1"><button onclick="L().s.splice(${i},1);dirty=1;edit()">✖</button></div>`).join('')}
   <button class="btn g" style="width:100%;margin:6px 0 16px" onclick="L().s.push({t:'',e:'🙂'});dirty=1;edit()">➕ Aggiungi frase</button>
   <p class="note">Frasi utili (emoji | frase):</p>
   <textarea onchange="pPh(this.value)">${esc((l.ph||[]).map(x=>x.e+' | '+x.t).join('\n'))}</textarea>
   <p class="note">Grammatica ed esercizi: scrivimeli in chat e li aggiorno io.</p>
   <p class="note">Dialoghi, grammatica ed esercizi: scrivimeli in chat e li aggiorno io.</p>
   <button class="btn" style="width:100%" onclick="pub()">💾 Scarica contenuti.json</button>
-  <p class="note" id="msg">Le modifiche diventano visibili agli studenti solo dopo aver caricato su GitHub il file scaricato. Per le emoji usa la tastiera del telefono.</p></div>`;
+  <p class="note" id="msg">Le modifiche diventano visibili agli studenti solo dopo aver caricato su GitHub il file scaricato. Per le emoji usa la tastiera. Per una foto, scrivi il nome del file (cartella img) nella casella a destra.</p></div>`;
 }
 function addL(){const l={id:'l'+Date.now(),name:'Nuova lezione',emoji:'📘',words:[]};D.lessons.push(l);V.id=l.id;dirty=1;edit()}
 function delL(){if(!confirm('Eliminare questa lezione?'))return;D.lessons=D.lessons.filter(x=>x.id!==V.id);V.id=null;dirty=1;edit()}
