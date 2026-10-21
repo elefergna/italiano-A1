@@ -8,23 +8,28 @@
    "words": [
     {
      "w": "il nome",
-     "e": ""
+     "e": "",
+     "i": "nome"
     },
     {
      "w": "il cognome",
-     "e": ""
+     "e": "",
+     "i": "cognome"
     },
     {
      "w": "l'età",
-     "e": ""
+     "e": "",
+     "i": "età"
     },
     {
      "w": "il Paese",
-     "e": "🌍"
+     "e": "🌍",
+     "i": "paese"
     },
     {
      "w": "la lingua",
-     "e": "🗣️"
+     "e": "🗣️",
+     "i": "lingua"
     },
     {
      "w": "il telefono",
@@ -32,11 +37,17 @@
     },
     {
      "w": "l'amico",
-     "e": "🧑‍🤝‍🧑"
+     "e": "🧑‍🤝‍🧑",
+     "i": "amico"
     },
     {
      "w": "la persona",
      "e": "🧍"
+    },
+    {
+     "w": "l'amica",
+     "e": "",
+     "i": "amica"
     }
    ],
    "s": [
@@ -2530,35 +2541,43 @@
    "words": [
     {
      "w": "il documento",
-     "e": "🪪"
+     "e": "🪪",
+     "i": "documento"
     },
     {
      "w": "il modulo",
-     "e": "📝"
+     "e": "📝",
+     "i": "modulo"
     },
     {
      "w": "l'appuntamento",
-     "e": "📅"
+     "e": "📅",
+     "i": "appuntamento"
     },
     {
      "w": "la firma",
-     "e": "✍️"
+     "e": "✍️",
+     "i": "firma"
     },
     {
      "w": "il permesso di soggiorno",
-     "e": ""
+     "e": "",
+     "i": "permesso-di-soggiorno"
     },
     {
      "w": "il codice fiscale",
-     "e": ""
+     "e": "",
+     "i": "codice-fiscale"
     },
     {
      "w": "lo sportello",
-     "e": ""
+     "e": "",
+     "i": "sportello"
     },
     {
      "w": "la ricevuta",
-     "e": "🧾"
+     "e": "🧾",
+     "i": "ricevuta"
     }
    ],
    "s": [
