@@ -14,22 +14,22 @@
     {
      "w": "il cognome",
      "e": "",
-     "i": "cognome"
+     "i": "cognome.jpg"
     },
     {
      "w": "l'età",
      "e": "",
-     "i": "età"
+     "i": "età.jpg"
     },
     {
      "w": "il Paese",
      "e": "🌍",
-     "i": "paese"
+     "i": "paese.jpg"
     },
     {
      "w": "la lingua",
      "e": "🗣️",
-     "i": "lingua"
+     "i": "lingua.jpg"
     },
     {
      "w": "il telefono",
@@ -38,7 +38,7 @@
     {
      "w": "l'amico",
      "e": "🧑‍🤝‍🧑",
-     "i": "amico"
+     "i": "amico.jpg"
     },
     {
      "w": "la persona",
@@ -47,7 +47,7 @@
     {
      "w": "l'amica",
      "e": "",
-     "i": "amica"
+     "i": "amica.jpg"
     }
    ],
    "s": [
@@ -2542,48 +2542,49 @@
     {
      "w": "il documento",
      "e": "🪪",
-     "i": "documento"
+     "i": "documento.jpg"
     },
     {
      "w": "il modulo",
      "e": "📝",
-     "i": "modulo"
+     "i": "modulo.jpg"
     },
     {
      "w": "l'appuntamento",
      "e": "📅",
-     "i": "appuntamento"
+     "i": "appuntamento.jpg"
     },
     {
      "w": "la firma",
      "e": "✍️",
-     "i": "firma"
+     "i": "firma.jpg"
     },
     {
      "w": "il permesso di soggiorno",
      "e": "",
-     "i": "permesso-di-soggiorno"
+     "i": "permesso-di-soggiorno.jpg"
     },
     {
      "w": "il codice fiscale",
      "e": "",
-     "i": "codice-fiscale"
+     "i": "codice-fiscale.jpg"
     },
     {
      "w": "lo sportello",
      "e": "",
-     "i": "sportello"
+     "i": "sportello.jpg"
     },
     {
      "w": "la ricevuta",
      "e": "🧾",
-     "i": "ricevuta"
+     "i": "ricevuta.jpg"
     }
    ],
    "s": [
     {
      "e": "📅",
-     "t": "Devo prendere un appuntamento."
+     "t": "Devo prendere un appuntamento.",
+     "i": "appuntamento.jpg"
     },
     {
      "e": "🪪",
