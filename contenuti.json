@@ -4,78 +4,70 @@
   {
    "id": "u5",
    "name": "Presentarsi",
-   "emoji": "🙋",
    "words": [
     {
      "w": "il nome",
-     "e": "",
      "i": "nome.jpg"
     },
     {
      "w": "il cognome",
-     "e": "",
      "i": "cognome.jpg"
     },
     {
      "w": "l'età",
-     "e": "",
      "i": "età.jpg"
     },
     {
      "w": "il Paese",
-     "e": "🌍",
      "i": "paese.jpg"
     },
     {
      "w": "la lingua",
-     "e": "🗣️",
      "i": "lingua.jpg"
     },
     {
      "w": "il telefono",
-     "e": "📱"
+     "i": "ill/telefono.svg"
     },
     {
      "w": "l'amico",
-     "e": "🧑‍🤝‍🧑",
      "i": "amico.jpg"
     },
     {
      "w": "la persona",
-     "e": "🧍"
+     "i": "ill/persona.svg"
     },
     {
      "w": "l'amica",
-     "e": "",
      "i": "amica.jpg"
     }
    ],
    "s": [
     {
-     "e": "🙋‍♀️",
-     "t": "Mi chiamo Amina."
+     "t": "Mi chiamo Amina.",
+     "i": "ill/av-donna.svg"
     },
     {
-     "e": "🌍",
-     "t": "Vengo dal Marocco."
+     "t": "Vengo dal Marocco.",
+     "i": "ill/mondo.svg"
     }
    ],
    "ph": [
     {
-     "e": "🙋‍♀️",
-     "t": "Mi chiamo Amina."
+     "t": "Mi chiamo Amina.",
+     "i": "ill/av-donna.svg"
     },
     {
-     "e": "🌍",
-     "t": "Vengo dal Marocco."
+     "t": "Vengo dal Marocco.",
+     "i": "ill/mondo.svg"
     },
     {
-     "e": "💼",
-     "t": "Che lavoro fai?"
+     "t": "Che lavoro fai?",
+     "i": "ill/lavoro.svg"
     },
     {
-     "e": "🗣️",
-     "t": "Parlo un po' di italiano."
+     "t": "Parlo un po' di italiano.",
+     "i": "ill/lingua-bocca.png"
     }
    ],
    "g": [
@@ -292,88 +284,90 @@
       "Vengo da Roma."
      ]
     }
-   ]
+   ],
+   "i": "ill/ciao.svg",
+   "a": "ill/av-donna.svg",
+   "b": "ill/av-neutro.svg"
   },
   {
    "id": "u7",
    "name": "La scuola",
-   "emoji": "🏫",
    "words": [
     {
      "w": "il libro",
-     "e": "📖"
+     "i": "ill/libro.svg"
     },
     {
      "w": "il quaderno",
-     "e": "📓"
+     "i": "ill/quaderno.svg"
     },
     {
      "w": "la penna",
-     "e": "🖊️"
+     "i": "ill/penna.svg"
     },
     {
      "w": "la matita",
-     "e": "✏️"
+     "i": "ill/matita.svg"
     },
     {
      "w": "lo zaino",
-     "e": "🎒"
+     "i": "ill/zaino.svg"
     },
     {
      "w": "la maestra",
-     "e": "👩🏽‍🏫"
+     "i": "ill/maestra.svg"
     },
     {
      "w": "il computer",
-     "e": "💻"
+     "i": "ill/computer.svg"
     },
     {
      "w": "le forbici",
-     "e": "✂️"
+     "i": "ill/forbici.svg"
     },
     {
      "w": "l'orologio",
-     "e": "🕐"
+     "i": "ill/orologio.svg"
     }
    ],
    "s": [
     {
      "t": "io leggo il libro.",
-     "e": "📖"
+     "i": "ill/libro.svg"
     },
     {
      "t": "io scrivo con la penna.",
-     "e": "🖊️"
+     "i": "ill/penna.svg"
     },
     {
      "t": "io disegno una casa.",
-     "e": "✍🏽"
+     "i": "ill/disegnare.svg"
     },
     {
      "t": "io taglio con le forbici.",
-     "e": "✂️"
+     "i": "ill/forbici.svg"
     },
     {
      "t": "la maestra spiega.",
-     "e": "👩🏽‍🏫"
+     "i": "ill/maestra.svg"
     }
    ],
    "ph": [
     {
-     "e": "🤔",
-     "t": "Non ho capito."
+     "t": "Non ho capito.",
+     "i": "ill/non-capisco.svg"
     },
     {
-     "e": "🔁",
-     "t": "Puoi ripetere, per favore?"
+     "t": "Puoi ripetere, per favore?",
+     "i": "ill/ripetere.svg"
     },
     {
-     "e": "✍️",
-     "t": "Come si scrive?"
+     "t": "Come si scrive?",
+     "i": "ill/scrivere.svg"
     },
     {
-     "e": "👂",
-     "t": "Ascolta e ripeti."
+     "t": "Ascolta e ripeti.",
+     "i": "ill/ascoltare.svg"
     }
    ],
    "g": [
@@ -533,140 +527,142 @@
       "Il treno è lento."
      ]
     }
-   ]
+   ],
+   "i": "ill/scuola.svg",
+   "a": "ill/av-donna.svg",
+   "b": "ill/av-neutro.svg"
   },
   {
    "id": "u1",
    "name": "Il cibo",
-   "emoji": "🛒",
    "words": [
     {
      "w": "la mela",
-     "e": "🍎"
+     "i": "ill/mela.svg"
     },
     {
      "w": "la banana",
-     "e": "🍌"
+     "i": "ill/banana.svg"
     },
     {
      "w": "l'arancia",
-     "e": "🍊"
+     "i": "ill/arancia.svg"
     },
     {
      "w": "la pera",
-     "e": "🍐"
+     "i": "ill/pera.svg"
     },
     {
      "w": "l'uva",
-     "e": "🍇"
+     "i": "ill/uva.svg"
     },
     {
      "w": "la fragola",
-     "e": "🍓"
+     "i": "ill/fragola.svg"
     },
     {
      "w": "il limone",
-     "e": "🍋"
+     "i": "ill/limone.svg"
     },
     {
      "w": "il kiwi",
-     "e": "🥝"
+     "i": "ill/kiwi.svg"
     },
     {
      "w": "il pane",
-     "e": "🍞"
+     "i": "ill/pane.svg"
     },
     {
      "w": "il latte",
-     "e": "🥛"
+     "i": "ill/latte.svg"
     },
     {
      "w": "l'acqua",
-     "e": "💧"
+     "i": "ill/acqua.svg"
     },
     {
      "w": "il formaggio",
-     "e": "🧀"
+     "i": "ill/formaggio.svg"
     },
     {
      "w": "l'uovo",
-     "e": "🥚"
+     "i": "ill/uovo.svg"
     },
     {
      "w": "la pizza",
-     "e": "🍕"
+     "i": "ill/pizza.svg"
     },
     {
      "w": "il caffè",
-     "e": "☕"
+     "i": "ill/caffe.svg"
     },
     {
      "w": "la carne",
-     "e": "🥩"
+     "i": "ill/carne.svg"
     },
     {
      "w": "la pasta",
-     "e": "🍝"
+     "i": "ill/pasta.svg"
     },
     {
      "w": "il pollo",
-     "e": "🍗"
+     "i": "ill/pollo.svg"
     }
    ],
    "s": [
     {
      "t": "tu mangi la mela.",
-     "e": "🍎"
+     "i": "ill/mela.svg"
     },
     {
      "t": "Mi piace la banana.",
-     "e": "🍌"
+     "i": "ill/banana.svg"
     },
     {
      "t": "noi beviamo l'acqua.",
-     "e": "💧"
+     "i": "ill/acqua.svg"
     },
     {
      "t": "Mi piace il pane con il formaggio.",
-     "e": "🍞"
+     "i": "ill/pane.svg"
     }
    ],
    "ph": [
     {
-     "e": "🍎",
-     "t": "Vorrei un chilo di mele."
+     "t": "Vorrei un chilo di mele.",
+     "i": "ill/mela.svg"
     },
     {
-     "e": "🍞",
-     "t": "Quanto costa il pane?"
+     "t": "Quanto costa il pane?",
+     "i": "ill/pane.svg"
     },
     {
-     "e": "🥛",
-     "t": "Dov'è il latte?"
+     "t": "Dov'è il latte?",
+     "i": "ill/latte.svg"
     },
     {
-     "e": "👍",
-     "t": "Basta così, grazie."
+     "t": "Basta così, grazie.",
+     "i": "ill/ok.svg"
     },
     {
-     "e": "💶",
-     "t": "Quanto costa?"
+     "t": "Quanto costa?",
+     "i": "ill/soldi.svg"
     },
     {
-     "e": "💳",
-     "t": "Posso pagare con la carta?"
+     "t": "Posso pagare con la carta?",
+     "i": "ill/carta-di-credito.svg"
     },
     {
-     "e": "🤔",
-     "t": "Non capisco."
+     "t": "Non capisco.",
+     "i": "ill/non-capisco.svg"
     },
     {
-     "e": "🔁",
-     "t": "Può ripetere, per favore?"
+     "t": "Può ripetere, per favore?",
+     "i": "ill/ripetere.svg"
     },
     {
-     "e": "👋",
-     "t": "Grazie, arrivederci."
+     "t": "Grazie, arrivederci.",
+     "i": "ill/ciao.svg"
     }
    ],
    "g": [
@@ -845,8 +841,8 @@
      ]
     }
    ],
-   "a": "🙋‍♂️",
-   "b": "👩‍💼",
+   "a": "ill/av-uomo.svg",
+   "b": "ill/av-commessa.svg",
    "cz": [
     {
      "q": "tu mangi la ___.",
@@ -890,148 +886,148 @@
       "Vado in banca."
      ]
     }
-   ]
+   ],
+   "i": "ill/spesa.svg"
   },
   {
    "id": "u2",
    "name": "Il corpo e la salute",
-   "emoji": "🏥",
    "words": [
     {
      "w": "la mano",
-     "e": "✋"
+     "i": "ill/mano.png"
     },
     {
      "w": "il piede",
-     "e": "🦶"
+     "i": "ill/piede.png"
     },
     {
      "w": "l'occhio",
-     "e": "👁️"
+     "i": "ill/occhio.svg"
     },
     {
      "w": "l'orecchio",
-     "e": "👂"
+     "i": "ill/orecchio.png"
     },
     {
      "w": "il naso",
-     "e": "👃"
+     "i": "ill/naso.png"
     },
     {
      "w": "la bocca",
-     "e": "👄"
+     "i": "ill/bocca.png"
     },
     {
      "w": "il dente",
-     "e": "🦷"
+     "i": "ill/dente.svg"
     },
     {
      "w": "il braccio",
-     "e": "💪"
+     "i": "ill/braccio.png"
     },
     {
      "w": "la gamba",
-     "e": "🦵"
+     "i": "ill/gamba.png"
     },
     {
      "w": "la lingua",
-     "e": "👅"
+     "i": "ill/lingua-bocca.png"
     },
     {
      "w": "il medico",
-     "e": "🧑‍⚕️"
+     "i": "ill/medico.svg"
     },
     {
      "w": "l'ambulanza",
-     "e": "🚑"
+     "i": "ill/ambulanza.svg"
     },
     {
      "w": "la medicina",
-     "e": "💊"
+     "i": "ill/medicina.svg"
     },
     {
      "w": "la siringa",
-     "e": "💉"
+     "i": "ill/siringa.svg"
     },
     {
      "w": "il termometro",
-     "e": "🌡️"
+     "i": "ill/termometro.svg"
     },
     {
      "w": "la mascherina",
-     "e": "😷"
+     "i": "ill/mascherina.svg"
     },
     {
      "w": "il cerotto",
-     "e": "🩹"
+     "i": "ill/cerotto.svg"
     },
     {
      "w": "il sangue",
-     "e": "🩸"
+     "i": "ill/sangue.svg"
     },
     {
      "w": "le stampelle",
-     "e": "🩼🩼"
+     "i": "ill/stampelle.svg"
     }
    ],
    "s": [
     {
      "t": "Ho male alla mano.",
-     "e": "✋"
+     "i": "ill/mano.png"
     },
     {
      "t": "Ho male al dente.",
-     "e": "🦷"
+     "i": "ill/dente.svg"
     },
     {
      "t": "Chiamo l'ambulanza.",
-     "e": "🚑"
+     "i": "ill/ambulanza.svg"
     },
     {
      "t": "Ho la febbre.",
-     "e": "🌡️"
+     "i": "ill/febbre.png"
     }
    ],
    "ph": [
     {
-     "e": "",
-     "t": "Mi fa male la schiena."
+     "t": "Mi fa male la schiena.",
+     "i": "ill/mal-di-schiena.png"
     },
     {
-     "e": "🤕",
-     "t": "Ho mal di testa."
+     "t": "Ho mal di testa.",
+     "i": "ill/mal-di-testa.png"
     },
     {
-     "e": "🌡️",
-     "t": "Ho la febbre."
+     "t": "Ho la febbre.",
+     "i": "ill/febbre.png"
     },
     {
-     "e": "🧑‍⚕️",
-     "t": "Ho bisogno di un medico."
+     "t": "Ho bisogno di un medico.",
+     "i": "ill/medico.svg"
     },
     {
-     "e": "🤢",
-     "t": "Ho mal di pancia."
+     "t": "Ho mal di pancia.",
+     "i": "ill/mal-di-pancia.png"
     },
     {
-     "e": "🦷",
-     "t": "Ho mal di denti."
+     "t": "Ho mal di denti.",
+     "i": "ill/mal-di-denti.svg"
     },
     {
-     "e": "📅",
-     "t": "Ho un appuntamento."
+     "t": "Ho un appuntamento.",
+     "i": "appuntamento.jpg"
     },
     {
-     "e": "💊",
-     "t": "Ho bisogno di una medicina."
+     "t": "Ho bisogno di una medicina.",
+     "i": "ill/medicina.svg"
     },
     {
-     "e": "🤔",
-     "t": "Non capisco."
+     "t": "Non capisco.",
+     "i": "ill/non-capisco.svg"
     },
     {
-     "e": "🔁",
-     "t": "Può ripetere, per favore?"
+     "t": "Può ripetere, per favore?",
+     "i": "ill/ripetere.svg"
     }
    ],
    "g": [
@@ -1235,8 +1231,8 @@
      ]
     }
    ],
-   "a": "🙋‍♂️",
-   "b": "👩‍⚕️",
+   "a": "ill/av-uomo.svg",
+   "b": "ill/av-medica.svg",
    "cz": [
     {
      "q": "Ho bisogno di un ___.",
@@ -1304,136 +1300,136 @@
       "Mi chiamo Ali."
      ]
     }
-   ]
+   ],
+   "i": "ill/salute.svg"
   },
   {
    "id": "u3",
    "name": "La città e i trasporti",
-   "emoji": "🏙️",
    "words": [
     {
      "w": "la città",
-     "e": "🏙️"
+     "i": "ill/citta.svg"
     },
     {
      "w": "la banca",
-     "e": "🏦"
+     "i": "ill/banca.svg"
     },
     {
      "w": "la chiesa",
-     "e": "⛪"
+     "i": "ill/chiesa.svg"
     },
     {
      "w": "la moschea",
-     "e": "🕌"
+     "i": "ill/moschea.svg"
     },
     {
      "w": "il parco",
-     "e": "🌳"
+     "i": "ill/parco.svg"
     },
     {
      "w": "la stazione",
-     "e": "🚉"
+     "i": "ill/stazione.svg"
     },
     {
      "w": "l'ospedale",
-     "e": "🏥"
+     "i": "ill/ospedale.svg"
     },
     {
      "w": "la posta",
-     "e": "📮"
+     "i": "ill/posta.svg"
     },
     {
      "w": "la scuola",
-     "e": "🏫"
+     "i": "ill/scuola.svg"
     },
     {
      "w": "il comune",
-     "e": "🏛️"
+     "i": "ill/comune.svg"
     },
     {
      "w": "il supermercato",
-     "e": "🏪"
+     "i": "ill/supermercato.svg"
     },
     {
      "w": "l'autobus",
-     "e": "🚌"
+     "i": "ill/autobus.svg"
     },
     {
      "w": "il treno",
-     "e": "🚆"
+     "i": "ill/treno.svg"
     },
     {
      "w": "la macchina",
-     "e": "🚗"
+     "i": "ill/macchina.svg"
     },
     {
      "w": "la bicicletta",
-     "e": "🚲"
+     "i": "ill/bicicletta.svg"
     },
     {
      "w": "la moto",
-     "e": "🏍️"
+     "i": "ill/moto.svg"
     },
     {
      "w": "l'aereo",
-     "e": "✈️"
+     "i": "ill/aereo.svg"
     },
     {
      "w": "la nave",
-     "e": "🚢"
+     "i": "ill/nave.svg"
     },
     {
      "w": "il taxi",
-     "e": "🚕"
+     "i": "ill/taxi.svg"
     },
     {
      "w": "la metro",
-     "e": "🚇"
+     "i": "ill/metro.svg"
     },
     {
      "w": "il camion",
-     "e": "🚚"
+     "i": "ill/camion.svg"
     },
     {
      "w": "Il monopattino",
-     "e": "🛴"
+     "i": "ill/monopattino.svg"
     }
    ],
    "s": [
     {
      "t": "vado in banca.",
-     "e": "🏦"
+     "i": "ill/banca.svg"
     },
     {
      "t": "Vado al parco.",
-     "e": "🌳"
+     "i": "ill/parco.svg"
     },
     {
      "t": "Loro prendono l'autobus.",
-     "e": "🚌"
+     "i": "ill/autobus.svg"
     },
     {
      "t": "Voi andate in bicicletta.",
-     "e": "🚲"
+     "i": "ill/bicicletta.svg"
     }
    ],
    "ph": [
     {
-     "e": "🚉",
-     "t": "Dov'è la stazione?"
+     "t": "Dov'è la stazione?",
+     "i": "ill/stazione.svg"
     },
     {
-     "e": "🚌",
-     "t": "Quale autobus devo prendere?"
+     "t": "Quale autobus devo prendere?",
+     "i": "ill/autobus.svg"
     },
     {
-     "e": "🎫",
-     "t": "Un biglietto, per favore."
+     "t": "Un biglietto, per favore.",
+     "i": "ill/biglietto.svg"
     },
     {
-     "e": "🚏",
-     "t": "Dov'è la fermata?"
+     "t": "Dov'è la fermata?",
+     "i": "ill/fermata.svg"
     }
    ],
    "g": [
@@ -1639,88 +1635,90 @@
       "Ho fame."
      ]
     }
-   ]
+   ],
+   "i": "ill/citta.svg",
+   "a": "ill/av-donna.svg",
+   "b": "ill/av-neutro.svg"
   },
   {
    "id": "u4",
    "name": "La casa",
-   "emoji": "🏠",
    "words": [
     {
      "w": "la casa",
-     "e": "🏠"
+     "i": "ill/casa.svg"
     },
     {
      "w": "il letto",
-     "e": "🛏️"
+     "i": "ill/letto.svg"
     },
     {
      "w": "la porta",
-     "e": "🚪"
+     "i": "ill/porta.svg"
     },
     {
      "w": "la finestra",
-     "e": "🪟"
+     "i": "ill/finestra.svg"
     },
     {
      "w": "la sedia",
-     "e": "🪑"
+     "i": "ill/sedia.svg"
     },
     {
      "w": "la doccia",
-     "e": "🚿"
+     "i": "ill/doccia.svg"
     },
     {
      "w": "la chiave",
-     "e": "🔑"
+     "i": "ill/chiave.svg"
     },
     {
      "w": "la carta igienica",
-     "e": "🧻"
+     "i": "ill/carta-igienica.svg"
     },
     {
      "w": "il water",
-     "e": "🚽"
+     "i": "ill/water.svg"
     },
     {
      "w": "il divano",
-     "e": "🛋️"
+     "i": "ill/divano.svg"
     },
     {
      "w": "lo specchio",
-     "e": "🪞"
+     "i": "ill/specchio.svg"
     },
     {
      "w": "la televisione",
-     "e": "📺"
+     "i": "ill/televisione.svg"
     }
    ],
    "s": [
     {
      "t": "Io apro la porta.",
-     "e": "🚪"
+     "i": "ill/porta.svg"
     },
     {
      "t": "lei dorme nel letto.",
-     "e": "🛏️"
+     "i": "ill/letto.svg"
     }
    ],
    "ph": [
     {
-     "e": "🏠",
-     "t": "Abito in un appartamento."
+     "t": "Abito in un appartamento.",
+     "i": "ill/appartamento.svg"
     },
     {
-     "e": "🛏️",
-     "t": "Nella mia casa ci sono due camere."
+     "t": "Nella mia casa ci sono due camere.",
+     "i": "ill/letto.svg"
     },
     {
-     "e": "",
-     "t": "La cucina è vicino al soggiorno."
+     "t": "La cucina è vicino al soggiorno.",
+     "i": "ill/cucina.svg"
     },
     {
-     "e": "🚿",
-     "t": "C'è il bagno?"
+     "t": "C'è il bagno?",
+     "i": "ill/doccia.svg"
     }
    ],
    "g": [
@@ -1788,7 +1786,7 @@
      ]
     },
     {
-     "q": "La lampada è ___ il tavolo. (↑)",
+     "q": "La lampada è ___ il tavolo. (in alto)",
      "ok": "sopra",
      "no": [
       "sotto",
@@ -1796,7 +1794,7 @@
      ]
     },
     {
-     "q": "Il gatto è ___ la sedia. (↓)",
+     "q": "Il gatto è ___ la sedia. (in basso)",
      "ok": "sotto",
      "no": [
       "sopra",
@@ -1863,76 +1861,78 @@
       "Ho mal di testa."
      ]
     }
-   ]
+   ],
+   "i": "ill/casa.svg",
+   "a": "ill/av-donna.svg",
+   "b": "ill/av-neutro.svg"
   },
   {
    "id": "u6",
    "name": "Il lavoro",
-   "emoji": "💼",
    "words": [
     {
      "w": "il lavoro",
-     "e": "💼"
+     "i": "ill/lavoro.svg"
     },
     {
      "w": "il cuoco",
-     "e": "🧑‍🍳"
+     "i": "ill/cuoco.svg"
     },
     {
      "w": "l'operaio",
-     "e": "👷"
+     "i": "ill/operaio.svg"
     },
     {
      "w": "il cameriere",
-     "e": "🤵"
+     "i": "ill/cameriere.svg"
     },
     {
      "w": "la fabbrica",
-     "e": "🏭"
+     "i": "ill/fabbrica.svg"
     },
     {
      "w": "l'ufficio",
-     "e": "🏢"
+     "i": "ill/ufficio.svg"
     },
     {
      "w": "l'orario",
-     "e": "🕐"
+     "i": "ill/orario.svg"
     },
     {
      "w": "lo stipendio",
-     "e": "💶"
+     "i": "ill/stipendio.svg"
     },
     {
      "w": "il collega",
-     "e": ""
+     "i": "collega.jpg"
     }
    ],
    "s": [
     {
-     "e": "🍽️",
-     "t": "Lavoro in un ristorante."
+     "t": "Lavoro in un ristorante.",
+     "i": "ill/ristorante.svg"
     },
     {
-     "e": "🕐",
-     "t": "A che ora inizi a lavorare?"
+     "t": "A che ora inizi a lavorare?",
+     "i": "ill/orologio.svg"
     }
    ],
    "ph": [
     {
-     "e": "🍽️",
-     "t": "Lavoro in un ristorante."
+     "t": "Lavoro in un ristorante.",
+     "i": "ill/ristorante.svg"
     },
     {
-     "e": "🕐",
-     "t": "A che ora inizi a lavorare?"
+     "t": "A che ora inizi a lavorare?",
+     "i": "ill/orologio.svg"
     },
     {
-     "e": "💼",
-     "t": "Devo andare al lavoro."
+     "t": "Devo andare al lavoro.",
+     "i": "ill/lavoro.svg"
     },
     {
-     "e": "",
-     "t": "Finisco alle cinque."
+     "t": "Finisco alle cinque.",
+     "i": "ill/ore-5.svg"
     }
    ],
    "g": [
@@ -2075,84 +2075,86 @@
       "Ho la febbre."
      ]
     }
-   ]
+   ],
+   "i": "ill/lavoro.svg",
+   "a": "ill/av-donna.svg",
+   "b": "ill/av-neutro.svg"
   },
   {
    "id": "u8",
    "name": "L'abbigliamento",
-   "emoji": "👕",
    "words": [
     {
      "w": "la maglietta",
-     "e": "👕"
+     "i": "ill/maglietta.svg"
     },
     {
      "w": "i pantaloni",
-     "e": "👖"
+     "i": "ill/pantaloni.svg"
     },
     {
      "w": "la giacca",
-     "e": "🧥"
+     "i": "ill/giacca.svg"
     },
     {
      "w": "il vestito",
-     "e": "👗"
+     "i": "ill/vestito.svg"
     },
     {
      "w": "le scarpe",
-     "e": "👟"
+     "i": "ill/scarpe.svg"
     },
     {
      "w": "il cappello",
-     "e": "🧢"
+     "i": "ill/cappello.svg"
     },
     {
      "w": "Le calze",
-     "e": "🧦"
+     "i": "ill/calze.svg"
     },
     {
      "w": "i guanti",
-     "e": "🧤"
+     "i": "ill/guanti.svg"
     },
     {
      "w": "la sciarpa",
-     "e": "🧣"
+     "i": "ill/sciarpa.svg"
     },
     {
      "w": "gli occhiali",
-     "e": "👓"
+     "i": "ill/occhiali.svg"
     },
     {
      "w": "La camicia",
-     "e": "👔"
+     "i": "ill/camicia.svg"
     }
    ],
    "s": [
     {
      "t": "Mi metto la giacca.",
-     "e": "🧥"
+     "i": "ill/giacca.svg"
     },
     {
      "t": "lui ha le scarpe nuove.",
-     "e": "👟"
+     "i": "ill/scarpe.svg"
     }
    ],
    "ph": [
     {
-     "e": "🧥",
-     "t": "Quanto costa questa giacca?"
+     "t": "Quanto costa questa giacca?",
+     "i": "ill/giacca.svg"
     },
     {
-     "e": "👖",
-     "t": "Posso provare questi pantaloni?"
+     "t": "Posso provare questi pantaloni?",
+     "i": "ill/pantaloni.svg"
     },
     {
-     "e": "",
-     "t": "Ha una taglia più grande?"
+     "t": "Ha una taglia più grande?",
+     "i": "ill/taglia.svg"
     },
     {
-     "e": "👟",
-     "t": "Vorrei queste scarpe."
+     "t": "Vorrei queste scarpe.",
+     "i": "ill/scarpe.svg"
     }
    ],
    "g": [
@@ -2312,72 +2314,74 @@
       "Alle nove."
      ]
     }
-   ]
+   ],
+   "i": "ill/maglietta.svg",
+   "a": "ill/av-donna.svg",
+   "b": "ill/av-neutro.svg"
   },
   {
    "id": "u9",
    "name": "La vita quotidiana",
-   "emoji": "⏰",
    "words": [
     {
      "w": "la sveglia",
-     "e": "⏰"
+     "i": "ill/sveglia.svg"
     },
     {
      "w": "la mattina",
-     "e": "🌅"
+     "i": "ill/mattina.svg"
     },
     {
      "w": "la colazione",
-     "e": "🥐"
+     "i": "ill/colazione.png"
     },
     {
      "w": "il pranzo",
-     "e": "🍽️"
+     "i": "ill/pranzo.svg"
     },
     {
      "w": "la sera",
-     "e": "🌙"
+     "i": "ill/sera.svg"
     },
     {
      "w": "la cena",
-     "e": "🍝"
+     "i": "ill/cena.svg"
     },
     {
      "w": "dormire",
-     "e": "😴"
+     "i": "ill/dormire.svg"
     },
     {
      "w": "il riposo",
-     "e": ""
+     "i": "ill/riposo.svg"
     }
    ],
    "s": [
     {
-     "e": "⏰",
-     "t": "Mi alzo alle sette."
+     "t": "Mi alzo alle sette.",
+     "i": "ill/ore-7.svg"
     },
     {
-     "e": "🍝",
-     "t": "La sera preparo la cena."
+     "t": "La sera preparo la cena.",
+     "i": "ill/cena.svg"
     }
    ],
    "ph": [
     {
-     "e": "⏰",
-     "t": "Mi alzo alle sette."
+     "t": "Mi alzo alle sette.",
+     "i": "ill/ore-7.svg"
     },
     {
-     "e": "🍝",
-     "t": "La sera preparo la cena."
+     "t": "La sera preparo la cena.",
+     "i": "ill/cena.svg"
     },
     {
-     "e": "☕",
-     "t": "Faccio colazione al bar."
+     "t": "Faccio colazione al bar.",
+     "i": "ill/colazione.png"
     },
     {
-     "e": "😴",
-     "t": "Vado a dormire alle dieci."
+     "t": "Vado a dormire alle dieci.",
+     "i": "ill/dormire.svg"
     }
    ],
    "g": [
@@ -2473,28 +2477,31 @@
      ]
     },
     {
-     "q": "🕖 Che ore sono?",
+     "q": "Che ore sono?",
      "ok": "Sono le sette.",
      "no": [
       "Sono le otto.",
       "Sono le sei."
-     ]
+     ],
+     "qi": "ill/ore-7.svg"
     },
     {
-     "q": "🕘 Che ore sono?",
+     "q": "Che ore sono?",
      "ok": "Sono le nove.",
      "no": [
       "Sono le dieci.",
       "Sono le otto."
-     ]
+     ],
+     "qi": "ill/ore-9.svg"
     },
     {
-     "q": "🕒 Che ore sono?",
+     "q": "Che ore sono?",
      "ok": "Sono le tre.",
      "no": [
       "Sono le due.",
       "Sono le quattro."
-     ]
+     ],
+     "qi": "ill/ore-3.svg"
     }
    ],
    "cz": [
@@ -2532,113 +2539,106 @@
       "Costa due euro."
      ]
     }
-   ]
+   ],
+   "i": "ill/sveglia.svg",
+   "a": "ill/av-donna.svg",
+   "b": "ill/av-neutro.svg"
   },
   {
    "id": "u10",
    "name": "I documenti",
-   "emoji": "🪪",
    "words": [
     {
      "w": "il documento",
-     "e": "🪪",
      "i": "documento.jpg"
     },
     {
      "w": "il modulo",
-     "e": "📝",
      "i": "modulo.jpg"
     },
     {
      "w": "l'appuntamento",
-     "e": "📅",
      "i": "appuntamento.jpg"
     },
     {
      "w": "la firma",
-     "e": "✍️",
      "i": "firma.jpg"
     },
     {
      "w": "il permesso di soggiorno",
-     "e": "",
      "i": "permesso-di-soggiorno.jpg"
     },
     {
      "w": "il codice fiscale",
-     "e": "",
      "i": "codice-fiscale.jpg"
     },
     {
      "w": "lo sportello",
-     "e": "",
      "i": "sportello.jpg"
     },
     {
      "w": "la ricevuta",
-     "e": "🧾",
      "i": "ricevuta.jpg"
     }
    ],
    "s": [
     {
-     "e": "📅",
      "t": "Devo prendere un appuntamento.",
      "i": "appuntamento.jpg"
     },
     {
-     "e": "🪪",
-     "t": "Quali documenti servono?"
+     "t": "Quali documenti servono?",
+     "i": "documento.jpg"
     }
    ],
    "ph": [
     {
-     "e": "📅",
-     "t": "Devo prendere un appuntamento."
+     "t": "Devo prendere un appuntamento.",
+     "i": "appuntamento.jpg"
     },
     {
-     "e": "🪪",
-     "t": "Quali documenti servono?"
+     "t": "Quali documenti servono?",
+     "i": "documento.jpg"
     },
     {
-     "e": "✍️",
-     "t": "Dove devo firmare?"
+     "t": "Dove devo firmare?",
+     "i": "firma.jpg"
     },
     {
-     "e": "",
-     "t": "Ho il permesso di soggiorno."
+     "t": "Ho il permesso di soggiorno.",
+     "i": "permesso-di-soggiorno.jpg"
     },
     {
-     "e": "📅",
-     "t": "Ho un appuntamento."
+     "t": "Ho un appuntamento.",
+     "i": "appuntamento.jpg"
     },
     {
-     "e": "🪪",
-     "t": "Ecco il mio documento."
+     "t": "Ecco il mio documento.",
+     "i": "documento.jpg"
     },
     {
-     "e": "📝",
-     "t": "Devo compilare questo modulo?"
+     "t": "Devo compilare questo modulo?",
+     "i": "modulo.jpg"
     },
     {
-     "e": "✍️",
-     "t": "Può scrivere qui, per favore?"
+     "t": "Può scrivere qui, per favore?",
+     "i": "firma.jpg"
     },
     {
-     "e": "📍",
-     "t": "Dove devo andare?"
+     "t": "Dove devo andare?",
+     "i": "ill/dove.svg"
     },
     {
-     "e": "🙋",
-     "t": "Mi chiamo Malika."
+     "t": "Mi chiamo Malika.",
+     "i": "ill/av-donna.svg"
     },
     {
-     "e": "🤔",
-     "t": "Non capisco."
+     "t": "Non capisco.",
+     "i": "ill/non-capisco.svg"
     },
     {
-     "e": "🔁",
-     "t": "Può ripetere, per favore?"
+     "t": "Può ripetere, per favore?",
+     "i": "ill/ripetere.svg"
     }
    ],
    "g": [
@@ -2826,8 +2826,8 @@
      ]
     }
    ],
-   "a": "🙋‍♀️",
-   "b": "👨‍💼",
+   "a": "ill/av-donna.svg",
+   "b": "ill/av-impiegato.svg",
    "cz": [
     {
      "q": "Devo prendere un ___.",
@@ -2862,72 +2862,72 @@
      ]
     }
    ],
-   "qa": []
+   "qa": [],
+   "i": "documento.jpg"
   },
   {
    "id": "u11",
    "name": "Il tempo libero",
-   "emoji": "☕",
    "words": [
     {
      "w": "il caffè",
-     "e": "☕"
+     "i": "ill/caffe.svg"
     },
     {
      "w": "il tè",
-     "e": "🍵"
+     "i": "ill/te.svg"
     },
     {
      "w": "il succo",
-     "e": "🧃"
+     "i": "ill/succo.svg"
     },
     {
      "w": "il menu",
-     "e": "📋"
+     "i": "ill/menu.svg"
     },
     {
      "w": "il conto",
-     "e": ""
+     "i": "ill/conto.svg"
     },
     {
      "w": "il calcio",
-     "e": "⚽"
+     "i": "ill/calcio.svg"
     },
     {
      "w": "la musica",
-     "e": "🎵"
+     "i": "ill/musica.svg"
     },
     {
      "w": "il cinema",
-     "e": "🎬"
+     "i": "ill/cinema.svg"
     }
    ],
    "s": [
     {
-     "e": "☕",
-     "t": "Per me un caffè, grazie."
+     "t": "Per me un caffè, grazie.",
+     "i": "ill/caffe.svg"
     },
     {
-     "e": "🧾",
-     "t": "Il conto, per favore."
+     "t": "Il conto, per favore.",
+     "i": "ill/conto.svg"
     }
    ],
    "ph": [
     {
-     "e": "☕",
-     "t": "Per me un caffè, grazie."
+     "t": "Per me un caffè, grazie.",
+     "i": "ill/caffe.svg"
     },
     {
-     "e": "🧾",
-     "t": "Il conto, per favore."
+     "t": "Il conto, per favore.",
+     "i": "ill/conto.svg"
     },
     {
-     "e": "⚽",
-     "t": "Che cosa fai nel tempo libero?"
+     "t": "Che cosa fai nel tempo libero?",
+     "i": "ill/calcio.svg"
     },
     {
-     "e": "🎵",
-     "t": "Mi piace la musica."
+     "t": "Mi piace la musica.",
+     "i": "ill/musica.svg"
     }
    ],
    "g": [
@@ -3079,136 +3079,138 @@
       "Alle nove."
      ]
     }
-   ]
+   ],
+   "i": "ill/caffe.svg",
+   "a": "ill/av-donna.svg",
+   "b": "ill/av-neutro.svg"
   },
   {
    "id": "u13",
    "name": "Gli appuntamenti",
-   "emoji": "📅",
    "words": [
     {
      "w": "il calendario",
-     "e": "🗓️"
+     "i": "ill/calendario.svg"
     },
     {
      "w": "l'ora",
-     "e": "🕐"
+     "i": "ill/ora.svg"
     },
     {
      "w": "la data",
-     "e": ""
+     "i": "ill/data.svg"
     },
     {
      "w": "lunedì",
-     "e": ""
+     "i": "ill/lunedi.svg"
     },
     {
      "w": "martedì",
-     "e": ""
+     "i": "ill/martedi.svg"
     },
     {
      "w": "mercoledì",
-     "e": ""
+     "i": "ill/mercoledi.svg"
     },
     {
      "w": "giovedì",
-     "e": ""
+     "i": "ill/giovedi.svg"
     },
     {
      "w": "venerdì",
-     "e": ""
+     "i": "ill/venerdi.svg"
     },
     {
      "w": "sabato",
-     "e": ""
+     "i": "ill/sabato.svg"
     },
     {
      "w": "domenica",
-     "e": ""
+     "i": "ill/domenica.svg"
     },
     {
      "w": "gennaio",
-     "e": ""
+     "i": "ill/gennaio.svg"
     },
     {
      "w": "febbraio",
-     "e": ""
+     "i": "ill/febbraio.svg"
     },
     {
      "w": "marzo",
-     "e": ""
+     "i": "ill/marzo.svg"
     },
     {
      "w": "aprile",
-     "e": ""
+     "i": "ill/aprile.svg"
     },
     {
      "w": "maggio",
-     "e": ""
+     "i": "ill/maggio.svg"
     },
     {
      "w": "giugno",
-     "e": ""
+     "i": "ill/giugno.svg"
     },
     {
      "w": "luglio",
-     "e": ""
+     "i": "ill/luglio.svg"
     },
     {
      "w": "agosto",
-     "e": ""
+     "i": "ill/agosto.svg"
     },
     {
      "w": "settembre",
-     "e": ""
+     "i": "ill/settembre.svg"
     },
     {
      "w": "ottobre",
-     "e": ""
+     "i": "ill/ottobre.svg"
     },
     {
      "w": "novembre",
-     "e": ""
+     "i": "ill/novembre.svg"
     },
     {
      "w": "dicembre",
-     "e": ""
+     "i": "ill/dicembre.svg"
     },
     {
      "w": "mezzogiorno",
-     "e": ""
+     "i": "ill/mezzogiorno.svg"
     },
     {
      "w": "mezzanotte",
-     "e": ""
+     "i": "ill/mezzanotte.svg"
     }
    ],
    "s": [
     {
-     "e": "🕐",
-     "t": "A che ora ci vediamo?"
+     "t": "A che ora ci vediamo?",
+     "i": "ill/ora.svg"
     },
     {
-     "e": "📅",
-     "t": "L'appuntamento è martedì alle nove."
+     "t": "L'appuntamento è martedì alle nove.",
+     "i": "appuntamento.jpg"
     }
    ],
    "ph": [
     {
-     "e": "🕐",
-     "t": "A che ora ci vediamo?"
+     "t": "A che ora ci vediamo?",
+     "i": "ill/ora.svg"
     },
     {
-     "e": "📅",
-     "t": "L'appuntamento è martedì alle nove."
+     "t": "L'appuntamento è martedì alle nove.",
+     "i": "appuntamento.jpg"
     },
     {
-     "e": "🗓️",
-     "t": "Oggi è lunedì."
+     "t": "Oggi è lunedì.",
+     "i": "ill/calendario.svg"
     },
     {
-     "e": "",
-     "t": "Domani non posso."
+     "t": "Domani non posso.",
+     "i": "ill/non-posso.svg"
     }
    ],
    "g": [
@@ -3305,80 +3307,82 @@
       "Costa due euro."
      ]
     }
-   ]
+   ],
+   "i": "ill/calendario.svg",
+   "a": "ill/av-donna.svg",
+   "b": "ill/av-neutro.svg"
   },
   {
    "id": "u14",
    "name": "La famiglia",
-   "emoji": "👨‍👩‍👧",
    "words": [
     {
      "w": "la mamma",
-     "e": "👩"
+     "i": "ill/mamma.svg"
     },
     {
      "w": "il papà",
-     "e": "👨"
+     "i": "ill/papa.svg"
     },
     {
      "w": "il fratello",
-     "e": "👦"
+     "i": "ill/fratello.svg"
     },
     {
      "w": "la sorella",
-     "e": "👧"
+     "i": "ill/sorella.svg"
     },
     {
      "w": "il bambino",
-     "e": "🧒"
+     "i": "ill/bambino.svg"
     },
     {
      "w": "il nonno",
-     "e": "👴"
+     "i": "ill/nonno.svg"
     },
     {
      "w": "la nonna",
-     "e": "👵"
+     "i": "ill/nonna.svg"
     },
     {
      "w": "la famiglia",
-     "e": "👨‍👩‍👧"
+     "i": "ill/famiglia.svg"
     },
     {
      "w": "il cane",
-     "e": "🐶"
+     "i": "ill/cane.svg"
     },
     {
      "w": "il gatto",
-     "e": "🐱"
+     "i": "ill/gatto.svg"
     }
    ],
    "s": [
     {
-     "e": "👦",
-     "t": "Ho due fratelli."
+     "t": "Ho due fratelli.",
+     "i": "ill/fratello.svg"
     },
     {
-     "e": "👧",
-     "t": "Mia sorella abita a Roma."
+     "t": "Mia sorella abita a Roma.",
+     "i": "ill/sorella.svg"
     }
    ],
    "ph": [
     {
-     "e": "👦",
-     "t": "Ho due fratelli."
+     "t": "Ho due fratelli.",
+     "i": "ill/fratello.svg"
     },
     {
-     "e": "👧",
-     "t": "Mia sorella abita a Roma."
+     "t": "Mia sorella abita a Roma.",
+     "i": "ill/sorella.svg"
     },
     {
-     "e": "👩",
-     "t": "Questa è mia madre."
+     "t": "Questa è mia madre.",
+     "i": "ill/mamma.svg"
     },
     {
-     "e": "🧒",
-     "t": "Ho un figlio."
+     "t": "Ho un figlio.",
+     "i": "ill/bambino.svg"
     }
    ],
    "g": [
@@ -3576,100 +3580,102 @@
       "Alle nove."
      ]
     }
-   ]
+   ],
+   "i": "ill/famiglia.svg",
+   "a": "ill/av-donna.svg",
+   "b": "ill/av-neutro.svg"
   },
   {
    "id": "u15",
    "name": "La natura",
-   "emoji": "🌦️",
    "words": [
     {
      "w": "il sole",
-     "e": "☀️"
+     "i": "ill/sole.svg"
     },
     {
      "w": "la pioggia",
-     "e": "🌧️"
+     "i": "ill/pioggia.svg"
     },
     {
      "w": "il vento",
-     "e": "💨"
+     "i": "ill/vento.svg"
     },
     {
      "w": "la neve",
-     "e": "❄️"
+     "i": "ill/neve.svg"
     },
     {
      "w": "il caldo",
-     "e": "🥵"
+     "i": "ill/caldo.svg"
     },
     {
      "w": "il freddo",
-     "e": "🥶"
+     "i": "ill/freddo.svg"
     },
     {
      "w": "la nuvola",
-     "e": "☁️"
+     "i": "ill/nuvola.svg"
     },
     {
      "w": "la primavera",
-     "e": "🌷"
+     "i": "ill/primavera.svg"
     },
     {
      "w": "l'estate",
-     "e": "🏖️"
+     "i": "ill/estate.svg"
     },
     {
      "w": "l'autunno",
-     "e": "🍂"
+     "i": "ill/autunno.svg"
     },
     {
      "w": "l'inverno",
-     "e": "☃️"
+     "i": "ill/inverno.svg"
     },
     {
      "w": "il mare",
-     "e": "🌊"
+     "i": "ill/mare.svg"
     },
     {
      "w": "la montagna",
-     "e": "⛰️"
+     "i": "ill/montagna.svg"
     },
     {
      "w": "il lago",
-     "e": ""
+     "i": "ill/lago.svg"
     },
     {
      "w": "il fiume",
-     "e": ""
+     "i": "ill/fiume.svg"
     }
    ],
    "s": [
     {
-     "e": "🥶",
-     "t": "Oggi fa freddo."
+     "t": "Oggi fa freddo.",
+     "i": "ill/freddo.svg"
     },
     {
-     "e": "🌊",
-     "t": "In estate vado al mare."
+     "t": "In estate vado al mare.",
+     "i": "ill/mare.svg"
     }
    ],
    "ph": [
     {
-     "e": "🥶",
-     "t": "Oggi fa freddo."
+     "t": "Oggi fa freddo.",
+     "i": "ill/freddo.svg"
     },
     {
-     "e": "🌊",
-     "t": "In estate vado al mare."
+     "t": "In estate vado al mare.",
+     "i": "ill/mare.svg"
     },
     {
-     "e": "🌧️",
-     "t": "Piove."
+     "t": "Piove.",
+     "i": "ill/pioggia.svg"
     },
     {
-     "e": "☀️",
-     "t": "C'è il sole."
+     "t": "C'è il sole.",
+     "i": "ill/sole.svg"
     }
    ],
    "g": [
@@ -3742,44 +3748,49 @@
    ],
    "gx": [
     {
-     "q": "🌧️",
+     "q": "",
      "ok": "C'è la pioggia.",
      "no": [
       "C'è la piove.",
       "Piova."
-     ]
+     ],
+     "qi": "ill/pioggia.svg"
     },
     {
-     "q": "☀️",
+     "q": "",
      "ok": "C'è il sole.",
      "no": [
       "C'è il solare.",
       "Sole c'è."
-     ]
+     ],
+     "qi": "ill/sole.svg"
     },
     {
-     "q": "☁️",
+     "q": "",
      "ok": "Ci sono le nuvole.",
      "no": [
       "C'è le nuvole.",
       "Nuvola ci sono."
-     ]
+     ],
+     "qi": "ill/nuvola.svg"
     },
     {
-     "q": "❄️",
+     "q": "",
      "ok": "C'è la neve.",
      "no": [
       "Ci sono neve.",
       "Nevi c'è."
-     ]
+     ],
+     "qi": "ill/neve.svg"
     },
     {
-     "q": "🥶",
+     "q": "",
      "ok": "Fa freddo.",
      "no": [
       "Fai freddo.",
       "Faccio freddo."
-     ]
+     ],
+     "qi": "ill/freddo.svg"
     },
     {
      "q": "Oggi ___ freddo.",
@@ -3841,72 +3852,74 @@
       "Alle nove."
      ]
     }
-   ]
+   ],
+   "i": "ill/meteo.svg",
+   "a": "ill/av-donna.svg",
+   "b": "ill/av-neutro.svg"
   },
   {
    "id": "u12",
    "name": "la strada",
-   "emoji": "🛣️",
    "words": [
     {
      "w": "la strada",
-     "e": "🛣️"
+     "i": "ill/strada.svg"
     },
     {
      "w": "il semaforo",
-     "e": "🚦"
+     "i": "ill/semaforo.svg"
     },
     {
      "w": "le strisce pedonali",
-     "e": ""
+     "i": "ill/strisce-pedonali.svg"
     },
     {
      "w": "il cartello",
-     "e": "🪧"
+     "i": "ill/cartello.svg"
     },
     {
      "w": "il ponte",
-     "e": "🌉"
+     "i": "ill/ponte.svg"
     },
     {
      "w": "la rotonda",
-     "e": ""
+     "i": "ill/rotonda.svg"
     },
     {
      "w": "il pedone",
-     "e": "🚶"
+     "i": "ill/pedone.svg"
     },
     {
      "w": "la fermata",
-     "e": "🚏"
+     "i": "ill/fermata.svg"
     },
     {
      "w": "il marciapiede",
-     "e": ""
+     "i": "ill/marciapiede.svg"
     }
    ],
    "s": [
     {
      "t": "Il semaforo è rosso.",
-     "e": "🚦"
+     "i": "ill/semaforo.svg"
     },
     {
      "t": "Aspetto alla fermata dell'autobus.",
-     "e": "🚏"
+     "i": "ill/fermata.svg"
     }
    ],
    "ph": [
     {
-     "e": "⬆️",
-     "t": "Vai sempre diritto."
+     "t": "Vai sempre diritto.",
+     "i": "ill/dir-diritto.svg"
     },
     {
-     "e": "⬅️",
-     "t": "Gira a sinistra al semaforo."
+     "t": "Gira a sinistra al semaforo.",
+     "i": "ill/dir-sinistra.svg"
     },
     {
-     "e": "➡️",
-     "t": "Gira a destra."
+     "t": "Gira a destra.",
+     "i": "ill/dir-destra.svg"
     }
    ],
    "g": [
@@ -4071,7 +4084,10 @@
       "Mi chiamo Ali."
      ]
     }
-   ]
+   ],
+   "i": "ill/strada.svg",
+   "a": "ill/av-donna.svg",
+   "b": "ill/av-neutro.svg"
   }
  ]
 }
