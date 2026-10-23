@@ -86,14 +86,14 @@ function render(){
   if(V.p==='sedit')return sedit();
   const l=L();if(!l)return go('home');
   const B=V.b||'w',T=V.t||'learn';
-  const SUB=B==='g'?[['rules',ic('list')+'Regole'],['gx',ic('puzzle')+'Esercizi']]:(AL=>B==='f'?[AL[0],AL[3]]:B==='w'?[AL[0],AL[1],['read',ic('link')+'Collega'],AL[3]]:AL)([['learn',ic('eye')+'Impara'],['hear',ic('ear')+'Ascolta'],['read',ic('abc')+'Leggi'],['write',ic('pen')+'Scrivi']]);
+  const SUB=B==='g'?[['rules',ic('list')+'Regole'],['gx',ic('puzzle')+'Esercizi']]:(AL=>B==='f'?[AL[0],AL[3]]:B==='d'?[AL[0],AL[1],['read',ic('chat')+'Rispondi']]:B==='w'?[AL[0],AL[1],['read',ic('link')+'Collega'],AL[3]]:AL)([['learn',ic('eye')+'Impara'],['hear',ic('ear')+'Ascolta'],['read',ic('abc')+'Leggi'],['write',ic('pen')+'Scrivi']]);
   let h=`<div class="top"><button class="btn g" onclick="go('words')">${ic('back')}</button><h1>${im(l.i)} ${l.hid&&!owner?'':(VL().indexOf(l)+1)+'. '}${esc(l.name)}</h1></div>
   <div class="tabs">${[['w',ic('book')+'Parole'],['f',ic('chat')+'Frasi'],['d',ic('talk')+'Dialoghi'],['g',ic('ruler')+'Grammatica']].map(([k,n])=>`<button class="${B===k?'on':''}" style="font-size:10px;padding:8px 0" onclick="lt('${l.id}','${k}','${k==='g'?'rules':'learn'}')">${n}</button>`).join('')}</div>
   <div class="tabs">${SUB.map(([k,n])=>`<button class="${T===k?'on':''}" style="padding:8px 0;font-size:10px" onclick="lt('${l.id}','${B}','${k}')">${n}</button>`).join('')}</div>`;
   if(B==='g')h+=T==='gx'?gxW(l):gramW(l);
   else if(B==='w')h+=T==='learn'?gridW(l):T==='read'?match(l):quiz(l);
   else if(B==='f')h+=T==='write'?sent(l,F(l)):phrW(l);
-  else h+=T==='learn'?dlgW(l):T==='write'?sent(l,(l.dlg||[]).filter(x=>x.who==='A').map(x=>({t:x.t,i:l.a||'ill/av-donna.svg'})),1):dq(l);
+  else h+=T==='learn'?dlgW(l):dq(l);
   app.innerHTML=h;
 }
 function home(){
@@ -163,8 +163,8 @@ function endW(key){const pc=Q.ok/Q.qs.length,st=pc>=.9?3:pc>=.6?2:1;save(key,st)
 function nextS(){Q.i++;Q.tried=false;Q.bank=null;Q.pk=[];Q.busy=0;render()}
 function pk(n){Q.pk.push(Q.bank[n]);render();if(Q.pk.length===Q.bank.length)checkO()}
 function unp(n){Q.pk.splice(n,1);render()}
-function checkO(){const x=Q.qs[Q.i].x;
-  if(norm(Q.pk.map(o=>o.w).join(''))===norm(x.t)){Q.busy=1;document.getElementById('ans').classList.add('okb');if(!Q.tried)Q.ok++;speak(x.t);setTimeout(nextS,1200)}
+function checkO(){const qq=Q.qs[Q.i],t=qq.x?qq.x.t:qq.ok;
+  if(norm(Q.pk.map(o=>o.w).join(''))===norm(t)){Q.busy=1;document.getElementById('ans').classList.add('okb');if(!Q.tried)Q.ok++;speak(t);setTimeout(nextS,1200)}
   else{document.getElementById('ans').classList.add('kob');Q.tried=true;setTimeout(()=>{Q.pk=[];render()},900)}}
 function chkS(){const x=Q.qs[Q.i].x,i=document.getElementById('wi'),v=norm(i.value);if(!v)return;
   if(v===norm(x.t)){Q.busy=1;i.classList.add('ok');if(!Q.tried)Q.ok++;speak(x.t);setTimeout(nextS,1200)}
@@ -280,7 +280,7 @@ function cross(){
   app.innerHTML=`<div class="top"><button class="btn g" onclick="go('games')">${ic('back')}</button><h1>${ic('search')} Crucipuzzle</h1><span class="stars" style="color:#f59f00">${ic('star')} ${X.w}</span></div>
   <div class="q"><p class="note" style="margin:0">Tocca la prima e l'ultima lettera di ogni parola.</p>
   <div class="xg">${X.g.map((c,i)=>`<button class="xc ${X.fd.includes(i)?'fd':''} ${X.sel===i?'sel':''} ${X.bad.includes(i)?'ko':''}" onclick="xc(${i})">${c}</button>`).join('')}</div>
-  <div class="xw">${X.ws.map((w,i)=>`<button class="cw ${w.found?'fd':''}" onclick="speak(X.ws[${i}].x.w)"><span>${pic(w.x)}</span><span>${esc(w.x.w)}</span></button>`).join('')}</div>
+  <div class="xw">${X.ws.map((w,i)=>`<span class="cw ${w.found?'fd':''}"><span>${pic(w.x)}</span><span>${esc(bare(w.x.w))}</span></span>`).join('')}</div>
   ${X.done?`<h1 style="margin:14px 0 8px">${ic('trophy')} Bravo!</h1><button class="btn" style="width:100%" onclick="xstart(X.id,X.w)">${ic('redo')} Altra partita</button>`:`<button class="btn g" style="width:100%;margin-top:14px" onclick="xstart(X.id,X.w)">${ic('skip')} Salta</button>`}</div>`}
 function xc(i){
   if(!X||X.done)return;
@@ -291,7 +291,7 @@ function xc(i){
   const st=Math.max(Math.abs(dr),Math.abs(dc)),cells=[];for(let k=0;k<=st;k++)cells.push((ra+k*Math.sign(dr))*N+ca+k*Math.sign(dc));
   const eq=(p,q)=>p.length===q.length&&p.every((v,k)=>v===q[k]);
   const hit=X.ws.find(w=>!w.found&&(eq(w.cells,cells)||eq(w.cells,[...cells].reverse())));
-  if(hit){hit.found=1;X.fd.push(...hit.cells);speak(hit.x.w);if(X.ws.every(w=>w.found)){X.done=1;X.w++}render()}
+  if(hit){hit.found=1;X.fd.push(...hit.cells);if(X.ws.every(w=>w.found)){X.done=1;X.w++}render()}
   else{X.bad=cells;render();setTimeout(()=>{if(X){X.bad=[];render()}},500)}}
 let SEQ=0,PV=false;
 const vis=x=>!x.hid||(owner&&!PV);
@@ -378,12 +378,19 @@ function lt(id,b,t){V={p:'lesson',id,b,t};Q=null;H=null;M=null;X=null;FI=null;SE
 function dlgW(l){const dl=l.dlg||[];if(!dl.length)return '<p class="note" style="text-align:center">Presto!</p>';
   return `<button class="btn" style="width:100%;margin-bottom:14px" onclick="seq(L().dlg)">${ic('play')} Ascolta tutto</button>`+dl.map((x,i)=>`<div style="display:flex;gap:8px;margin-bottom:10px;align-items:center;${x.who==='A'?'flex-direction:row-reverse':''}"><span style="font-size:52px;flex:none">${x.who==='A'?im(l.a||'ill/av-donna.svg'):im(l.b||'ill/av-neutro.svg')}</span><button class="card" style="width:auto;min-height:0;max-width:78%;padding:12px 14px;text-align:left;align-items:flex-start;${x.who==='A'?'background:var(--pri);color:#fff;border-color:var(--pri)':''}" onclick="seq([L().dlg[${i}]])"><span class="w" style="font-weight:600">${esc(x.t)}</span></button></div>`).join('')}
 function dq(l){const qz=l.qz||[];if(!qz.length)return '<p class="note" style="text-align:center">Presto!</p>';
-  const k='dq'+V.t+l.id,hear=V.t==='hear';
-  if(!Q||Q.k!==k)Q={k,qs:shuf(qz),i:0,ok:0,tried:false,busy:0};
+  const k='dq'+V.t+l.id,hear=V.t==='hear',mix=V.t==='read';
+  if(!Q||Q.k!==k)Q={k,qs:mix?shuf(qz).map((q,n)=>({...q,mode:(n%2&&q.ok.trim().split(/\s+/).length>=2)?'r':'c'})):shuf(qz),i:0,ok:0,tried:false,busy:0,pk:[],bank:null};
   if(Q.i>=Q.qs.length)return endW(l.id+'d'+V.t);
-  const q=Q.qs[Q.i];Q.opts=shuf([{t:q.ok,r:1},...q.no.map(t=>({t,r:0}))]);
+  const q=Q.qs[Q.i],av=`<div style="font-size:56px">${im(l.b||'ill/av-neutro.svg')}</div>`,bar=`<div class="bar"><i style="width:${Q.i/Q.qs.length*100}%"></i></div>`;
   if(hear)setTimeout(()=>{if(Q&&Q.k===k&&Q.qs[Q.i]===q)seq([{who:'B',t:q.q}])},300);
-  return `<div class="q"><div class="bar"><i style="width:${Q.i/Q.qs.length*100}%"></i></div><div style="font-size:56px">${im(l.b||'ill/av-neutro.svg')}</div>
+  if(q.mode==='r'){
+    if(!Q.bank)Q.bank=shuf(q.ok.trim().split(/\s+/).map(w=>({w})));
+    return `<div class="q">${bar}${av}<p style="font-size:24px;font-weight:700;margin:10px 0 4px">${esc(q.q)}</p><button class="btn g" onclick="seq([{who:'B',t:Q.qs[Q.i].q}])">${ic('spk')}</button>
+    <p class="note" style="margin:10px 0 0">Metti in ordine la risposta.</p>
+    <div class="ans" id="ans">${Q.pk.map((o,n)=>`<button class="chip" onclick="unp(${n})">${esc(o.w)}</button>`).join('')}</div>
+    <div class="ans bank">${Q.bank.map((o,n)=>Q.pk.includes(o)?'':`<button class="chip" onclick="pk(${n})">${esc(o.w)}</button>`).join('')}</div>${skipBtn()}</div>`}
+  Q.opts=shuf([{t:q.ok,r:1},...q.no.map(t=>({t,r:0}))]);
+  return `<div class="q">${bar}${av}
   ${hear?`<button class="spk" style="width:96px;height:96px;font-size:46px;margin:8px auto" onclick="seq([{who:'B',t:Q.qs[Q.i].q}])">${ic('spk')}</button>`:`<p style="font-size:24px;font-weight:700;margin:10px 0 14px">${esc(q.q)}</p>`}
   <div style="display:grid;gap:10px">${Q.opts.map((o,i)=>`<button class="card opt" id="so${i}" style="min-height:64px;padding:12px" onclick="spick(${i})"><span class="w">${esc(o.t)}</span></button>`).join('')}</div>${skipBtn()}</div>`}
 /* ---- area insegnante ---- */
