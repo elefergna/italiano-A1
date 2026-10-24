@@ -287,7 +287,75 @@
    ],
    "i": "ill/ciao.svg",
    "a": "ill/av-donna.svg",
-   "b": "ill/av-neutro.svg"
+   "b": "ill/av-impiegato.svg",
+   "dlg": [
+    {
+     "who": "B",
+     "t": "Ciao! Come ti chiami?"
+    },
+    {
+     "who": "A",
+     "t": "Mi chiamo Amina. E tu?"
+    },
+    {
+     "who": "B",
+     "t": "Io sono Marco. Di dove sei?"
+    },
+    {
+     "who": "A",
+     "t": "Sono del Marocco. E tu, da dove vieni?"
+    },
+    {
+     "who": "B",
+     "t": "Vengo da Bologna. Sei di Casablanca?"
+    },
+    {
+     "who": "A",
+     "t": "Sì, sono di Casablanca."
+    },
+    {
+     "who": "B",
+     "t": "Piacere, Amina!"
+    },
+    {
+     "who": "A",
+     "t": "Piacere, Marco!"
+    }
+   ],
+   "qz": [
+    {
+     "q": "Come ti chiami?",
+     "ok": "Mi chiamo Amina.",
+     "no": [
+      "Sto bene.",
+      "Vengo in autobus."
+     ]
+    },
+    {
+     "q": "Da dove vieni?",
+     "ok": "Vengo dal Marocco.",
+     "no": [
+      "Mi chiamo Marco.",
+      "Sono stanco."
+     ]
+    },
+    {
+     "q": "Di dove sei?",
+     "ok": "Sono di Casablanca.",
+     "no": [
+      "Mi chiamo Marco.",
+      "Ho una penna."
+     ]
+    },
+    {
+     "q": "Come si chiama il tuo amico?",
+     "ok": "Si chiama Marco.",
+     "no": [
+      "Vengo da Bologna.",
+      "Ho una penna."
+     ]
+    }
+   ]
   },
   {
    "id": "u7",
@@ -529,8 +597,84 @@
     }
    ],
    "i": "ill/scuola.svg",
-   "a": "ill/av-donna.svg",
-   "b": "ill/av-neutro.svg"
+   "a": "ill/av-uomo.svg",
+   "b": "ill/maestra.svg",
+   "dlg": [
+    {
+     "who": "B",
+     "t": "Buongiorno, Ali! Sei in ritardo."
+    },
+    {
+     "who": "A",
+     "t": "Scusa per il ritardo, ho perso l'autobus. Posso entrare?"
+    },
+    {
+     "who": "B",
+     "t": "Sì, entra. Hai il libro e il quaderno?"
+    },
+    {
+     "who": "A",
+     "t": "Sì, ho il libro e il quaderno, ma non ho la penna."
+    },
+    {
+     "who": "B",
+     "t": "Non c'è problema, ecco due penne. Una penna è per te."
+    },
+    {
+     "who": "A",
+     "t": "Grazie mille."
+    },
+    {
+     "who": "B",
+     "t": "Adesso apri il libro a pagina undici."
+    },
+    {
+     "who": "A",
+     "t": "Non ho capito, puoi ripetere?"
+    },
+    {
+     "who": "B",
+     "t": "Apri il libro a pagina undici."
+    },
+    {
+     "who": "A",
+     "t": "Va bene, pagina undici."
+    }
+   ],
+   "qz": [
+    {
+     "q": "Sei in ritardo.",
+     "ok": "Scusa per il ritardo, ho perso l'autobus.",
+     "no": [
+      "Ho male alla mano.",
+      "Arrivederci."
+     ]
+    },
+    {
+     "q": "Hai il libro e il quaderno?",
+     "ok": "Sì, ho il libro e il quaderno, ma non ho la penna.",
+     "no": [
+      "Ho due penne.",
+      "Vado a casa."
+     ]
+    },
+    {
+     "q": "Adesso apri il libro a pagina undici.",
+     "ok": "Non ho capito, puoi ripetere?",
+     "no": [
+      "Vado a casa.",
+      "Mi chiamo Ali."
+     ]
+    },
+    {
+     "q": "Apri il libro a pagina undici.",
+     "ok": "Va bene, pagina undici.",
+     "no": [
+      "Ho male alla testa.",
+      "Arrivederci."
+     ]
+    }
+   ]
   },
   {
    "id": "u1",
@@ -1638,7 +1782,67 @@
    ],
    "i": "ill/citta.svg",
    "a": "ill/av-donna.svg",
-   "b": "ill/av-neutro.svg"
+   "b": "ill/av-neutro.svg",
+   "dlg": [
+    {
+     "who": "B",
+     "t": "Ciao Fatima, dove vai?"
+    },
+    {
+     "who": "A",
+     "t": "Ciao Hassan! Vado in stazione. Dov'è la fermata dell'autobus?"
+    },
+    {
+     "who": "B",
+     "t": "C'è una fermata vicino alla banca."
+    },
+    {
+     "who": "A",
+     "t": "Quale autobus prendo per andare alla stazione?"
+    },
+    {
+     "who": "B",
+     "t": "Prendi il numero 3, passa ogni 15 minuti."
+    },
+    {
+     "who": "A",
+     "t": "Grazie, allora prendo il tre!"
+    }
+   ],
+   "qz": [
+    {
+     "q": "Dove vai?",
+     "ok": "Vado in stazione.",
+     "no": [
+      "Prendo la pizza.",
+      "Ho la febbre."
+     ]
+    },
+    {
+     "q": "Dov'è la fermata dell'autobus?",
+     "ok": "C'è una fermata vicino alla banca.",
+     "no": [
+      "Sì, grazie.",
+      "Mi chiamo Ali."
+     ]
+    },
+    {
+     "q": "Quale autobus prendi?",
+     "ok": "Prendo il numero tre.",
+     "no": [
+      "Vado alla banca.",
+      "Ci sono due fermate."
+     ]
+    },
+    {
+     "q": "Ogni quanto passa il tre?",
+     "ok": "Passa ogni quindici minuti.",
+     "no": [
+      "Prendo il tre.",
+      "C'è una banca."
+     ]
+    }
+   ]
   },
   {
    "id": "u4",
@@ -1864,7 +2068,79 @@
    ],
    "i": "ill/casa.svg",
    "a": "ill/av-donna.svg",
-   "b": "ill/av-neutro.svg"
+   "b": "ill/av-commessa.svg",
+   "dlg": [
+    {
+     "who": "A",
+     "t": "Ciao Sara, benvenuta! Questa è la mia casa!"
+    },
+    {
+     "who": "B",
+     "t": "Ma che bello il tuo appartamento, Malika! Quante camere ci sono?"
+    },
+    {
+     "who": "A",
+     "t": "Ci sono due camere in fondo al corridoio."
+    },
+    {
+     "who": "B",
+     "t": "E dov'è la cucina?"
+    },
+    {
+     "who": "A",
+     "t": "La cucina è vicino al soggiorno. È molto piccola."
+    },
+    {
+     "who": "B",
+     "t": "E il bagno è grande?"
+    },
+    {
+     "who": "A",
+     "t": "No, anche il bagno è piccolo, ma c'è tutto."
+    },
+    {
+     "who": "B",
+     "t": "Però il soggiorno è molto grande e luminoso!"
+    },
+    {
+     "who": "A",
+     "t": "Sì, il soggiorno è molto grande, e mi piace molto il divano sotto la finestra."
+    }
+   ],
+   "qz": [
+    {
+     "q": "Quante camere ci sono?",
+     "ok": "Ci sono due camere.",
+     "no": [
+      "Il bagno è piccolo.",
+      "Ho due fratelli."
+     ]
+    },
+    {
+     "q": "Dov'è la cucina?",
+     "ok": "La cucina è vicino al soggiorno.",
+     "no": [
+      "Sì, grazie.",
+      "Ho un appuntamento."
+     ]
+    },
+    {
+     "q": "Il bagno è grande?",
+     "ok": "No, il bagno è piccolo, ma c'è tutto.",
+     "no": [
+      "Sì, ci sono due camere.",
+      "Il divano è a destra."
+     ]
+    },
+    {
+     "q": "Dov'è il divano?",
+     "ok": "Il divano è sotto la finestra.",
+     "no": [
+      "Ci sono due camere.",
+      "Vado alla fermata."
+     ]
+    }
+   ]
   },
   {
    "id": "u6",
