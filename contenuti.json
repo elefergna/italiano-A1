@@ -2410,7 +2410,7 @@
    "s": [
     {
      "t": "Lavoro in un ristorante.",
-     "i": "ill/ristorante.svg"
+     "i": "tempolibero/ristorante.png"
     },
     {
      "t": "A che ora inizi a lavorare?",
@@ -2420,7 +2420,7 @@
    "ph": [
     {
      "t": "Lavoro in un ristorante.",
-     "i": "ill/ristorante.svg"
+     "i": "tempolibero/ristorante.png"
     },
     {
      "t": "A che ora inizi a lavorare?",
@@ -3662,36 +3662,80 @@
    "name": "Il tempo libero",
    "words": [
     {
-     "w": "il caffè",
-     "i": "ill/caffe.svg"
-    },
-    {
-     "w": "il tè",
-     "i": "ill/te.svg"
-    },
-    {
-     "w": "il succo",
-     "i": "ill/succo.svg"
+     "w": "il ristorante",
+     "i": "tempolibero/ristorante.png"
     },
     {
      "w": "il menu",
-     "i": "ill/menu.svg"
+     "i": "tempolibero/menu.png"
+    },
+    {
+     "w": "il bar",
+     "i": "tempolibero/bar.png"
+    },
+    {
+     "w": "il cappuccino",
+     "i": "tempolibero/cappuccino.png"
+    },
+    {
+     "w": "la brioche",
+     "i": "tempolibero/brioche.png"
+    },
+    {
+     "w": "la pizzetta",
+     "i": "tempolibero/pizzetta.png"
+    },
+    {
+     "w": "il panino",
+     "i": "tempolibero/panino.png"
     },
     {
      "w": "il conto",
-     "i": "ill/conto.svg"
+     "i": "tempolibero/conto.png"
+    },
+    {
+     "w": "lo scontrino",
+     "i": "tempolibero/scontrino.png"
+    },
+    {
+     "w": "lo sport",
+     "i": "tempolibero/sport.png"
     },
     {
      "w": "il calcio",
-     "i": "ill/calcio.svg"
+     "i": "tempolibero/calcio.png"
+    },
+    {
+     "w": "il basket",
+     "i": "tempolibero/basket.png"
+    },
+    {
+     "w": "il cricket",
+     "i": "tempolibero/cricket.png"
+    },
+    {
+     "w": "il nuoto",
+     "i": "tempolibero/nuoto.png"
+    },
+    {
+     "w": "la danza",
+     "i": "tempolibero/danza.png"
     },
     {
      "w": "la musica",
-     "i": "ill/musica.svg"
+     "i": "tempolibero/musica.png"
     },
     {
      "w": "il cinema",
-     "i": "ill/cinema.svg"
+     "i": "tempolibero/cinema.png"
+    },
+    {
+     "w": "il giornale",
+     "i": "tempolibero/giornale.png"
+    },
+    {
+     "w": "leggere",
+     "i": "tempolibero/leggere.png"
     }
    ],
    "s": [
@@ -3701,7 +3745,7 @@
     },
     {
      "t": "Il conto, per favore.",
-     "i": "ill/conto.svg"
+     "i": "tempolibero/conto.png"
     }
    ],
    "ph": [
@@ -3711,15 +3755,15 @@
     },
     {
      "t": "Il conto, per favore.",
-     "i": "ill/conto.svg"
+     "i": "tempolibero/conto.png"
     },
     {
      "t": "Che cosa fai nel tempo libero?",
-     "i": "ill/calcio.svg"
+     "i": "tempolibero/calcio.png"
     },
     {
      "t": "Mi piace la musica.",
-     "i": "ill/musica.svg"
+     "i": "tempolibero/musica.png"
     }
    ],
    "g": [
@@ -3872,7 +3916,7 @@
      ]
     }
    ],
-   "i": "ill/caffe.svg",
+   "i": "tempolibero/copertina.png",
    "a": "av/paul.png",
    "b": "av/isa.png",
    "dlg": [
