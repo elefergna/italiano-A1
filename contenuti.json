@@ -3009,35 +3009,55 @@
    "words": [
     {
      "w": "la sveglia",
-     "i": "ill/sveglia.svg"
+     "i": "quotidiana/sveglia.png"
     },
     {
      "w": "la mattina",
-     "i": "ill/mattina.svg"
-    },
-    {
-     "w": "la colazione",
-     "i": "ill/colazione.png"
-    },
-    {
-     "w": "il pranzo",
-     "i": "ill/pranzo.svg"
+     "i": "quotidiana/mattina.png"
     },
     {
      "w": "la sera",
-     "i": "ill/sera.svg"
+     "i": "quotidiana/sera.png"
+    },
+    {
+     "w": "la notte",
+     "i": "quotidiana/notte.png"
+    },
+    {
+     "w": "la colazione",
+     "i": "quotidiana/colazione.png"
+    },
+    {
+     "w": "il pranzo",
+     "i": "quotidiana/pranzo.png"
     },
     {
      "w": "la cena",
-     "i": "ill/cena.svg"
+     "i": "quotidiana/cena.png"
     },
     {
      "w": "dormire",
-     "i": "ill/dormire.svg"
+     "i": "quotidiana/dormire.png"
     },
     {
      "w": "il riposo",
-     "i": "ill/riposo.svg"
+     "i": "quotidiana/riposo.png"
+    },
+    {
+     "w": "lavorare",
+     "i": "quotidiana/lavorare.png"
+    },
+    {
+     "w": "studiare",
+     "i": "quotidiana/studiare.png"
+    },
+    {
+     "w": "cucinare",
+     "i": "quotidiana/cucinare.png"
+    },
+    {
+     "w": "la spesa",
+     "i": "quotidiana/spesa.png"
     }
    ],
    "s": [
@@ -3047,7 +3067,7 @@
     },
     {
      "t": "La sera preparo la cena.",
-     "i": "ill/cena.svg"
+     "i": "quotidiana/cena.png"
     }
    ],
    "ph": [
@@ -3057,15 +3077,15 @@
     },
     {
      "t": "La sera preparo la cena.",
-     "i": "ill/cena.svg"
+     "i": "quotidiana/cena.png"
     },
     {
      "t": "Faccio colazione al bar.",
-     "i": "ill/colazione.png"
+     "i": "quotidiana/colazione.png"
     },
     {
      "t": "Vado a dormire alle dieci.",
-     "i": "ill/dormire.svg"
+     "i": "quotidiana/dormire.png"
     }
    ],
    "g": [
@@ -3224,7 +3244,7 @@
      ]
     }
    ],
-   "i": "ill/sveglia.svg",
+   "i": "quotidiana/copertina.png",
    "a": "av/fatima.png",
    "b": "av/joy.png",
    "dlg": [
