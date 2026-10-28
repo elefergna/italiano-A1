@@ -2010,61 +2010,93 @@
    "words": [
     {
      "w": "la casa",
-     "i": "ill/casa.svg"
-    },
-    {
-     "w": "il letto",
-     "i": "ill/letto.svg"
-    },
-    {
-     "w": "la porta",
-     "i": "ill/porta.svg"
-    },
-    {
-     "w": "la finestra",
-     "i": "ill/finestra.svg"
-    },
-    {
-     "w": "la sedia",
-     "i": "ill/sedia.svg"
-    },
-    {
-     "w": "la doccia",
-     "i": "ill/doccia.svg"
-    },
-    {
-     "w": "la chiave",
-     "i": "ill/chiave.svg"
-    },
-    {
-     "w": "la carta igienica",
-     "i": "ill/carta-igienica.svg"
-    },
-    {
-     "w": "il water",
-     "i": "ill/water.svg"
+     "i": "casa/casa.png"
     },
     {
      "w": "il divano",
-     "i": "ill/divano.svg"
+     "i": "casa/divano.png"
     },
     {
-     "w": "lo specchio",
-     "i": "ill/specchio.svg"
+     "w": "il tappeto",
+     "i": "casa/tappeto.png"
     },
     {
      "w": "la televisione",
-     "i": "ill/televisione.svg"
+     "i": "casa/televisione.png"
+    },
+    {
+     "w": "il letto",
+     "i": "casa/letto.png"
+    },
+    {
+     "w": "l'armadio",
+     "i": "casa/armadio.png"
+    },
+    {
+     "w": "la porta",
+     "i": "casa/porta.png"
+    },
+    {
+     "w": "la finestra",
+     "i": "casa/finestra.png"
+    },
+    {
+     "w": "le scale",
+     "i": "casa/scale.png"
+    },
+    {
+     "w": "la sedia",
+     "i": "casa/sedia.png"
+    },
+    {
+     "w": "il tavolo",
+     "i": "casa/tavolo.png"
+    },
+    {
+     "w": "la doccia",
+     "i": "casa/doccia.png"
+    },
+    {
+     "w": "lo specchio",
+     "i": "casa/specchio.png"
+    },
+    {
+     "w": "il water",
+     "i": "casa/water.png"
+    },
+    {
+     "w": "la carta igienica",
+     "i": "casa/carta-igienica.png"
+    },
+    {
+     "w": "la chiave",
+     "i": "casa/chiave.png"
+    },
+    {
+     "w": "la cucina",
+     "i": "casa/cucina.png"
+    },
+    {
+     "w": "il bagno",
+     "i": "casa/bagno.png"
+    },
+    {
+     "w": "la camera da letto",
+     "i": "casa/camera.png"
+    },
+    {
+     "w": "il salotto",
+     "i": "casa/salotto.png"
     }
    ],
    "s": [
     {
      "t": "Io apro la porta.",
-     "i": "ill/porta.svg"
+     "i": "casa/porta.png"
     },
     {
      "t": "lei dorme nel letto.",
-     "i": "ill/letto.svg"
+     "i": "casa/letto.png"
     }
    ],
    "ph": [
@@ -2074,15 +2106,15 @@
     },
     {
      "t": "Nella mia casa ci sono due camere.",
-     "i": "ill/letto.svg"
+     "i": "casa/letto.png"
     },
     {
      "t": "La cucina è vicino al soggiorno.",
-     "i": "ill/cucina.svg"
+     "i": "casa/cucina.png"
     },
     {
      "t": "C'è il bagno?",
-     "i": "ill/doccia.svg"
+     "i": "casa/doccia.png"
     }
    ],
    "g": [
@@ -2226,7 +2258,7 @@
      ]
     }
    ],
-   "i": "ill/casa.svg",
+   "i": "casa/copertina.png",
    "a": "av/iqra.png",
    "b": "av/sara.png",
    "dlg": [
