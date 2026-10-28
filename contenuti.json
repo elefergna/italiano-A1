@@ -489,7 +489,7 @@
     },
     {
      "t": "io disegno una casa.",
-     "i": "ill/disegnare.svg"
+     "i": "frasi/disegnare.png"
     },
     {
      "t": "io taglio con le forbici.",
@@ -503,11 +503,11 @@
    "ph": [
     {
      "t": "Non ho capito.",
-     "i": "ill/non-capisco.svg"
+     "i": "frasi/non-capisco.png"
     },
     {
      "t": "Puoi ripetere, per favore?",
-     "i": "ill/ripetere.svg"
+     "i": "frasi/ripetere.png"
     },
     {
      "t": "Come si scrive?",
@@ -515,7 +515,7 @@
     },
     {
      "t": "Ascolta e ripeti.",
-     "i": "ill/ascoltare.svg"
+     "i": "frasi/ascoltare.png"
     }
    ],
    "g": [
@@ -934,23 +934,23 @@
     },
     {
      "t": "Basta così, grazie.",
-     "i": "ill/ok.svg"
+     "i": "frasi/ok.png"
     },
     {
      "t": "Quanto costa?",
-     "i": "ill/soldi.svg"
+     "i": "frasi/soldi.png"
     },
     {
      "t": "Posso pagare con la carta?",
-     "i": "ill/carta-di-credito.svg"
+     "i": "frasi/carta-di-credito.png"
     },
     {
      "t": "Non capisco.",
-     "i": "ill/non-capisco.svg"
+     "i": "frasi/non-capisco.png"
     },
     {
      "t": "Può ripetere, per favore?",
-     "i": "ill/ripetere.svg"
+     "i": "frasi/ripetere.png"
     },
     {
      "t": "Grazie, arrivederci.",
@@ -1281,21 +1281,21 @@
     },
     {
      "t": "Ho la febbre.",
-     "i": "ill/febbre.png"
+     "i": "frasi/febbre.png"
     }
    ],
    "ph": [
     {
      "t": "Mi fa male la schiena.",
-     "i": "ill/mal-di-schiena.png"
+     "i": "frasi/mal-di-schiena.png"
     },
     {
      "t": "Ho mal di testa.",
-     "i": "ill/mal-di-testa.png"
+     "i": "frasi/mal-di-testa.png"
     },
     {
      "t": "Ho la febbre.",
-     "i": "ill/febbre.png"
+     "i": "frasi/febbre.png"
     },
     {
      "t": "Ho bisogno di un dottore.",
@@ -1303,11 +1303,11 @@
     },
     {
      "t": "Ho mal di pancia.",
-     "i": "ill/mal-di-pancia.png"
+     "i": "frasi/mal-di-pancia.png"
     },
     {
      "t": "Ho mal di denti.",
-     "i": "ill/mal-di-denti.svg"
+     "i": "frasi/mal-di-denti.png"
     },
     {
      "t": "Ho un appuntamento.",
@@ -1319,11 +1319,11 @@
     },
     {
      "t": "Non capisco.",
-     "i": "ill/non-capisco.svg"
+     "i": "frasi/non-capisco.png"
     },
     {
      "t": "Può ripetere, per favore?",
-     "i": "ill/ripetere.svg"
+     "i": "frasi/ripetere.png"
     }
    ],
    "g": [
@@ -2102,7 +2102,7 @@
    "ph": [
     {
      "t": "Abito in un appartamento.",
-     "i": "ill/appartamento.svg"
+     "i": "frasi/appartamento.png"
     },
     {
      "t": "Nella mia casa ci sono due camere.",
@@ -2432,7 +2432,7 @@
     },
     {
      "t": "Finisco alle cinque.",
-     "i": "ill/ore-5.svg"
+     "i": "frasi/ore-5.png"
     }
    ],
    "g": [
@@ -2750,7 +2750,7 @@
     },
     {
      "t": "Ha una taglia più grande?",
-     "i": "ill/taglia.svg"
+     "i": "frasi/taglia.png"
     },
     {
      "t": "Vorrei queste scarpe.",
@@ -3063,7 +3063,7 @@
    "s": [
     {
      "t": "Mi alzo alle sette.",
-     "i": "ill/ore-7.svg"
+     "i": "frasi/ore-7.png"
     },
     {
      "t": "La sera preparo la cena.",
@@ -3073,7 +3073,7 @@
    "ph": [
     {
      "t": "Mi alzo alle sette.",
-     "i": "ill/ore-7.svg"
+     "i": "frasi/ore-7.png"
     },
     {
      "t": "La sera preparo la cena.",
@@ -3187,7 +3187,7 @@
       "Sono le otto.",
       "Sono le sei."
      ],
-     "qi": "ill/ore-7.svg"
+     "qi": "frasi/ore-7.png"
     },
     {
      "q": "Che ore sono?",
@@ -3196,7 +3196,7 @@
       "Sono le dieci.",
       "Sono le otto."
      ],
-     "qi": "ill/ore-9.svg"
+     "qi": "frasi/ore-9.png"
     },
     {
      "q": "Che ore sono?",
@@ -3205,7 +3205,7 @@
       "Sono le due.",
       "Sono le quattro."
      ],
-     "qi": "ill/ore-3.svg"
+     "qi": "frasi/ore-3.png"
     }
    ],
    "cz": [
@@ -3418,7 +3418,7 @@
     },
     {
      "t": "Dove devo andare?",
-     "i": "ill/dove.svg"
+     "i": "frasi/dove.png"
     },
     {
      "t": "Mi chiamo Malika.",
@@ -3426,11 +3426,11 @@
     },
     {
      "t": "Non capisco.",
-     "i": "ill/non-capisco.svg"
+     "i": "frasi/non-capisco.png"
     },
     {
      "t": "Può ripetere, per favore?",
-     "i": "ill/ripetere.svg"
+     "i": "frasi/ripetere.png"
     }
    ],
    "g": [
@@ -4134,7 +4134,7 @@
     },
     {
      "t": "Domani non posso.",
-     "i": "ill/non-posso.svg"
+     "i": "frasi/non-posso.png"
     }
    ],
    "g": [
