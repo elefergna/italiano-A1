@@ -103,7 +103,7 @@
     },
     {
      "t": "Parlo un po' di italiano.",
-     "i": "ill/lingua-bocca.png"
+     "i": "presentarsi/lingua.png"
     }
    ],
    "g": [
@@ -481,11 +481,11 @@
    "s": [
     {
      "t": "io leggo il libro.",
-     "i": "ill/libro.svg"
+     "i": "scuola/libro.png"
     },
     {
      "t": "io scrivo con la penna.",
-     "i": "ill/penna.svg"
+     "i": "scuola/penna.png"
     },
     {
      "t": "io disegno una casa.",
@@ -493,11 +493,11 @@
     },
     {
      "t": "io taglio con le forbici.",
-     "i": "ill/forbici.svg"
+     "i": "scuola/forbici.png"
     },
     {
      "t": "la maestra spiega.",
-     "i": "ill/maestra.svg"
+     "i": "scuola/maestra.png"
     }
    ],
    "ph": [
@@ -511,7 +511,7 @@
     },
     {
      "t": "Come si scrive?",
-     "i": "ill/scrivere.svg"
+     "i": "scuola/scrivere.png"
     },
     {
      "t": "Ascolta e ripeti.",
@@ -904,33 +904,33 @@
    "s": [
     {
      "t": "tu mangi la mela.",
-     "i": "ill/mela.svg"
+     "i": "cibo/mela.png"
     },
     {
      "t": "Mi piace la banana.",
-     "i": "ill/banana.svg"
+     "i": "cibo/banana.png"
     },
     {
      "t": "noi beviamo l'acqua.",
-     "i": "ill/acqua.svg"
+     "i": "cibo/acqua.png"
     },
     {
      "t": "Mi piace il pane con il formaggio.",
-     "i": "ill/pane.svg"
+     "i": "cibo/pane.png"
     }
    ],
    "ph": [
     {
      "t": "Vorrei un chilo di mele.",
-     "i": "ill/mela.svg"
+     "i": "cibo/mela.png"
     },
     {
      "t": "Quanto costa il pane?",
-     "i": "ill/pane.svg"
+     "i": "cibo/pane.png"
     },
     {
      "t": "Dov'è il latte?",
-     "i": "ill/latte.svg"
+     "i": "cibo/latte.png"
     },
     {
      "t": "Basta così, grazie.",
@@ -954,7 +954,7 @@
     },
     {
      "t": "Grazie, arrivederci.",
-     "i": "ill/ciao.svg"
+     "i": "presentarsi/ciao.png"
     }
    ],
    "g": [
@@ -1269,15 +1269,15 @@
    "s": [
     {
      "t": "Ho male alla mano.",
-     "i": "ill/mano.png"
+     "i": "corpo/mano.png"
     },
     {
      "t": "Ho male al dente.",
-     "i": "ill/dente.svg"
+     "i": "corpo/dente.png"
     },
     {
      "t": "Chiamo l'ambulanza.",
-     "i": "ill/ambulanza.svg"
+     "i": "corpo/ambulanza.png"
     },
     {
      "t": "Ho la febbre.",
@@ -2342,7 +2342,7 @@
     },
     {
      "t": "A che ora inizi a lavorare?",
-     "i": "ill/orologio.svg"
+     "i": "scuola/orologio.png"
     }
    ],
    "ph": [
@@ -2352,7 +2352,7 @@
     },
     {
      "t": "A che ora inizi a lavorare?",
-     "i": "ill/orologio.svg"
+     "i": "scuola/orologio.png"
     },
     {
      "t": "Devo andare al lavoro.",
@@ -3565,7 +3565,7 @@
    "s": [
     {
      "t": "Per me un caffè, grazie.",
-     "i": "ill/caffe.svg"
+     "i": "cibo/caffe.png"
     },
     {
      "t": "Il conto, per favore.",
@@ -3575,7 +3575,7 @@
    "ph": [
     {
      "t": "Per me un caffè, grazie.",
-     "i": "ill/caffe.svg"
+     "i": "cibo/caffe.png"
     },
     {
      "t": "Il conto, per favore.",
@@ -4210,7 +4210,7 @@
     },
     {
      "t": "Ho un figlio.",
-     "i": "ill/bambino.svg"
+     "i": "presentarsi/bambino.png"
     }
    ],
    "g": [
