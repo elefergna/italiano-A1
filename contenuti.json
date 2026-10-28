@@ -1187,79 +1187,83 @@
    "words": [
     {
      "w": "la mano",
-     "i": "ill/mano.png"
+     "i": "corpo/mano.png"
     },
     {
      "w": "il piede",
-     "i": "ill/piede.png"
-    },
-    {
-     "w": "l'occhio",
-     "i": "ill/occhio.svg"
+     "i": "corpo/piede.png"
     },
     {
      "w": "l'orecchio",
-     "i": "ill/orecchio.png"
+     "i": "corpo/orecchio.png"
     },
     {
      "w": "il naso",
-     "i": "ill/naso.png"
-    },
-    {
-     "w": "la bocca",
-     "i": "ill/bocca.png"
-    },
-    {
-     "w": "il dente",
-     "i": "ill/dente.svg"
+     "i": "corpo/naso.png"
     },
     {
      "w": "il braccio",
-     "i": "ill/braccio.png"
+     "i": "corpo/braccio.png"
     },
     {
      "w": "la gamba",
-     "i": "ill/gamba.png"
+     "i": "corpo/gamba.png"
+    },
+    {
+     "w": "la bocca",
+     "i": "corpo/bocca.png"
     },
     {
      "w": "la lingua",
-     "i": "ill/lingua-bocca.png"
+     "i": "corpo/lingua.png"
     },
     {
-     "w": "il medico",
-     "i": "ill/medico.svg"
+     "w": "l'occhio",
+     "i": "corpo/occhio.png"
+    },
+    {
+     "w": "il dente",
+     "i": "corpo/dente.png"
+    },
+    {
+     "w": "il dottore",
+     "i": "corpo/dottore.png"
+    },
+    {
+     "w": "la dottoressa",
+     "i": "corpo/dottoressa.png"
     },
     {
      "w": "l'ambulanza",
-     "i": "ill/ambulanza.svg"
+     "i": "corpo/ambulanza.png"
     },
     {
-     "w": "la medicina",
-     "i": "ill/medicina.svg"
+     "w": "le medicine",
+     "i": "corpo/medicine.png"
     },
     {
      "w": "la siringa",
-     "i": "ill/siringa.svg"
+     "i": "corpo/siringa.png"
     },
     {
      "w": "il termometro",
-     "i": "ill/termometro.svg"
+     "i": "corpo/termometro.png"
     },
     {
      "w": "la mascherina",
-     "i": "ill/mascherina.svg"
+     "i": "corpo/mascherina.png"
     },
     {
      "w": "il cerotto",
-     "i": "ill/cerotto.svg"
+     "i": "corpo/cerotto.png"
     },
     {
      "w": "il sangue",
-     "i": "ill/sangue.svg"
+     "i": "corpo/sangue.png"
     },
     {
      "w": "le stampelle",
-     "i": "ill/stampelle.svg"
+     "i": "corpo/stampelle.png"
     }
    ],
    "s": [
@@ -1294,8 +1298,8 @@
      "i": "ill/febbre.png"
     },
     {
-     "t": "Ho bisogno di un medico.",
-     "i": "ill/medico.svg"
+     "t": "Ho bisogno di un dottore.",
+     "i": "corpo/dottore.png"
     },
     {
      "t": "Ho mal di pancia.",
@@ -1311,7 +1315,7 @@
     },
     {
      "t": "Ho bisogno di una medicina.",
-     "i": "ill/medicina.svg"
+     "i": "corpo/medicine.png"
     },
     {
      "t": "Non capisco.",
@@ -1528,7 +1532,7 @@
    "cz": [
     {
      "q": "Ho bisogno di un ___.",
-     "ok": "medico",
+     "ok": "dottore",
      "no": [
       "cane",
       "calendario"
@@ -1593,7 +1597,7 @@
      ]
     }
    ],
-   "i": "ill/salute.svg"
+   "i": "corpo/copertina.png"
   },
   {
    "id": "u3",
@@ -3103,14 +3107,14 @@
     {
      "h": "Attenzione",
      "k": "n",
-     "t": "Con persone che non conosci, in ufficio, dal medico si usa LEI (formale), non TU."
+     "t": "Con persone che non conosci, in ufficio, dal dottore si usa LEI (formale), non TU."
     },
     {
      "h": "TU e LEI",
      "k": "t",
      "head": [
       "TU (amici)",
-      "LEI (ufficio, medico)"
+      "LEI (ufficio, dottore)"
      ],
      "rows": [
       [
@@ -3162,7 +3166,7 @@
      ]
     },
     {
-     "q": "Al medico: Come ___?",
+     "q": "Dal dottore: Come ___?",
      "ok": "sta",
      "no": [
       "stai",
