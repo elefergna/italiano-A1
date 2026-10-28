@@ -762,75 +762,143 @@
    "words": [
     {
      "w": "la mela",
-     "i": "ill/mela.svg"
+     "i": "cibo/mela.png"
     },
     {
      "w": "la banana",
-     "i": "ill/banana.svg"
+     "i": "cibo/banana.png"
     },
     {
      "w": "l'arancia",
-     "i": "ill/arancia.svg"
+     "i": "cibo/arancia.png"
     },
     {
      "w": "la pera",
-     "i": "ill/pera.svg"
+     "i": "cibo/pera.png"
     },
     {
      "w": "l'uva",
-     "i": "ill/uva.svg"
+     "i": "cibo/uva.png"
     },
     {
      "w": "la fragola",
-     "i": "ill/fragola.svg"
+     "i": "cibo/fragola.png"
     },
     {
      "w": "il limone",
-     "i": "ill/limone.svg"
+     "i": "cibo/limone.png"
     },
     {
      "w": "il kiwi",
-     "i": "ill/kiwi.svg"
+     "i": "cibo/kiwi.png"
+    },
+    {
+     "w": "il pomodoro",
+     "i": "cibo/pomodoro.png"
+    },
+    {
+     "w": "la zucchina",
+     "i": "cibo/zucchina.png"
+    },
+    {
+     "w": "l'insalata",
+     "i": "cibo/insalata.png"
+    },
+    {
+     "w": "la patata",
+     "i": "cibo/patata.png"
+    },
+    {
+     "w": "la carota",
+     "i": "cibo/carota.png"
+    },
+    {
+     "w": "la melanzana",
+     "i": "cibo/melanzana.png"
+    },
+    {
+     "w": "le lenticchie",
+     "i": "cibo/lenticchie.png"
+    },
+    {
+     "w": "i ceci",
+     "i": "cibo/ceci.png"
+    },
+    {
+     "w": "i fagioli",
+     "i": "cibo/fagioli.png"
     },
     {
      "w": "il pane",
-     "i": "ill/pane.svg"
+     "i": "cibo/pane.png"
     },
     {
      "w": "il latte",
-     "i": "ill/latte.svg"
+     "i": "cibo/latte.png"
     },
     {
      "w": "l'acqua",
-     "i": "ill/acqua.svg"
+     "i": "cibo/acqua.png"
     },
     {
      "w": "il formaggio",
-     "i": "ill/formaggio.svg"
+     "i": "cibo/formaggio.png"
     },
     {
      "w": "l'uovo",
-     "i": "ill/uovo.svg"
+     "i": "cibo/uovo.png"
     },
     {
      "w": "la pizza",
-     "i": "ill/pizza.svg"
+     "i": "cibo/pizza.png"
     },
     {
      "w": "il caffè",
-     "i": "ill/caffe.svg"
+     "i": "cibo/caffe.png"
     },
     {
      "w": "la carne",
-     "i": "ill/carne.svg"
+     "i": "cibo/carne.png"
     },
     {
      "w": "la pasta",
-     "i": "ill/pasta.svg"
+     "i": "cibo/pasta.png"
     },
     {
      "w": "il pollo",
-     "i": "ill/pollo.svg"
+     "i": "cibo/pollo.png"
+    },
+    {
+     "w": "il riso",
+     "i": "cibo/riso.png"
+    },
+    {
+     "w": "la zuppa",
+     "i": "cibo/zuppa.png"
+    },
+    {
+     "w": "il succo",
+     "i": "cibo/succo.png"
+    },
+    {
+     "w": "il tè",
+     "i": "cibo/te.png"
+    },
+    {
+     "w": "i biscotti",
+     "i": "cibo/biscotti.png"
+    },
+    {
+     "w": "il cioccolato",
+     "i": "cibo/cioccolato.png"
+    },
+    {
+     "w": "il gelato",
+     "i": "cibo/gelato.png"
+    },
+    {
+     "w": "il cous cous",
+     "i": "cibo/couscous.png"
     }
    ],
    "s": [
@@ -1111,7 +1179,7 @@
      ]
     }
    ],
-   "i": "ill/spesa.svg"
+   "i": "cibo/copertina.png"
   },
   {
    "id": "u2",
