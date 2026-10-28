@@ -85,7 +85,7 @@
     },
     {
      "t": "Vengo dal Marocco.",
-     "i": "ill/mondo.svg"
+     "i": "natura/mondo.png"
     }
    ],
    "ph": [
@@ -95,7 +95,7 @@
     },
     {
      "t": "Vengo dal Marocco.",
-     "i": "ill/mondo.svg"
+     "i": "natura/mondo.png"
     },
     {
      "t": "Che lavoro fai?",
@@ -1733,7 +1733,7 @@
     },
     {
      "t": "Dov'è la fermata?",
-     "i": "ill/fermata.svg"
+     "i": "strada/fermata.png"
     }
    ],
    "g": [
@@ -4322,67 +4322,63 @@
    "words": [
     {
      "w": "la mamma",
-     "i": "ill/mamma.svg"
+     "i": "famiglia/mamma.png"
     },
     {
      "w": "il papà",
-     "i": "ill/papa.svg"
+     "i": "famiglia/papa.png"
     },
     {
      "w": "il fratello",
-     "i": "ill/fratello.svg"
+     "i": "famiglia/fratello.png"
     },
     {
      "w": "la sorella",
-     "i": "ill/sorella.svg"
-    },
-    {
-     "w": "il bambino",
-     "i": "ill/bambino.svg"
+     "i": "famiglia/sorella.png"
     },
     {
      "w": "il nonno",
-     "i": "ill/nonno.svg"
+     "i": "famiglia/nonno.png"
     },
     {
      "w": "la nonna",
-     "i": "ill/nonna.svg"
+     "i": "famiglia/nonna.png"
     },
     {
      "w": "la famiglia",
-     "i": "ill/famiglia.svg"
+     "i": "famiglia/copertina.png"
     },
     {
      "w": "il cane",
-     "i": "ill/cane.svg"
+     "i": "famiglia/cane.png"
     },
     {
      "w": "il gatto",
-     "i": "ill/gatto.svg"
+     "i": "famiglia/gatto.png"
     }
    ],
    "s": [
     {
      "t": "Ho due fratelli.",
-     "i": "ill/fratello.svg"
+     "i": "famiglia/fratello.png"
     },
     {
      "t": "Mia sorella abita a Roma.",
-     "i": "ill/sorella.svg"
+     "i": "famiglia/sorella.png"
     }
    ],
    "ph": [
     {
      "t": "Ho due fratelli.",
-     "i": "ill/fratello.svg"
+     "i": "famiglia/fratello.png"
     },
     {
      "t": "Mia sorella abita a Roma.",
-     "i": "ill/sorella.svg"
+     "i": "famiglia/sorella.png"
     },
     {
      "t": "Questa è mia madre.",
-     "i": "ill/mamma.svg"
+     "i": "famiglia/mamma.png"
     },
     {
      "t": "Ho un figlio.",
@@ -4585,7 +4581,7 @@
      ]
     }
    ],
-   "i": "ill/famiglia.svg",
+   "i": "famiglia/copertina.png",
    "a": "av/fatima.png",
    "b": "av/sara.png",
    "dlg": [
@@ -4690,92 +4686,120 @@
    "name": "La natura",
    "words": [
     {
+     "w": "il mondo",
+     "i": "natura/mondo.png"
+    },
+    {
      "w": "il sole",
-     "i": "ill/sole.svg"
+     "i": "natura/sole.png"
+    },
+    {
+     "w": "la luna",
+     "i": "natura/luna.png"
     },
     {
      "w": "la pioggia",
-     "i": "ill/pioggia.svg"
+     "i": "natura/pioggia.png"
     },
     {
      "w": "il vento",
-     "i": "ill/vento.svg"
+     "i": "natura/vento.png"
     },
     {
      "w": "la neve",
-     "i": "ill/neve.svg"
+     "i": "natura/neve.png"
+    },
+    {
+     "w": "la nebbia",
+     "i": "natura/nebbia.png"
+    },
+    {
+     "w": "il temporale",
+     "i": "natura/temporale.png"
+    },
+    {
+     "w": "l'arcobaleno",
+     "i": "natura/arcobaleno.png"
     },
     {
      "w": "il caldo",
-     "i": "ill/caldo.svg"
+     "i": "natura/caldo.png"
     },
     {
      "w": "il freddo",
-     "i": "ill/freddo.svg"
+     "i": "natura/freddo.png"
     },
     {
      "w": "la nuvola",
-     "i": "ill/nuvola.svg"
+     "i": "natura/nuvola.png"
     },
     {
      "w": "la primavera",
-     "i": "ill/primavera.svg"
+     "i": "natura/primavera.png"
     },
     {
      "w": "l'estate",
-     "i": "ill/estate.svg"
+     "i": "natura/estate.png"
     },
     {
      "w": "l'autunno",
-     "i": "ill/autunno.svg"
+     "i": "natura/autunno.png"
     },
     {
      "w": "l'inverno",
-     "i": "ill/inverno.svg"
+     "i": "natura/inverno.png"
     },
     {
      "w": "il mare",
-     "i": "ill/mare.svg"
+     "i": "natura/mare.png"
     },
     {
      "w": "la montagna",
-     "i": "ill/montagna.svg"
+     "i": "natura/montagna.png"
+    },
+    {
+     "w": "il bosco",
+     "i": "natura/bosco.png"
     },
     {
      "w": "il lago",
-     "i": "ill/lago.svg"
+     "i": "natura/lago.png"
     },
     {
      "w": "il fiume",
-     "i": "ill/fiume.svg"
+     "i": "natura/fiume.png"
+    },
+    {
+     "w": "l'isola",
+     "i": "natura/isola.png"
     }
    ],
    "s": [
     {
      "t": "Oggi fa freddo.",
-     "i": "ill/freddo.svg"
+     "i": "natura/freddo.png"
     },
     {
      "t": "In estate vado al mare.",
-     "i": "ill/mare.svg"
+     "i": "natura/mare.png"
     }
    ],
    "ph": [
     {
      "t": "Oggi fa freddo.",
-     "i": "ill/freddo.svg"
+     "i": "natura/freddo.png"
     },
     {
      "t": "In estate vado al mare.",
-     "i": "ill/mare.svg"
+     "i": "natura/mare.png"
     },
     {
      "t": "Piove.",
-     "i": "ill/pioggia.svg"
+     "i": "natura/pioggia.png"
     },
     {
      "t": "C'è il sole.",
-     "i": "ill/sole.svg"
+     "i": "natura/sole.png"
     }
    ],
    "g": [
@@ -4854,7 +4878,7 @@
       "C'è la piove.",
       "Piova."
      ],
-     "qi": "ill/pioggia.svg"
+     "qi": "natura/pioggia.png"
     },
     {
      "q": "",
@@ -4863,7 +4887,7 @@
       "C'è il solare.",
       "Sole c'è."
      ],
-     "qi": "ill/sole.svg"
+     "qi": "natura/sole.png"
     },
     {
      "q": "",
@@ -4872,7 +4896,7 @@
       "C'è le nuvole.",
       "Nuvola ci sono."
      ],
-     "qi": "ill/nuvola.svg"
+     "qi": "natura/nuvola.png"
     },
     {
      "q": "",
@@ -4881,7 +4905,7 @@
       "Ci sono neve.",
       "Nevi c'è."
      ],
-     "qi": "ill/neve.svg"
+     "qi": "natura/neve.png"
     },
     {
      "q": "",
@@ -4890,7 +4914,7 @@
       "Fai freddo.",
       "Faccio freddo."
      ],
-     "qi": "ill/freddo.svg"
+     "qi": "natura/freddo.png"
     },
     {
      "q": "Oggi ___ freddo.",
@@ -4953,7 +4977,7 @@
      ]
     }
    ],
-   "i": "ill/meteo.svg",
+   "i": "natura/copertina.png",
    "a": "av/malika.png",
    "b": "av/fatima.png",
    "dlg": [
@@ -5059,63 +5083,91 @@
    "words": [
     {
      "w": "la strada",
-     "i": "ill/strada.svg"
+     "i": "strada/strada.png"
     },
     {
      "w": "il semaforo",
-     "i": "ill/semaforo.svg"
+     "i": "strada/semaforo.png"
     },
     {
      "w": "le strisce pedonali",
-     "i": "ill/strisce-pedonali.svg"
+     "i": "strada/strisce-pedonali.png"
     },
     {
      "w": "il cartello",
-     "i": "ill/cartello.svg"
+     "i": "strada/cartello.png"
     },
     {
      "w": "il ponte",
-     "i": "ill/ponte.svg"
+     "i": "strada/ponte.png"
     },
     {
      "w": "la rotonda",
-     "i": "ill/rotonda.svg"
+     "i": "strada/rotonda.png"
     },
     {
      "w": "il pedone",
-     "i": "ill/pedone.svg"
+     "i": "strada/pedone.png"
     },
     {
      "w": "la fermata",
-     "i": "ill/fermata.svg"
+     "i": "strada/fermata.png"
     },
     {
      "w": "il marciapiede",
-     "i": "ill/marciapiede.svg"
+     "i": "strada/marciapiede.png"
+    },
+    {
+     "w": "destra",
+     "i": "strada/destra.png"
+    },
+    {
+     "w": "sinistra",
+     "i": "strada/sinistra.png"
+    },
+    {
+     "w": "dritto",
+     "i": "strada/dritto.png"
+    },
+    {
+     "w": "stop",
+     "i": "strada/stop.png"
+    },
+    {
+     "w": "l'incrocio",
+     "i": "strada/incrocio.png"
+    },
+    {
+     "w": "la pista ciclabile",
+     "i": "strada/pista-ciclabile.png"
+    },
+    {
+     "w": "il cassonetto",
+     "i": "strada/cassonetto.png"
     }
    ],
    "s": [
     {
      "t": "Il semaforo è rosso.",
-     "i": "ill/semaforo.svg"
+     "i": "strada/semaforo.png"
     },
     {
      "t": "Aspetto alla fermata dell'autobus.",
-     "i": "ill/fermata.svg"
+     "i": "strada/fermata.png"
     }
    ],
    "ph": [
     {
      "t": "Vai sempre diritto.",
-     "i": "ill/dir-diritto.svg"
+     "i": "strada/dritto.png"
     },
     {
      "t": "Gira a sinistra al semaforo.",
-     "i": "ill/dir-sinistra.svg"
+     "i": "strada/sinistra.png"
     },
     {
      "t": "Gira a destra.",
-     "i": "ill/dir-destra.svg"
+     "i": "strada/destra.png"
     }
    ],
    "g": [
@@ -5281,7 +5333,7 @@
      ]
     }
    ],
-   "i": "ill/strada.svg",
+   "i": "strada/copertina.png",
    "a": "av/isa.png",
    "b": "av/ali.png",
    "dlg": [
