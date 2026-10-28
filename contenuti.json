@@ -1311,7 +1311,7 @@
     },
     {
      "t": "Ho un appuntamento.",
-     "i": "appuntamento.jpg"
+     "i": "documenti/appuntamento.png"
     },
     {
      "t": "Ho bisogno di una medicina.",
@@ -1515,14 +1515,14 @@
      "ok": "Da due giorni.",
      "no": [
       "Non sto bene.",
-      "Sì, ecco il documento."
+      "Sì, ecco la carta d'identità."
      ]
     },
     {
      "q": "Dove ha male?",
      "ok": "Ho male alla testa.",
      "no": [
-      "Ho un documento.",
+      "Ho la carta d'identità.",
       "Ho bisogno di aiuto."
      ]
     }
@@ -3337,80 +3337,84 @@
    "name": "I documenti",
    "words": [
     {
-     "w": "il documento",
-     "i": "documento.jpg"
+     "w": "la carta d'identità",
+     "i": "documenti/carta-identita.png"
     },
     {
      "w": "il modulo",
-     "i": "modulo.jpg"
+     "i": "documenti/modulo.png"
     },
     {
      "w": "l'appuntamento",
-     "i": "appuntamento.jpg"
+     "i": "documenti/appuntamento.png"
     },
     {
      "w": "la firma",
-     "i": "firma.jpg"
+     "i": "documenti/firma.png"
     },
     {
      "w": "il permesso di soggiorno",
-     "i": "permesso-di-soggiorno.jpg"
+     "i": "documenti/permesso.png"
     },
     {
      "w": "il codice fiscale",
-     "i": "codice-fiscale.jpg"
+     "i": "documenti/codice-fiscale.png"
     },
     {
      "w": "lo sportello",
-     "i": "sportello.jpg"
+     "i": "documenti/sportello.png"
     },
     {
      "w": "la ricevuta",
-     "i": "ricevuta.jpg"
+     "i": "documenti/ricevuta.png"
+    },
+    {
+     "w": "la questura",
+     "i": "documenti/questura.png"
     }
    ],
    "s": [
     {
      "t": "Devo prendere un appuntamento.",
-     "i": "appuntamento.jpg"
+     "i": "documenti/appuntamento.png"
     },
     {
      "t": "Quali documenti servono?",
-     "i": "documento.jpg"
+     "i": "documenti/copertina.png"
     }
    ],
    "ph": [
     {
      "t": "Devo prendere un appuntamento.",
-     "i": "appuntamento.jpg"
+     "i": "documenti/appuntamento.png"
     },
     {
      "t": "Quali documenti servono?",
-     "i": "documento.jpg"
+     "i": "documenti/copertina.png"
     },
     {
      "t": "Dove devo firmare?",
-     "i": "firma.jpg"
+     "i": "documenti/firma.png"
     },
     {
      "t": "Ho il permesso di soggiorno.",
-     "i": "permesso-di-soggiorno.jpg"
+     "i": "documenti/permesso.png"
     },
     {
      "t": "Ho un appuntamento.",
-     "i": "appuntamento.jpg"
+     "i": "documenti/appuntamento.png"
     },
     {
-     "t": "Ecco il mio documento.",
-     "i": "documento.jpg"
+     "t": "Ecco la mia carta d'identità.",
+     "i": "documenti/carta-identita.png"
     },
     {
      "t": "Devo compilare questo modulo?",
-     "i": "modulo.jpg"
+     "i": "documenti/modulo.png"
     },
     {
      "t": "Può scrivere qui, per favore?",
-     "i": "firma.jpg"
+     "i": "documenti/firma.png"
     },
     {
      "t": "Dove devo andare?",
@@ -3482,8 +3486,8 @@
        "Come si chiama?"
       ],
       [
-       "Hai un documento?",
-       "Ha un documento?"
+       "Hai la carta d'identità?",
+       "Ha la carta d'identità?"
       ],
       [
        "Puoi aiutarmi?",
@@ -3518,7 +3522,7 @@
      ]
     },
     {
-     "q": "All'ufficio dico: ___ un documento?",
+     "q": "All'ufficio dico: ___ la carta d'identità?",
      "ok": "Ha",
      "no": [
       "Hai",
@@ -3561,11 +3565,11 @@
     },
     {
      "who": "B",
-     "t": "Ha un documento?"
+     "t": "Ha la carta d'identità?"
     },
     {
      "who": "A",
-     "t": "Sì, ecco il documento."
+     "t": "Sì, ecco la carta d'identità."
     },
     {
      "who": "B",
@@ -3590,8 +3594,8 @@
      ]
     },
     {
-     "q": "Ha un documento?",
-     "ok": "Sì, ecco il documento.",
+     "q": "Ha la carta d'identità?",
+     "ok": "Sì, ecco la carta d'identità.",
      "no": [
       "Sono tre euro.",
       "Ho male alla testa."
@@ -3601,7 +3605,7 @@
      "q": "Ha bisogno di aiuto?",
      "ok": "Sì, per favore, non capisco.",
      "no": [
-      "Sì, ecco il documento.",
+      "Sì, ecco la carta d'identità.",
       "Buonasera, dottore."
      ]
     },
@@ -3634,8 +3638,8 @@
      ]
     },
     {
-     "q": "Ecco il mio ___.",
-     "ok": "documento",
+     "q": "Ecco la mia ___.",
+     "ok": "carta d'identità",
      "no": [
       "cappello",
       "gatto"
@@ -3651,7 +3655,7 @@
     }
    ],
    "qa": [],
-   "i": "documento.jpg"
+   "i": "documenti/copertina.png"
   },
   {
    "id": "u11",
@@ -4068,7 +4072,7 @@
     },
     {
      "t": "L'appuntamento è martedì alle nove.",
-     "i": "appuntamento.jpg"
+     "i": "documenti/appuntamento.png"
     }
    ],
    "ph": [
@@ -4078,7 +4082,7 @@
     },
     {
      "t": "L'appuntamento è martedì alle nove.",
-     "i": "appuntamento.jpg"
+     "i": "documenti/appuntamento.png"
     },
     {
      "t": "Oggi è lunedì.",
