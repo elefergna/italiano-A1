@@ -2650,67 +2650,103 @@
    "words": [
     {
      "w": "la maglietta",
-     "i": "ill/maglietta.svg"
+     "i": "abbigliamento/maglietta.png"
     },
     {
      "w": "i pantaloni",
-     "i": "ill/pantaloni.svg"
+     "i": "abbigliamento/pantaloni.png"
     },
     {
      "w": "la giacca",
-     "i": "ill/giacca.svg"
+     "i": "abbigliamento/giacca.png"
     },
     {
      "w": "il vestito",
-     "i": "ill/vestito.svg"
+     "i": "abbigliamento/vestito.png"
     },
     {
      "w": "le scarpe",
-     "i": "ill/scarpe.svg"
+     "i": "abbigliamento/scarpe.png"
+    },
+    {
+     "w": "gli stivali",
+     "i": "abbigliamento/stivali.png"
     },
     {
      "w": "il cappello",
-     "i": "ill/cappello.svg"
+     "i": "abbigliamento/cappello.png"
     },
     {
-     "w": "Le calze",
-     "i": "ill/calze.svg"
+     "w": "le calze",
+     "i": "abbigliamento/calze.png"
     },
     {
      "w": "i guanti",
-     "i": "ill/guanti.svg"
+     "i": "abbigliamento/guanti.png"
     },
     {
      "w": "la sciarpa",
-     "i": "ill/sciarpa.svg"
+     "i": "abbigliamento/sciarpa.png"
     },
     {
      "w": "gli occhiali",
-     "i": "ill/occhiali.svg"
+     "i": "abbigliamento/occhiali.png"
     },
     {
-     "w": "La camicia",
-     "i": "ill/camicia.svg"
+     "w": "la camicia",
+     "i": "abbigliamento/camicia.png"
+    },
+    {
+     "w": "la felpa",
+     "i": "abbigliamento/felpa.png"
+    },
+    {
+     "w": "il maglione",
+     "i": "abbigliamento/maglione.png"
+    },
+    {
+     "w": "la gonna",
+     "i": "abbigliamento/gonna.png"
+    },
+    {
+     "w": "il velo",
+     "i": "abbigliamento/velo.png"
+    },
+    {
+     "w": "i pantaloncini",
+     "i": "abbigliamento/pantaloncini.png"
+    },
+    {
+     "w": "le mutande",
+     "i": "abbigliamento/mutande.png"
+    },
+    {
+     "w": "la cintura",
+     "i": "abbigliamento/cintura.png"
+    },
+    {
+     "w": "la cravatta",
+     "i": "abbigliamento/cravatta.png"
     }
    ],
    "s": [
     {
      "t": "Mi metto la giacca.",
-     "i": "ill/giacca.svg"
+     "i": "abbigliamento/giacca.png"
     },
     {
      "t": "lui ha le scarpe nuove.",
-     "i": "ill/scarpe.svg"
+     "i": "abbigliamento/scarpe.png"
     }
    ],
    "ph": [
     {
      "t": "Quanto costa questa giacca?",
-     "i": "ill/giacca.svg"
+     "i": "abbigliamento/giacca.png"
     },
     {
      "t": "Posso provare questi pantaloni?",
-     "i": "ill/pantaloni.svg"
+     "i": "abbigliamento/pantaloni.png"
     },
     {
      "t": "Ha una taglia più grande?",
@@ -2718,7 +2754,7 @@
     },
     {
      "t": "Vorrei queste scarpe.",
-     "i": "ill/scarpe.svg"
+     "i": "abbigliamento/scarpe.png"
     }
    ],
    "g": [
@@ -2879,7 +2915,7 @@
      ]
     }
    ],
-   "i": "ill/maglietta.svg",
+   "i": "abbigliamento/copertina.png",
    "a": "av/sara.png",
    "b": "av/marco.png",
    "dlg": [
