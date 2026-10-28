@@ -398,40 +398,84 @@
    "name": "La scuola",
    "words": [
     {
-     "w": "il libro",
-     "i": "ill/libro.svg"
-    },
-    {
-     "w": "il quaderno",
-     "i": "ill/quaderno.svg"
-    },
-    {
-     "w": "la penna",
-     "i": "ill/penna.svg"
-    },
-    {
-     "w": "la matita",
-     "i": "ill/matita.svg"
-    },
-    {
-     "w": "lo zaino",
-     "i": "ill/zaino.svg"
+     "w": "la scuola",
+     "i": "scuola/scuola.png"
     },
     {
      "w": "la maestra",
-     "i": "ill/maestra.svg"
+     "i": "scuola/maestra.png"
     },
     {
-     "w": "il computer",
-     "i": "ill/computer.svg"
+     "w": "scrivere",
+     "i": "scuola/scrivere.png"
+    },
+    {
+     "w": "leggere",
+     "i": "scuola/leggere.png"
+    },
+    {
+     "w": "lo zaino",
+     "i": "scuola/zaino.png"
+    },
+    {
+     "w": "l'astuccio",
+     "i": "scuola/astuccio.png"
+    },
+    {
+     "w": "il quaderno",
+     "i": "scuola/quaderno.png"
+    },
+    {
+     "w": "il libro",
+     "i": "scuola/libro.png"
+    },
+    {
+     "w": "la penna",
+     "i": "scuola/penna.png"
+    },
+    {
+     "w": "la matita",
+     "i": "scuola/matita.png"
+    },
+    {
+     "w": "la gomma",
+     "i": "scuola/gomma.png"
+    },
+    {
+     "w": "il righello",
+     "i": "scuola/righello.png"
     },
     {
      "w": "le forbici",
-     "i": "ill/forbici.svg"
+     "i": "scuola/forbici.png"
+    },
+    {
+     "w": "la colla",
+     "i": "scuola/colla.png"
+    },
+    {
+     "w": "il temperino",
+     "i": "scuola/temperino.png"
     },
     {
      "w": "l'orologio",
-     "i": "ill/orologio.svg"
+     "i": "scuola/orologio.png"
+    },
+    {
+     "w": "il banco",
+     "i": "scuola/banco.png"
+    },
+    {
+     "w": "la sedia",
+     "i": "scuola/sedia.png"
+    },
+    {
+     "w": "la lavagna",
+     "i": "scuola/lavagna.png"
+    },
+    {
+     "w": "il computer",
+     "i": "scuola/computer.png"
     }
    ],
    "s": [
@@ -632,7 +676,7 @@
      ]
     }
    ],
-   "i": "ill/scuola.svg",
+   "i": "scuola/copertina.png",
    "a": "av/ali.png",
    "b": "av/sara.png",
    "dlg": [
