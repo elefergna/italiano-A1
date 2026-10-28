@@ -99,7 +99,7 @@
     },
     {
      "t": "Che lavoro fai?",
-     "i": "ill/lavoro.svg"
+     "i": "lavoro/lavoro.png"
     },
     {
      "t": "Parlo un po' di italiano.",
@@ -2340,39 +2340,71 @@
    "words": [
     {
      "w": "il lavoro",
-     "i": "ill/lavoro.svg"
+     "i": "lavoro/lavoro.png"
     },
     {
      "w": "il cuoco",
-     "i": "ill/cuoco.svg"
+     "i": "lavoro/cuoco.png"
     },
     {
      "w": "l'operaio",
-     "i": "ill/operaio.svg"
+     "i": "lavoro/operaio.png"
+    },
+    {
+     "w": "l'idraulico",
+     "i": "lavoro/idraulico.png"
     },
     {
      "w": "il cameriere",
-     "i": "ill/cameriere.svg"
+     "i": "lavoro/cameriere.png"
+    },
+    {
+     "w": "il magazziniere",
+     "i": "lavoro/magazziniere.png"
+    },
+    {
+     "w": "il rider",
+     "i": "lavoro/rider.png"
+    },
+    {
+     "w": "il meccanico",
+     "i": "lavoro/meccanico.png"
+    },
+    {
+     "w": "l'insegnante",
+     "i": "lavoro/insegnante.png"
+    },
+    {
+     "w": "il giardiniere",
+     "i": "lavoro/giardiniere.png"
     },
     {
      "w": "la fabbrica",
-     "i": "ill/fabbrica.svg"
+     "i": "lavoro/fabbrica.png"
+    },
+    {
+     "w": "il magazzino",
+     "i": "lavoro/magazzino.png"
+    },
+    {
+     "w": "il cantiere",
+     "i": "lavoro/cantiere.png"
     },
     {
      "w": "l'ufficio",
-     "i": "ill/ufficio.svg"
+     "i": "lavoro/ufficio.png"
     },
     {
      "w": "l'orario",
-     "i": "ill/orario.svg"
+     "i": "lavoro/orario.png"
     },
     {
      "w": "lo stipendio",
-     "i": "ill/stipendio.svg"
+     "i": "lavoro/stipendio.png"
     },
     {
      "w": "il collega",
-     "i": "collega.jpg"
+     "i": "lavoro/collega.png"
     }
    ],
    "s": [
@@ -2396,7 +2428,7 @@
     },
     {
      "t": "Devo andare al lavoro.",
-     "i": "ill/lavoro.svg"
+     "i": "lavoro/lavoro.png"
     },
     {
      "t": "Finisco alle cinque.",
@@ -2544,7 +2576,7 @@
      ]
     }
    ],
-   "i": "ill/lavoro.svg",
+   "i": "lavoro/copertina.png",
    "a": "av/pedro.png",
    "b": "av/hassan.png",
    "dlg": [
