@@ -677,47 +677,47 @@
     }
    ],
    "i": "scuola/copertina.png",
-   "a": "av/ali.png",
-   "b": "av/sara.png",
+   "a": "scuola/maestra.png",
+   "b": "av/mohamed.png",
    "dlg": [
     {
-     "who": "B",
-     "t": "Buongiorno, Ali! Sei in ritardo."
+     "who": "A",
+     "t": "Buongiorno, Mohamed! Sei in ritardo."
     },
     {
-     "who": "A",
+     "who": "B",
      "t": "Scusa per il ritardo, ho perso l'autobus. Posso entrare?"
     },
     {
-     "who": "B",
+     "who": "A",
      "t": "Sì, entra. Hai il libro e il quaderno?"
     },
     {
-     "who": "A",
+     "who": "B",
      "t": "Sì, ho il libro e il quaderno, ma non ho la penna."
     },
     {
-     "who": "B",
+     "who": "A",
      "t": "Non c'è problema, ecco due penne. Una penna è per te."
     },
     {
-     "who": "A",
+     "who": "B",
      "t": "Grazie mille."
     },
     {
-     "who": "B",
+     "who": "A",
      "t": "Adesso apri il libro a pagina undici."
     },
     {
-     "who": "A",
+     "who": "B",
      "t": "Non ho capito, puoi ripetere?"
     },
     {
-     "who": "B",
+     "who": "A",
      "t": "Apri il libro a pagina undici."
     },
     {
-     "who": "A",
+     "who": "B",
      "t": "Va bene, pagina undici."
     }
    ],
@@ -1134,7 +1134,7 @@
     }
    ],
    "a": "av/paul.png",
-   "b": "av/isa.png",
+   "b": "av/sara.png",
    "cz": [
     {
      "q": "tu mangi la ___.",
@@ -2219,7 +2219,7 @@
     }
    ],
    "i": "ill/casa.svg",
-   "a": "av/malika.png",
+   "a": "av/iqra.png",
    "b": "av/sara.png",
    "dlg": [
     {
@@ -2228,7 +2228,7 @@
     },
     {
      "who": "B",
-     "t": "Ma che bello il tuo appartamento, Malika! Quante camere ci sono?"
+     "t": "Ma che bello il tuo appartamento, Iqra! Quante camere ci sono?"
     },
     {
      "who": "A",
@@ -4410,7 +4410,7 @@
     }
    ],
    "i": "ill/famiglia.svg",
-   "a": "av/malika.png",
+   "a": "av/fatima.png",
    "b": "av/sara.png",
    "dlg": [
     {
@@ -4439,7 +4439,7 @@
     },
     {
      "who": "A",
-     "t": "Hai un cane, che bello! Come si chiama il tuo cane?"
+     "t": "Hai un cane, che bello! Come si chiama il vostro cane?"
     },
     {
      "who": "B",
