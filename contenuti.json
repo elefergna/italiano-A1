@@ -6,46 +6,82 @@
    "name": "Presentarsi",
    "words": [
     {
+     "w": "Ciao",
+     "i": "presentarsi/ciao.png"
+    },
+    {
+     "w": "Buongiorno",
+     "i": "presentarsi/buongiorno.png"
+    },
+    {
+     "w": "Buonasera",
+     "i": "presentarsi/buonasera.png"
+    },
+    {
+     "w": "Arrivederci",
+     "i": "presentarsi/arrivederci.png"
+    },
+    {
+     "w": "Grazie",
+     "i": "presentarsi/grazie.png"
+    },
+    {
+     "w": "Prego",
+     "i": "presentarsi/prego.png"
+    },
+    {
      "w": "il nome",
-     "i": "nome.jpg"
+     "i": "presentarsi/nome.png"
     },
     {
      "w": "il cognome",
-     "i": "cognome.jpg"
+     "i": "presentarsi/cognome.png"
     },
     {
      "w": "l'età",
-     "i": "età.jpg"
+     "i": "presentarsi/eta.png"
     },
     {
      "w": "il Paese",
-     "i": "paese.jpg"
+     "i": "presentarsi/paese.png"
     },
     {
      "w": "la lingua",
-     "i": "lingua.jpg"
+     "i": "presentarsi/lingua.png"
     },
     {
      "w": "il telefono",
-     "i": "ill/telefono.svg"
+     "i": "presentarsi/telefono.png"
     },
     {
      "w": "l'amico",
-     "i": "amico.jpg"
-    },
-    {
-     "w": "la persona",
-     "i": "ill/persona.svg"
+     "i": "presentarsi/amico.png"
     },
     {
      "w": "l'amica",
-     "i": "amica.jpg"
+     "i": "presentarsi/amica.png"
+    },
+    {
+     "w": "l'uomo",
+     "i": "presentarsi/uomo.png"
+    },
+    {
+     "w": "la donna",
+     "i": "presentarsi/donna.png"
+    },
+    {
+     "w": "il bambino",
+     "i": "presentarsi/bambino.png"
+    },
+    {
+     "w": "la bambina",
+     "i": "presentarsi/bambina.png"
     }
    ],
    "s": [
     {
      "t": "Mi chiamo Amina.",
-     "i": "ill/av-donna.svg"
+     "i": "av/fatima.png"
     },
     {
      "t": "Vengo dal Marocco.",
@@ -55,7 +91,7 @@
    "ph": [
     {
      "t": "Mi chiamo Amina.",
-     "i": "ill/av-donna.svg"
+     "i": "av/fatima.png"
     },
     {
      "t": "Vengo dal Marocco.",
@@ -285,9 +321,9 @@
      ]
     }
    ],
-   "i": "ill/ciao.svg",
-   "a": "ill/av-donna.svg",
-   "b": "ill/av-impiegato.svg",
+   "i": "presentarsi/copertina.png",
+   "a": "av/fatima.png",
+   "b": "av/marco.png",
    "dlg": [
     {
      "who": "B",
@@ -295,7 +331,7 @@
     },
     {
      "who": "A",
-     "t": "Mi chiamo Amina. E tu?"
+     "t": "Mi chiamo Fatima. E tu?"
     },
     {
      "who": "B",
@@ -315,7 +351,7 @@
     },
     {
      "who": "B",
-     "t": "Piacere, Amina!"
+     "t": "Piacere, Fatima!"
     },
     {
      "who": "A",
@@ -325,7 +361,7 @@
    "qz": [
     {
      "q": "Come ti chiami?",
-     "ok": "Mi chiamo Amina.",
+     "ok": "Mi chiamo Fatima.",
      "no": [
       "Sto bene.",
       "Vengo in autobus."
@@ -597,8 +633,8 @@
     }
    ],
    "i": "ill/scuola.svg",
-   "a": "ill/av-uomo.svg",
-   "b": "ill/maestra.svg",
+   "a": "av/ali.png",
+   "b": "av/sara.png",
    "dlg": [
     {
      "who": "B",
@@ -985,8 +1021,8 @@
      ]
     }
    ],
-   "a": "ill/av-uomo.svg",
-   "b": "ill/av-commessa.svg",
+   "a": "av/paul.png",
+   "b": "av/isa.png",
    "cz": [
     {
      "q": "tu mangi la ___.",
@@ -1375,8 +1411,8 @@
      ]
     }
    ],
-   "a": "ill/av-uomo.svg",
-   "b": "ill/av-medica.svg",
+   "a": "av/mohamed.png",
+   "b": "av/iqra.png",
    "cz": [
     {
      "q": "Ho bisogno di un ___.",
@@ -1781,8 +1817,8 @@
     }
    ],
    "i": "ill/citta.svg",
-   "a": "ill/av-donna.svg",
-   "b": "ill/av-neutro.svg",
+   "a": "av/fatima.png",
+   "b": "av/hassan.png",
    "dlg": [
     {
      "who": "B",
@@ -2067,8 +2103,8 @@
     }
    ],
    "i": "ill/casa.svg",
-   "a": "ill/av-donna.svg",
-   "b": "ill/av-commessa.svg",
+   "a": "av/malika.png",
+   "b": "av/sara.png",
    "dlg": [
     {
      "who": "A",
@@ -2353,8 +2389,8 @@
     }
    ],
    "i": "ill/lavoro.svg",
-   "a": "ill/av-donna.svg",
-   "b": "ill/av-neutro.svg"
+   "a": "av/joy.png",
+   "b": "av/paul.png"
   },
   {
    "id": "u8",
@@ -2592,8 +2628,8 @@
     }
    ],
    "i": "ill/maglietta.svg",
-   "a": "ill/av-donna.svg",
-   "b": "ill/av-neutro.svg"
+   "a": "av/joy.png",
+   "b": "av/paul.png"
   },
   {
    "id": "u9",
@@ -2817,8 +2853,8 @@
     }
    ],
    "i": "ill/sveglia.svg",
-   "a": "ill/av-donna.svg",
-   "b": "ill/av-neutro.svg"
+   "a": "av/joy.png",
+   "b": "av/paul.png"
   },
   {
    "id": "u10",
@@ -2906,7 +2942,7 @@
     },
     {
      "t": "Mi chiamo Malika.",
-     "i": "ill/av-donna.svg"
+     "i": "av/malika.png"
     },
     {
      "t": "Non capisco.",
@@ -3102,8 +3138,8 @@
      ]
     }
    ],
-   "a": "ill/av-donna.svg",
-   "b": "ill/av-impiegato.svg",
+   "a": "av/malika.png",
+   "b": "av/pedro.png",
    "cz": [
     {
      "q": "Devo prendere un ___.",
@@ -3357,8 +3393,8 @@
     }
    ],
    "i": "ill/caffe.svg",
-   "a": "ill/av-donna.svg",
-   "b": "ill/av-neutro.svg"
+   "a": "av/joy.png",
+   "b": "av/paul.png"
   },
   {
    "id": "u13",
@@ -3585,8 +3621,8 @@
     }
    ],
    "i": "ill/calendario.svg",
-   "a": "ill/av-donna.svg",
-   "b": "ill/av-neutro.svg"
+   "a": "av/joy.png",
+   "b": "av/paul.png"
   },
   {
    "id": "u14",
@@ -3858,8 +3894,8 @@
     }
    ],
    "i": "ill/famiglia.svg",
-   "a": "ill/av-donna.svg",
-   "b": "ill/av-neutro.svg"
+   "a": "av/joy.png",
+   "b": "av/paul.png"
   },
   {
    "id": "u15",
@@ -4130,8 +4166,8 @@
     }
    ],
    "i": "ill/meteo.svg",
-   "a": "ill/av-donna.svg",
-   "b": "ill/av-neutro.svg"
+   "a": "av/joy.png",
+   "b": "av/paul.png"
   },
   {
    "id": "u12",
@@ -4362,8 +4398,8 @@
     }
    ],
    "i": "ill/strada.svg",
-   "a": "ill/av-donna.svg",
-   "b": "ill/av-neutro.svg"
+   "a": "av/joy.png",
+   "b": "av/paul.png"
   }
  ]
 }
