@@ -1605,123 +1605,131 @@
    "words": [
     {
      "w": "la città",
-     "i": "ill/citta.svg"
+     "i": "citta/citta.png"
     },
     {
      "w": "la banca",
-     "i": "ill/banca.svg"
+     "i": "citta/banca.png"
     },
     {
      "w": "la chiesa",
-     "i": "ill/chiesa.svg"
+     "i": "citta/chiesa.png"
     },
     {
      "w": "la moschea",
-     "i": "ill/moschea.svg"
+     "i": "citta/moschea.png"
     },
     {
      "w": "il parco",
-     "i": "ill/parco.svg"
+     "i": "citta/parco.png"
     },
     {
      "w": "la stazione",
-     "i": "ill/stazione.svg"
+     "i": "citta/stazione.png"
     },
     {
      "w": "l'ospedale",
-     "i": "ill/ospedale.svg"
+     "i": "citta/ospedale.png"
     },
     {
      "w": "la posta",
-     "i": "ill/posta.svg"
+     "i": "citta/posta.png"
     },
     {
      "w": "la scuola",
-     "i": "ill/scuola.svg"
+     "i": "citta/scuola.png"
     },
     {
      "w": "il comune",
-     "i": "ill/comune.svg"
+     "i": "citta/comune.png"
     },
     {
      "w": "il supermercato",
-     "i": "ill/supermercato.svg"
+     "i": "citta/supermercato.png"
     },
     {
      "w": "l'autobus",
-     "i": "ill/autobus.svg"
+     "i": "citta/autobus.png"
     },
     {
      "w": "il treno",
-     "i": "ill/treno.svg"
+     "i": "citta/treno.png"
     },
     {
      "w": "la macchina",
-     "i": "ill/macchina.svg"
+     "i": "citta/macchina.png"
     },
     {
      "w": "la bicicletta",
-     "i": "ill/bicicletta.svg"
+     "i": "citta/bicicletta.png"
     },
     {
      "w": "la moto",
-     "i": "ill/moto.svg"
+     "i": "citta/moto.png"
     },
     {
      "w": "l'aereo",
-     "i": "ill/aereo.svg"
+     "i": "citta/aereo.png"
     },
     {
      "w": "la nave",
-     "i": "ill/nave.svg"
+     "i": "citta/nave.png"
     },
     {
      "w": "il taxi",
-     "i": "ill/taxi.svg"
+     "i": "citta/taxi.png"
     },
     {
      "w": "la metro",
-     "i": "ill/metro.svg"
+     "i": "citta/metro.png"
     },
     {
      "w": "il camion",
-     "i": "ill/camion.svg"
+     "i": "citta/camion.png"
     },
     {
-     "w": "Il monopattino",
-     "i": "ill/monopattino.svg"
+     "w": "il monopattino",
+     "i": "citta/monopattino.png"
+    },
+    {
+     "w": "il passeggino",
+     "i": "citta/passeggino.png"
+    },
+    {
+     "w": "il biglietto",
+     "i": "citta/biglietto.png"
     }
    ],
    "s": [
     {
      "t": "vado in banca.",
-     "i": "ill/banca.svg"
+     "i": "citta/banca.png"
     },
     {
      "t": "Vado al parco.",
-     "i": "ill/parco.svg"
+     "i": "citta/parco.png"
     },
     {
      "t": "Loro prendono l'autobus.",
-     "i": "ill/autobus.svg"
+     "i": "citta/autobus.png"
     },
     {
      "t": "Voi andate in bicicletta.",
-     "i": "ill/bicicletta.svg"
+     "i": "citta/bicicletta.png"
     }
    ],
    "ph": [
     {
      "t": "Dov'è la stazione?",
-     "i": "ill/stazione.svg"
+     "i": "citta/stazione.png"
     },
     {
      "t": "Quale autobus devo prendere?",
-     "i": "ill/autobus.svg"
+     "i": "citta/autobus.png"
     },
     {
      "t": "Un biglietto, per favore.",
-     "i": "ill/biglietto.svg"
+     "i": "citta/biglietto.png"
     },
     {
      "t": "Dov'è la fermata?",
@@ -1932,7 +1940,7 @@
      ]
     }
    ],
-   "i": "ill/citta.svg",
+   "i": "citta/copertina.png",
    "a": "av/fatima.png",
    "b": "av/hassan.png",
    "dlg": [
