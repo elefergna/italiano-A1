@@ -2505,8 +2505,72 @@
     }
    ],
    "i": "ill/lavoro.svg",
-   "a": "av/joy.png",
-   "b": "av/paul.png"
+   "a": "av/pedro.png",
+   "b": "av/hassan.png",
+   "dlg": [
+    {
+     "who": "B",
+     "t": "Ciao Pedro, dove lavori?"
+    },
+    {
+     "who": "A",
+     "t": "Lavoro in un ristorante. E tu?"
+    },
+    {
+     "who": "B",
+     "t": "Io lavoro in una fabbrica. A che ora inizi?"
+    },
+    {
+     "who": "A",
+     "t": "Inizio alle otto e finisco alle cinque."
+    },
+    {
+     "who": "B",
+     "t": "Mangi al lavoro?"
+    },
+    {
+     "who": "A",
+     "t": "Sì, mangio con i colleghi. Il cuoco cucina la pasta o il riso anche per noi."
+    },
+    {
+     "who": "B",
+     "t": "Che bello! Io invece ho una pausa per mangiare, torno a casa e preparo il pranzo, mangio e torno al lavoro."
+    }
+   ],
+   "qz": [
+    {
+     "q": "Dove lavori?",
+     "ok": "Lavoro in un ristorante.",
+     "no": [
+      "Vado a casa.",
+      "Ho un appuntamento."
+     ]
+    },
+    {
+     "q": "A che ora inizi?",
+     "ok": "Inizio alle otto.",
+     "no": [
+      "Finisco alle cinque.",
+      "Lavoro in fabbrica."
+     ]
+    },
+    {
+     "q": "A che ora finisci?",
+     "ok": "Finisco alle cinque.",
+     "no": [
+      "Inizio alle otto.",
+      "Mangio la pasta."
+     ]
+    },
+    {
+     "q": "Che cosa cucina il cuoco?",
+     "ok": "Il cuoco cucina la pasta o il riso.",
+     "no": [
+      "Il cuoco lavora in fabbrica.",
+      "Ho fame."
+     ]
+    }
+   ]
   },
   {
    "id": "u8",
@@ -2744,8 +2808,92 @@
     }
    ],
    "i": "ill/maglietta.svg",
-   "a": "av/joy.png",
-   "b": "av/paul.png"
+   "a": "av/sara.png",
+   "b": "av/marco.png",
+   "dlg": [
+    {
+     "who": "A",
+     "t": "Buongiorno! Posso aiutarla?"
+    },
+    {
+     "who": "B",
+     "t": "Sì grazie! Vorrei provare questa giacca nera."
+    },
+    {
+     "who": "A",
+     "t": "Certo. Che taglia ha?"
+    },
+    {
+     "who": "B",
+     "t": "Ho la taglia 42. Quanto costa?"
+    },
+    {
+     "who": "A",
+     "t": "Costa quaranta euro. Vuole provare anche questi pantaloni?"
+    },
+    {
+     "who": "B",
+     "t": "Sì grazie. Questi pantaloni sono belli, ma sono grandi."
+    },
+    {
+     "who": "A",
+     "t": "Ecco una taglia più piccola."
+    },
+    {
+     "who": "B",
+     "t": "Perfetto, questa taglia va bene! Allora prendo la giacca e i pantaloni. Quanto è in totale?"
+    },
+    {
+     "who": "A",
+     "t": "In tutto sarebbero 70 euro ma c'è uno sconto, il totale è 65 euro. Paga con la carta o in contanti?"
+    },
+    {
+     "who": "B",
+     "t": "Pago con la carta."
+    }
+   ],
+   "qz": [
+    {
+     "q": "Che taglia ha?",
+     "ok": "Ho la taglia quarantadue.",
+     "no": [
+      "Costa trenta euro.",
+      "Ho male alla mano."
+     ]
+    },
+    {
+     "q": "Quanto costa la giacca?",
+     "ok": "Costa quaranta euro.",
+     "no": [
+      "Ho la taglia quarantadue.",
+      "Sì, grazie."
+     ]
+    },
+    {
+     "q": "Come sono i pantaloni?",
+     "ok": "Sono belli, ma sono grandi.",
+     "no": [
+      "Sono a destra.",
+      "Vorrei un caffè."
+     ]
+    },
+    {
+     "q": "Che cosa prende?",
+     "ok": "Prendo la giacca e i pantaloni.",
+     "no": [
+      "Prendo l'autobus.",
+      "Non ho capito."
+     ]
+    },
+    {
+     "q": "Paga con la carta o in contanti?",
+     "ok": "Pago con la carta.",
+     "no": [
+      "C'è lo sconto.",
+      "In tutto sono 65 euro."
+     ]
+    }
+   ]
   },
   {
    "id": "u9",
@@ -2969,8 +3117,92 @@
     }
    ],
    "i": "ill/sveglia.svg",
-   "a": "av/joy.png",
-   "b": "av/paul.png"
+   "a": "av/fatima.png",
+   "b": "av/joy.png",
+   "dlg": [
+    {
+     "who": "A",
+     "t": "Ciao Joy, a che ora ti svegli la mattina?"
+    },
+    {
+     "who": "B",
+     "t": "Mi sveglio alle sei e mezza, così ho tempo di prepararmi con calma."
+    },
+    {
+     "who": "A",
+     "t": "Fai subito colazione?"
+    },
+    {
+     "who": "B",
+     "t": "No, prima vado in bagno e mi lavo i denti, poi mi lavo la faccia e mi trucco. Dopo vado in camera, mi vesto e mi pettino i capelli."
+    },
+    {
+     "who": "A",
+     "t": "E dopo prepari la colazione?"
+    },
+    {
+     "who": "B",
+     "t": "Sì esatto, dopo vado in cucina e preparo la colazione. Di solito bevo il tè e mangio il pane con le uova. Tu a che ora ti svegli la mattina?"
+    },
+    {
+     "who": "A",
+     "t": "Io mi sveglio alle sei e preparo la colazione per tutta la famiglia."
+    },
+    {
+     "who": "B",
+     "t": "E la sera ti addormenti presto?"
+    },
+    {
+     "who": "A",
+     "t": "Sì, di solito la sera mi addormento alle dieci e mezza, sono sempre molto stanca."
+    },
+    {
+     "who": "B",
+     "t": "Anche io!"
+    }
+   ],
+   "qz": [
+    {
+     "q": "A che ora ti svegli?",
+     "ok": "Mi sveglio alle sei e mezza.",
+     "no": [
+      "Vado a dormire alle dieci.",
+      "Mi chiamo Lina."
+     ]
+    },
+    {
+     "q": "Cosa fai dopo?",
+     "ok": "Mi lavo i denti, mi lavo la faccia e mi trucco.",
+     "no": [
+      "Ho mal di testa.",
+      "Preparo la cena."
+     ]
+    },
+    {
+     "q": "A che ora ti addormenti?",
+     "ok": "Mi addormento alle dieci e mezza.",
+     "no": [
+      "Mi sveglio alle sette.",
+      "Faccio colazione."
+     ]
+    },
+    {
+     "q": "Che cosa fai la sera?",
+     "ok": "La sera preparo la cena.",
+     "no": [
+      "La mattina mi sveglio.",
+      "Vado al lavoro."
+     ]
+    },
+    {
+     "q": "Cosa mangi a colazione?",
+     "ok": "Mangio il pane con le uova.",
+     "no": [
+      "Vado in bagno e mi lavo i denti.",
+      "Sono sempre molto stanca."
+     ]
+    }
+   ]
   },
   {
    "id": "u10",
@@ -3509,8 +3741,96 @@
     }
    ],
    "i": "ill/caffe.svg",
-   "a": "av/joy.png",
-   "b": "av/paul.png"
+   "a": "av/paul.png",
+   "b": "av/isa.png",
+   "dlg": [
+    {
+     "who": "A",
+     "t": "Ciao Isa! Che cosa fai nel tempo libero?"
+    },
+    {
+     "who": "B",
+     "t": "Gioco a basket. Mi piace molto lo sport. E tu?"
+    },
+    {
+     "who": "A",
+     "t": "Io suono la chitarra. Mi piace la musica."
+    },
+    {
+     "who": "B",
+     "t": "Che bello! Hai voglia di andare a mangiare qualcosa insieme? C'è un bar qui vicino."
+    },
+    {
+     "who": "A",
+     "t": "Sì, volentieri!"
+    },
+    {
+     "who": "B",
+     "t": "Cosa prendi?"
+    },
+    {
+     "who": "A",
+     "t": "Vorrei un panino, e forse un cappuccino. E tu?"
+    },
+    {
+     "who": "B",
+     "t": "Io prendo una pizzetta e un succo di frutta."
+    },
+    {
+     "who": "A",
+     "t": "Ah sì, anche io vorrei bere un succo di frutta."
+    },
+    {
+     "who": "B",
+     "t": "Ottimo! Adesso vado a pagare, oggi offro io!"
+    },
+    {
+     "who": "A",
+     "t": "Grazie Isa, sei molto gentile!"
+    }
+   ],
+   "qz": [
+    {
+     "q": "Che sport fa Isa?",
+     "ok": "Gioca a basket.",
+     "no": [
+      "Gioca a calcio.",
+      "Suona la chitarra."
+     ]
+    },
+    {
+     "q": "Che cosa fa Paul nel tempo libero?",
+     "ok": "Suona la chitarra.",
+     "no": [
+      "Gioca a basket.",
+      "Lavora in pasticceria."
+     ]
+    },
+    {
+     "q": "Dove vanno Paul e Isa?",
+     "ok": "Vanno in un bar qui vicino.",
+     "no": [
+      "Vanno al cinema.",
+      "Vanno a scuola."
+     ]
+    },
+    {
+     "q": "Che cosa prende Isa?",
+     "ok": "Prende una pizzetta e un succo di frutta.",
+     "no": [
+      "Prende un panino e un cappuccino.",
+      "Prende il giornale."
+     ]
+    },
+    {
+     "q": "Chi paga oggi?",
+     "ok": "Paga Isa.",
+     "no": [
+      "Paga Paul.",
+      "Non paga nessuno."
+     ]
+    }
+   ]
   },
   {
    "id": "u13",
@@ -3737,8 +4057,88 @@
     }
    ],
    "i": "ill/calendario.svg",
-   "a": "av/joy.png",
-   "b": "av/paul.png"
+   "a": "av/iqra.png",
+   "b": "av/marco.png",
+   "dlg": [
+    {
+     "who": "A",
+     "t": "Buongiorno, vorrei prendere un appuntamento per aprire un conto in banca."
+    },
+    {
+     "who": "B",
+     "t": "Benissimo, mi faccia controllare l'agenda. C'è posto martedì prossimo alle 8, va bene?"
+    },
+    {
+     "who": "A",
+     "t": "Il 15 ottobre?"
+    },
+    {
+     "who": "B",
+     "t": "Sì esatto, martedì 15 ottobre alle ore 8."
+    },
+    {
+     "who": "A",
+     "t": "Purtroppo alle 8 non riesco, devo portare mia figlia a scuola. C'è posto più tardi, alle 9?"
+    },
+    {
+     "who": "B",
+     "t": "No alle 9 non c'è posto, ma c'è posto alle 10 e mezza, va bene per lei?"
+    },
+    {
+     "who": "A",
+     "t": "Sì, alle 10 e mezza va bene per me!"
+    },
+    {
+     "who": "B",
+     "t": "Ottimo, allora confermiamo l'appuntamento. Deve venire con tutti i documenti."
+    },
+    {
+     "who": "A",
+     "t": "Va bene. Arrivederci!"
+    }
+   ],
+   "qz": [
+    {
+     "q": "Perché la signora vuole un appuntamento?",
+     "ok": "Per aprire un conto in banca.",
+     "no": [
+      "Per comprare un biglietto.",
+      "Per prendere una medicina."
+     ]
+    },
+    {
+     "q": "Perché alle 8 non può venire?",
+     "ok": "Perché deve portare sua figlia a scuola.",
+     "no": [
+      "Perché lavora in fabbrica.",
+      "Perché ha mal di testa."
+     ]
+    },
+    {
+     "q": "A che ora è l'appuntamento?",
+     "ok": "Alle dieci e mezza.",
+     "no": [
+      "Alle otto.",
+      "Alle nove."
+     ]
+    },
+    {
+     "q": "Che giorno è l'appuntamento?",
+     "ok": "Martedì 15 ottobre.",
+     "no": [
+      "Giovedì 15 novembre.",
+      "Sabato 5 ottobre."
+     ]
+    },
+    {
+     "q": "Che cosa deve portare la signora?",
+     "ok": "Deve venire con tutti i documenti.",
+     "no": [
+      "Deve portare la bicicletta.",
+      "Deve portare il pane."
+     ]
+    }
+   ]
   },
   {
    "id": "u14",
@@ -4010,8 +4410,104 @@
     }
    ],
    "i": "ill/famiglia.svg",
-   "a": "av/joy.png",
-   "b": "av/paul.png"
+   "a": "av/malika.png",
+   "b": "av/sara.png",
+   "dlg": [
+    {
+     "who": "A",
+     "t": "Ciao Anna, hai una famiglia grande?"
+    },
+    {
+     "who": "B",
+     "t": "Sì, ho due fratelli e una sorella."
+    },
+    {
+     "who": "A",
+     "t": "Come si chiama tua sorella?"
+    },
+    {
+     "who": "B",
+     "t": "Mia sorella si chiama Lena. I miei fratelli si chiamano Sasha e Anton."
+    },
+    {
+     "who": "A",
+     "t": "E tua mamma e tuo papà? Dove abitano?"
+    },
+    {
+     "who": "B",
+     "t": "Mia mamma e mio papà abitano in Ucraina. Vivono insieme a mia nonna e al nostro cane."
+    },
+    {
+     "who": "A",
+     "t": "Hai un cane, che bello! Come si chiama il tuo cane?"
+    },
+    {
+     "who": "B",
+     "t": "Si chiama Kuro. Tu hai un animale a casa?"
+    },
+    {
+     "who": "A",
+     "t": "No, non ho animali. Mio figlio è allergico al pelo del gatto, e non abbiamo spazio per un cane."
+    },
+    {
+     "who": "B",
+     "t": "Capisco, non è facile avere un animale. Come si chiama tuo figlio?"
+    },
+    {
+     "who": "A",
+     "t": "Mio figlio si chiama David, ha otto anni."
+    },
+    {
+     "who": "B",
+     "t": "Anche mio figlio ha otto anni, un giorno possiamo andare insieme al parco, così giocano insieme."
+    },
+    {
+     "who": "A",
+     "t": "Sì, ottima idea!"
+    }
+   ],
+   "qz": [
+    {
+     "q": "Quanti fratelli e sorelle ha Anna?",
+     "ok": "Ha due fratelli e una sorella.",
+     "no": [
+      "Ha un fratello e due sorelle.",
+      "Non ha fratelli."
+     ]
+    },
+    {
+     "q": "Come si chiama la sorella di Anna?",
+     "ok": "Si chiama Lena.",
+     "no": [
+      "Si chiama Kuro.",
+      "Si chiama David."
+     ]
+    },
+    {
+     "q": "Dove abitano la mamma e il papà di Anna?",
+     "ok": "Abitano in Ucraina.",
+     "no": [
+      "Abitano al parco.",
+      "Abitano in banca."
+     ]
+    },
+    {
+     "q": "Come si chiama il cane?",
+     "ok": "Il cane si chiama Kuro.",
+     "no": [
+      "Il cane si chiama Sasha.",
+      "Il cane si chiama Anton."
+     ]
+    },
+    {
+     "q": "Perché l'altra donna non ha un animale?",
+     "ok": "Perché suo figlio è allergico al pelo del gatto.",
+     "no": [
+      "Perché non ama i bambini.",
+      "Perché abita in Ucraina."
+     ]
+    }
+   ]
   },
   {
    "id": "u15",
@@ -4282,8 +4778,104 @@
     }
    ],
    "i": "ill/meteo.svg",
-   "a": "av/joy.png",
-   "b": "av/paul.png"
+   "a": "av/malika.png",
+   "b": "av/fatima.png",
+   "dlg": [
+    {
+     "who": "A",
+     "t": "Ciao Fatima! Come stai?"
+    },
+    {
+     "who": "B",
+     "t": "Ciao Malika! Sto bene, ma non mi piace la pioggia."
+    },
+    {
+     "who": "A",
+     "t": "Hai ragione, nemmeno a me piace la pioggia. Oggi è proprio una brutta giornata."
+    },
+    {
+     "who": "B",
+     "t": "Già, fa freddo e c'è vento, per fortuna ho la sciarpa."
+    },
+    {
+     "who": "A",
+     "t": "Hai anche l'ombrello? Quello è molto importante!"
+    },
+    {
+     "who": "B",
+     "t": "Sì, ho anche l'ombrello. Cosa pensi, piove anche domani?"
+    },
+    {
+     "who": "A",
+     "t": "No, domani c'è il sole e fa caldo."
+    },
+    {
+     "who": "B",
+     "t": "Mamma mia, che strano questo tempo, un giorno piove e il giorno dopo c'è il sole!"
+    },
+    {
+     "who": "A",
+     "t": "Eh sì, ma spesso il mese di aprile in Italia è così."
+    },
+    {
+     "who": "B",
+     "t": "È vero, la primavera e l'autunno sono stagioni con un clima che cambia. Per fortuna tra poco sarà estate."
+    },
+    {
+     "who": "A",
+     "t": "Sì esatto! Cosa fai in estate?"
+    },
+    {
+     "who": "B",
+     "t": "Vado a trovare la mia famiglia, vivono in montagna vicino a un bosco. E tu?"
+    },
+    {
+     "who": "A",
+     "t": "Io vado al mare a riposarmi!"
+    }
+   ],
+   "qz": [
+    {
+     "q": "Che tempo fa oggi?",
+     "ok": "Piove, fa freddo e c'è vento.",
+     "no": [
+      "C'è il sole e fa caldo.",
+      "Nevica e c'è il sole."
+     ]
+    },
+    {
+     "q": "Che cosa ha Fatima?",
+     "ok": "Ha la sciarpa e l'ombrello.",
+     "no": [
+      "Ha il gatto e la bicicletta.",
+      "Ha il cappello e il biglietto."
+     ]
+    },
+    {
+     "q": "Che tempo fa domani?",
+     "ok": "Domani c'è il sole e fa caldo.",
+     "no": [
+      "Domani piove.",
+      "Domani c'è vento e fa freddo."
+     ]
+    },
+    {
+     "q": "Dove vive la famiglia di Fatima?",
+     "ok": "Vive in montagna, vicino a un bosco.",
+     "no": [
+      "Vive al mare.",
+      "Vive in città, vicino alla stazione."
+     ]
+    },
+    {
+     "q": "Che cosa fa Malika in estate?",
+     "ok": "Va al mare a riposarsi.",
+     "no": [
+      "Sta a casa.",
+      "Va in un altro paese."
+     ]
+    }
+   ]
   },
   {
    "id": "u12",
@@ -4514,8 +5106,88 @@
     }
    ],
    "i": "ill/strada.svg",
-   "a": "av/joy.png",
-   "b": "av/paul.png"
+   "a": "av/isa.png",
+   "b": "av/ali.png",
+   "dlg": [
+    {
+     "who": "B",
+     "t": "Scusa, dov'è la posta?"
+    },
+    {
+     "who": "A",
+     "t": "Vai sempre diritto, poi gira a destra."
+    },
+    {
+     "who": "B",
+     "t": "Devo prendere l'autobus?"
+    },
+    {
+     "who": "A",
+     "t": "No, è vicino. Segui questa strada fino al semaforo."
+    },
+    {
+     "who": "B",
+     "t": "E poi?"
+    },
+    {
+     "who": "A",
+     "t": "Al semaforo vai dritto e attraversa l'incrocio."
+    },
+    {
+     "who": "B",
+     "t": "E dopo?"
+    },
+    {
+     "who": "A",
+     "t": "Prosegui dritto, e alla rotonda gira a sinistra. La posta è di fronte alla scuola."
+    },
+    {
+     "who": "B",
+     "t": "Ho capito, grazie mille!"
+    }
+   ],
+   "qz": [
+    {
+     "q": "Che cosa cerca la persona?",
+     "ok": "Cerca la posta.",
+     "no": [
+      "Cerca la scuola.",
+      "Cerca la stazione."
+     ]
+    },
+    {
+     "q": "Deve prendere l'autobus?",
+     "ok": "No, la posta è vicino.",
+     "no": [
+      "Sì, deve prendere l'autobus.",
+      "Sì, deve prendere il treno."
+     ]
+    },
+    {
+     "q": "Che cosa deve fare al semaforo?",
+     "ok": "Va dritto e attraversa l'incrocio.",
+     "no": [
+      "Gira a destra.",
+      "Prende l'autobus."
+     ]
+    },
+    {
+     "q": "Che cosa deve fare alla rotonda?",
+     "ok": "Alla rotonda gira a sinistra.",
+     "no": [
+      "Alla rotonda gira a destra.",
+      "Alla rotonda va dritto."
+     ]
+    },
+    {
+     "q": "Dov'è la posta?",
+     "ok": "È di fronte alla scuola.",
+     "no": [
+      "È nel parco.",
+      "È in un'altra città."
+     ]
+    }
+   ]
   }
  ]
 }
