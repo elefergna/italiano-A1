@@ -4014,105 +4014,105 @@
    "words": [
     {
      "w": "il calendario",
-     "i": "ill/calendario.svg"
+     "i": "appuntamenti/calendario.png"
     },
     {
      "w": "l'ora",
-     "i": "ill/ora.svg"
+     "i": "appuntamenti/ora.png"
     },
     {
      "w": "la data",
-     "i": "ill/data.svg"
+     "i": "appuntamenti/data.png"
     },
     {
      "w": "lunedì",
-     "i": "ill/lunedi.svg"
+     "i": "appuntamenti/lunedi.png"
     },
     {
      "w": "martedì",
-     "i": "ill/martedi.svg"
+     "i": "appuntamenti/martedi.png"
     },
     {
      "w": "mercoledì",
-     "i": "ill/mercoledi.svg"
+     "i": "appuntamenti/mercoledi.png"
     },
     {
      "w": "giovedì",
-     "i": "ill/giovedi.svg"
+     "i": "appuntamenti/giovedi.png"
     },
     {
      "w": "venerdì",
-     "i": "ill/venerdi.svg"
+     "i": "appuntamenti/venerdi.png"
     },
     {
      "w": "sabato",
-     "i": "ill/sabato.svg"
+     "i": "appuntamenti/sabato.png"
     },
     {
      "w": "domenica",
-     "i": "ill/domenica.svg"
+     "i": "appuntamenti/domenica.png"
     },
     {
      "w": "gennaio",
-     "i": "ill/gennaio.svg"
+     "i": "appuntamenti/gennaio.png"
     },
     {
      "w": "febbraio",
-     "i": "ill/febbraio.svg"
+     "i": "appuntamenti/febbraio.png"
     },
     {
      "w": "marzo",
-     "i": "ill/marzo.svg"
+     "i": "appuntamenti/marzo.png"
     },
     {
      "w": "aprile",
-     "i": "ill/aprile.svg"
+     "i": "appuntamenti/aprile.png"
     },
     {
      "w": "maggio",
-     "i": "ill/maggio.svg"
+     "i": "appuntamenti/maggio.png"
     },
     {
      "w": "giugno",
-     "i": "ill/giugno.svg"
+     "i": "appuntamenti/giugno.png"
     },
     {
      "w": "luglio",
-     "i": "ill/luglio.svg"
+     "i": "appuntamenti/luglio.png"
     },
     {
      "w": "agosto",
-     "i": "ill/agosto.svg"
+     "i": "appuntamenti/agosto.png"
     },
     {
      "w": "settembre",
-     "i": "ill/settembre.svg"
+     "i": "appuntamenti/settembre.png"
     },
     {
      "w": "ottobre",
-     "i": "ill/ottobre.svg"
+     "i": "appuntamenti/ottobre.png"
     },
     {
      "w": "novembre",
-     "i": "ill/novembre.svg"
+     "i": "appuntamenti/novembre.png"
     },
     {
      "w": "dicembre",
-     "i": "ill/dicembre.svg"
+     "i": "appuntamenti/dicembre.png"
     },
     {
      "w": "mezzogiorno",
-     "i": "ill/mezzogiorno.svg"
+     "i": "appuntamenti/mezzogiorno.png"
     },
     {
      "w": "mezzanotte",
-     "i": "ill/mezzanotte.svg"
+     "i": "appuntamenti/mezzanotte.png"
     }
    ],
    "s": [
     {
      "t": "A che ora ci vediamo?",
-     "i": "ill/ora.svg"
+     "i": "appuntamenti/ora.png"
     },
     {
      "t": "L'appuntamento è martedì alle nove.",
@@ -4122,7 +4122,7 @@
    "ph": [
     {
      "t": "A che ora ci vediamo?",
-     "i": "ill/ora.svg"
+     "i": "appuntamenti/ora.png"
     },
     {
      "t": "L'appuntamento è martedì alle nove.",
@@ -4130,7 +4130,7 @@
     },
     {
      "t": "Oggi è lunedì.",
-     "i": "ill/calendario.svg"
+     "i": "appuntamenti/lunedi.png"
     },
     {
      "t": "Domani non posso.",
@@ -4232,7 +4232,7 @@
      ]
     }
    ],
-   "i": "ill/calendario.svg",
+   "i": "appuntamenti/copertina.png",
    "a": "av/iqra.png",
    "b": "av/marco.png",
    "dlg": [
